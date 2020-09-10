@@ -1,9 +1,9 @@
 declare module 'react-timeago' {
-    import React from 'react';
+  import React from 'react'
 
-    export interface ITimeAgoProps {
-        date: string;
-    }
+  export interface ITimeAgoProps {
+    date: string
+  }
 
-    export default class TimeAgo extends React.Component<ITimeAgoProps, any> {}
+  export default class TimeAgo extends React.Component<ITimeAgoProps, any> {}
 }

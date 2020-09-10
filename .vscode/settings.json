@@ -1,0 +1,9 @@
+{
+  "eslint.workingDirectories": [
+    {
+      "pattern": "./ui/*/",
+      "!cwd": true
+    }
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

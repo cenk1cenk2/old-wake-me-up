@@ -1,45 +1,26 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
-    "outDir": "build/dist",
     "target": "es5",
-    "lib": [
-      "es6",
-      "dom"
-    ],
-    "sourceMap": true,
-    "allowJs": true,
-    "jsx": "react",
+    "lib": ["es6", "DOM"],
+    "module": "commonjs",
     "moduleResolution": "node",
-    "rootDir": "src",
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "noUnusedLocals": false,
+    "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "skipLibCheck": true,
+    "incremental": true,
+    "strictNullChecks": false,
+    "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
-    "strict": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "module": "esnext",
-    "resolveJsonModule": true,
-    "keyofStringsOnly": true
+    "jsx": "react",
+    "outDir": "./dist",
+    "rootDir": "./src/",
+    "baseUrl": "./src/"
   },
-  "exclude": [
-    "node_modules",
-    "build",
-    "scripts",
-    "acceptance-tests",
-    "webpack",
-    "jest",
-    "src/setupTests.ts"
-  ],
-  "include": [
-    "src"
-  ]
+  "exclude": ["node_modules"],
+  "include": ["src/**/*"]
 }

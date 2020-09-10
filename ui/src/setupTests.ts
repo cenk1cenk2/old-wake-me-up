@@ -1,1 +1,1 @@
-jest.setTimeout(process.env.CI === 'true' ? 50000 : 20000);
+jest.setTimeout(process.env.CI === 'true' ? 50000 : 20000)

@@ -1,37 +1,36 @@
-import * as React from 'react';
-import {UserStore} from './user/UserStore';
-import {SnackManager} from './snack/SnackManager';
-import {MessagesStore} from './message/MessagesStore';
-import {CurrentUser} from './CurrentUser';
-import {ClientStore} from './client/ClientStore';
-import {AppStore} from './application/AppStore';
-import {inject as mobxInject, Provider} from 'mobx-react';
-import {WebSocketStore} from './message/WebSocketStore';
-import {PluginStore} from './plugin/PluginStore';
+import { inject as mobxInject, Provider } from 'mobx-react'
+import * as React from 'react'
+
+import { AppStore } from './application/AppStore'
+import { ClientStore } from './client/ClientStore'
+import { CurrentUser } from './CurrentUser'
+import { MessagesStore } from './message/MessagesStore'
+import { WebSocketStore } from './message/WebSocketStore'
+import { PluginStore } from './plugin/PluginStore'
+import { SnackManager } from './snack/SnackManager'
+import { UserStore } from './user/UserStore'
 
 export interface StoreMapping {
-    userStore: UserStore;
-    snackManager: SnackManager;
-    messagesStore: MessagesStore;
-    currentUser: CurrentUser;
-    clientStore: ClientStore;
-    appStore: AppStore;
-    pluginStore: PluginStore;
-    wsStore: WebSocketStore;
+  userStore: UserStore
+  snackManager: SnackManager
+  messagesStore: MessagesStore
+  currentUser: CurrentUser
+  clientStore: ClientStore
+  appStore: AppStore
+  pluginStore: PluginStore
+  wsStore: WebSocketStore
 }
 
-export type AllStores = Extract<keyof StoreMapping, string>;
-export type Stores<T extends AllStores> = Pick<StoreMapping, T>;
+export type AllStores = Extract<keyof StoreMapping, string>
+export type Stores<T extends AllStores> = Pick<StoreMapping, T>
 
 export const inject = <I extends AllStores>(...stores: I[]) => {
-    return <P extends {}>(
-        node: React.ComponentType<P>
-    ): React.ComponentType<Pick<P, Exclude<keyof P, I>>> => {
-        // tslint:disable-next-line:no-any
-        return mobxInject(...stores)(node) as any;
-    };
-};
+  return <P extends {}>(node: React.ComponentType<P>): React.ComponentType<Pick<P, Exclude<keyof P, I>>> => {
+    // tslint:disable-next-line:no-any
+    return mobxInject(...stores)(node) as any
+  }
+}
 
-export const InjectProvider: React.SFC<{stores: StoreMapping}> = ({children, stores}) => {
-    return <Provider {...stores}>{children}</Provider>;
-};
+export const InjectProvider: React.SFC<{ stores: StoreMapping }> = ({ children, stores }) => {
+  return <Provider {...stores}>{children}</Provider>
+}
