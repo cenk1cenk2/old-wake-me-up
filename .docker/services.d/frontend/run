@@ -1,0 +1,40 @@
+#!/bin/bash
+
+### variables
+SERVICE_PATH=ui
+SERVICE_NAME=frontend
+
+#### script
+SEPERATOR="------------------------"
+
+NODE_DEBUG_PORT=${NODE_DEBUG_PORT:-9229}
+NODE_START_COMMAND=${NODE_START_COMMAND:-"start"}
+
+set -eo pipefail
+
+# Change directory to package
+cd /data/app/${SERVICE_PATH}
+# Get directory env variables if exists
+if [[ -f .env ]]; then
+  echo \"source ${SERVICE_PATH}/.env for given scope.\"
+  source .env
+fi
+
+# For more distinction
+echo -e "${SEPERATOR}\n[start] ${SERVICE_NAME}\n${SEPERATOR}"
+
+if [[ ! -d "node_modules" ]]; then
+  yarn
+fi
+
+# Package start command
+RUN_COMMAND="DEBUG_PORT=${NODE_DEBUG_PORT} yarn ${NODE_START_COMMAND}"
+if [[ ${PREFIX_LABEL:-'true'} == true ]]; then
+  fdmove -c 2 1 /bin/bash -c "${RUN_COMMAND} | awk -v service='[${SERVICE_NAME}] ' '{print service \$0}'"
+else
+  fdmove -c 2 1 /bin/bash -c "${RUN_COMMAND}"
+fi
+
+# For more distinction
+echo -e "${SEPERATOR}\n[crash] ${SERVICE_NAME}\n${SEPERATOR}"
+s6-sleep 5

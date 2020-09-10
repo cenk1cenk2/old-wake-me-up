@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  monorepo:
+    build:
+      context: .docker/.
+    volumes:
+      - .:/data/app
+    ports:
+      - 4200:80
+      - 8080:8080

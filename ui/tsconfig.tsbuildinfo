@@ -3012,23 +3012,13 @@
         "affectsGlobalScope": false
       },
       "./src/registerServiceWorker.ts": {
-        "version": "bee48750c733483d5a01c7af273144dfe3bfb13e7a40c6c78f55e92560ca2182",
+        "version": "25b2921287c4250b08c17b177c78d5a344bd0b161dfc29984d64e4e8e7abe4fc",
         "signature": "616ece755776571a817a2a350c1d43e94f40c69161bf33741e1da9bde35434c3",
         "affectsGlobalScope": false
       },
       "./src/index.tsx": {
         "version": "51adb0dce229a595d1328a9a8f7462e3821f00e3fae34b50d6b976f961765d16",
         "signature": "bd8cf73bd29386bd8b89e0deaff1f9087878da6fcde3898c99e81b8e6b6f6b80",
-        "affectsGlobalScope": true
-      },
-      "./src/react-app-env.d.ts": {
-        "version": "5c074141a1b4a9b86553abeeb9c3e643c8494a0ba314e33e9c48786802a95bae",
-        "signature": "5c074141a1b4a9b86553abeeb9c3e643c8494a0ba314e33e9c48786802a95bae",
-        "affectsGlobalScope": false
-      },
-      "./src/setupTests.ts": {
-        "version": "922bebeee3bcc93e87de147de45f33efdc1ffd03cb8208027ea664c03cd4b5a3",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": true
       },
       "./src/typedef/notifyjs.d.ts": {
@@ -9946,14 +9936,6 @@
         "./src/inject.tsx",
         "./src/types.ts"
       ],
-      "./src/react-app-env.d.ts": [
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
       "./src/reactions.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
@@ -9966,14 +9948,6 @@
         "./src/snack/browserNotification.ts"
       ],
       "./src/registerServiceWorker.ts": [
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
-      "./src/setupTests.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
@@ -16351,14 +16325,6 @@
         "./node_modules/@types/react/index.d.ts",
         "./src/inject.tsx"
       ],
-      "./src/react-app-env.d.ts": [
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
       "./src/reactions.ts": [
         "./src/inject.tsx"
       ],
@@ -17041,10 +17007,8 @@
       "./src/plugin/PluginDetailView.tsx",
       "./src/plugin/PluginStore.ts",
       "./src/plugin/Plugins.tsx",
-      "./src/react-app-env.d.ts",
       "./src/reactions.ts",
       "./src/registerServiceWorker.ts",
-      "./src/setupTests.ts",
       "./src/snack/SnackBarHandler.tsx",
       "./src/snack/SnackManager.ts",
       "./src/snack/browserNotification.ts",

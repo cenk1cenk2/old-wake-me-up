@@ -25,7 +25,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '[identifier]_[hash:7].[ext]',
+              name: '[hash:7].[ext]',
               outputPath: '/assets/fonts/'
             }
           }
