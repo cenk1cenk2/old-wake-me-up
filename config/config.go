@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/cenk1cenk2/wake-me-up/mode"
 	"github.com/gotify/configor"
-	"github.com/gotify/server/v2/mode"
 )
 
 // Configuration is stuff that can be configured externally per env variables or config file (config.yml).

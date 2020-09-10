@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/cenk1cenk2/wake-me-up/auth"
+	"github.com/cenk1cenk2/wake-me-up/model"
 	"github.com/gin-gonic/gin"
-	"github.com/gotify/server/v2/auth"
-	"github.com/gotify/server/v2/model"
 	"github.com/h2non/filetype"
 )
 

@@ -3,19 +3,19 @@ package router
 import (
 	"time"
 
+	"github.com/cenk1cenk2/wake-me-up/api"
+	"github.com/cenk1cenk2/wake-me-up/api/stream"
+	"github.com/cenk1cenk2/wake-me-up/auth"
+	"github.com/cenk1cenk2/wake-me-up/config"
+	"github.com/cenk1cenk2/wake-me-up/database"
+	"github.com/cenk1cenk2/wake-me-up/docs"
+	"github.com/cenk1cenk2/wake-me-up/error"
+	"github.com/cenk1cenk2/wake-me-up/frontend"
+	"github.com/cenk1cenk2/wake-me-up/model"
+	"github.com/cenk1cenk2/wake-me-up/plugin"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/gotify/location"
-	"github.com/gotify/server/v2/api"
-	"github.com/gotify/server/v2/api/stream"
-	"github.com/gotify/server/v2/auth"
-	"github.com/gotify/server/v2/config"
-	"github.com/gotify/server/v2/database"
-	"github.com/gotify/server/v2/docs"
-	"github.com/gotify/server/v2/error"
-	"github.com/gotify/server/v2/model"
-	"github.com/gotify/server/v2/plugin"
-	"github.com/gotify/server/v2/ui"
 )
 
 // Create creates the gin engine with all routes.
@@ -55,7 +55,7 @@ func Create(db *database.GormDatabase, vInfo *model.VersionInfo, conf *config.Co
 	userChangeNotifier.OnUserDeleted(pluginManager.RemoveUser)
 	userChangeNotifier.OnUserAdded(pluginManager.InitializeForUserID)
 
-	ui.Register(g)
+	frontend.Register(g)
 
 	g.GET("/health", healthHandler.Health)
 	g.GET("/swagger", docs.Serve)

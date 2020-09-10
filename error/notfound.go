@@ -3,8 +3,8 @@ package error
 import (
 	"net/http"
 
+	"github.com/cenk1cenk2/wake-me-up/model"
 	"github.com/gin-gonic/gin"
-	"github.com/gotify/server/v2/model"
 )
 
 // NotFound creates a gin middleware for handling page not found.

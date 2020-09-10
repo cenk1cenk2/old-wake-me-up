@@ -7,11 +7,11 @@ import (
 
 	"github.com/gotify/location"
 
+	"github.com/cenk1cenk2/wake-me-up/auth"
+	"github.com/cenk1cenk2/wake-me-up/model"
+	"github.com/cenk1cenk2/wake-me-up/plugin"
+	"github.com/cenk1cenk2/wake-me-up/plugin/compat"
 	"github.com/gin-gonic/gin"
-	"github.com/gotify/server/v2/auth"
-	"github.com/gotify/server/v2/model"
-	"github.com/gotify/server/v2/plugin"
-	"github.com/gotify/server/v2/plugin/compat"
 	"gopkg.in/yaml.v2"
 )
 

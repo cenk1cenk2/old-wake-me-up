@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gotify/server/v2/auth/password"
-	"github.com/gotify/server/v2/model"
+	"github.com/cenk1cenk2/wake-me-up/auth/password"
+	"github.com/cenk1cenk2/wake-me-up/model"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"    // enable the mysql dialect
 	_ "github.com/jinzhu/gorm/dialects/postgres" // enable the postgres dialect

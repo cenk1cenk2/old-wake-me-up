@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/cenk1cenk2/wake-me-up/auth"
+	"github.com/cenk1cenk2/wake-me-up/model"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/gotify/location"
-	"github.com/gotify/server/v2/auth"
-	"github.com/gotify/server/v2/model"
 )
 
 // The MessageDatabase interface for encapsulating database access.

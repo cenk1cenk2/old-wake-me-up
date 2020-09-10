@@ -1,4 +1,4 @@
-package ui
+package frontend
 
 import (
 	"net/http"
@@ -8,7 +8,7 @@ import (
 	"github.com/gobuffalo/packr/v2"
 )
 
-var box = packr.New("ui", "../ui/dist")
+var box = packr.New("frontend", "../frontend/dist")
 
 // Register registers the ui on the root path.
 func Register(r *gin.Engine) {

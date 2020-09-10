@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/cenk1cenk2/wake-me-up/model"
 	"github.com/gorilla/websocket"
-	"github.com/gotify/server/v2/model"
 )
 
 const (

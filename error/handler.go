@@ -6,9 +6,9 @@ import (
 	"strings"
 	"unicode"
 
+	"github.com/cenk1cenk2/wake-me-up/model"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
-	"github.com/gotify/server/v2/model"
 )
 
 // Handler creates a gin middleware for handling errors.

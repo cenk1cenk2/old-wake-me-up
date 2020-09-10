@@ -3,8 +3,8 @@ package plugin
 import (
 	"time"
 
-	"github.com/gotify/server/v2/model"
-	"github.com/gotify/server/v2/plugin/compat"
+	"github.com/cenk1cenk2/wake-me-up/model"
+	"github.com/cenk1cenk2/wake-me-up/plugin/compat"
 )
 
 type redirectToChannel struct {

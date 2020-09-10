@@ -20,6 +20,12 @@ fi
 # For more distinction
 echo -e "${SEPERATOR}\n[start] ${SERVICE_NAME}\n${SEPERATOR}"
 
+# install dependencies
+if [[ ! -d "vendor/" ]]; then
+  echo "Installing go modules..."
+  go mod vendor
+fi
+
 # Package start command
 RUN_COMMAND="gin -x ui/ -b dist/gin -i run ${SERVICE_PATH}"
 if [[ ${PREFIX_LABEL:-'true'} == true ]]; then

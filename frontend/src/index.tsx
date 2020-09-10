@@ -18,7 +18,7 @@ import { SnackManager } from './snack/SnackManager'
 import { UserStore } from './user/UserStore'
 
 const defaultDevConfig = {
-  url: 'http://192.168.10.7/'
+  url: 'http://192.168.10.7:4200/'
 }
 
 const { port, hostname, protocol, pathname } = window.location

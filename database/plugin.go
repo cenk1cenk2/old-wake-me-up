@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/gotify/server/v2/model"
+	"github.com/cenk1cenk2/wake-me-up/model"
 	"github.com/jinzhu/gorm"
 )
 

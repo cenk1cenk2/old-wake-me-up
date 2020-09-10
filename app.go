@@ -6,12 +6,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/gotify/server/v2/config"
-	"github.com/gotify/server/v2/database"
-	"github.com/gotify/server/v2/mode"
-	"github.com/gotify/server/v2/model"
-	"github.com/gotify/server/v2/router"
-	"github.com/gotify/server/v2/runner"
+	"github.com/cenk1cenk2/wake-me-up/config"
+	"github.com/cenk1cenk2/wake-me-up/database"
+	"github.com/cenk1cenk2/wake-me-up/mode"
+	"github.com/cenk1cenk2/wake-me-up/model"
+	"github.com/cenk1cenk2/wake-me-up/router"
+	"github.com/cenk1cenk2/wake-me-up/runner"
 )
 
 var (

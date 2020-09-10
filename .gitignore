@@ -5,7 +5,7 @@ certs/
 build/
 licenses/
 coverage.txt
-*/node_modules/
+**/node_modules/
 **/*-packr.go
 config.yml
 data/

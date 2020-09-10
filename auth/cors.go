@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/cenk1cenk2/wake-me-up/config"
+	"github.com/cenk1cenk2/wake-me-up/mode"
 	"github.com/gin-contrib/cors"
-	"github.com/gotify/server/v2/config"
-	"github.com/gotify/server/v2/mode"
 )
 
 // CorsConfig generates a config to use in gin cors middleware based on server configuration

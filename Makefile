@@ -8,26 +8,14 @@ DOCKER_WORKDIR=/proj
 DOCKER_RUN=docker run --rm -v "$$PWD/.:${DOCKER_WORKDIR}" -v "`go env GOPATH`/pkg/mod/.:/go/pkg/mod:ro" -w ${DOCKER_WORKDIR}
 DOCKER_GO_BUILD=go build -mod=readonly -a -installsuffix cgo -ldflags "$$LD_FLAGS"
 
-test: test-coverage test-race test-js
 check: check-go check-swagger check-js
 
 require-version:
 	if [ -n ${VERSION} ] && [[ $$VERSION == "v"* ]]; then echo "The version may not start with v" && exit 1; fi
 	if [ -z ${VERSION} ]; then echo "Need to set VERSION" && exit 1; fi;
 
-test-race:
-	go test -v -race ./...
-
-test-coverage:
-	go test -v -coverprofile=coverage.txt -covermode=atomic ./...
-
 format:
 	goimports -w $(shell find . -type f -name '*.go' -not -path "./vendor/*")
-
-test-js:
-	go build -ldflags="-s -w -X main.Mode=prod" -o removeme/gotify app.go
-	(cd ui && CI=true GOTIFY_EXE=../removeme/gotify yarn test)
-	rm -rf removeme
 
 check-go:
 	go vet ./...
@@ -36,8 +24,7 @@ check-go:
 	goimports -l $(shell find . -type f -name '*.go' -not -path "./vendor/*" -not -path "./packrd/*")
 
 check-js:
-	(cd ui && yarn lint)
-	(cd ui && yarn testformat)
+	(cd frontend && yarn lint:check)
 
 download-tools:
 	GO111MODULE=off go get -u golang.org/x/lint/golint

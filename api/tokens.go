@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/gotify/server/v2/auth"
+	"github.com/cenk1cenk2/wake-me-up/auth"
 )
 
 var generateApplicationToken = auth.GenerateApplicationToken

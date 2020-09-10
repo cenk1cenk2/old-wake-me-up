@@ -7,8 +7,8 @@ import (
 	"net"
 	"net/http"
 
+	"github.com/cenk1cenk2/wake-me-up/config"
 	"github.com/gin-gonic/gin"
-	"github.com/gotify/server/v2/config"
 	"golang.org/x/crypto/acme/autocert"
 )
 

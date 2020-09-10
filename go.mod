@@ -1,4 +1,4 @@
-module github.com/gotify/server/v2
+module github.com/cenk1cenk2/wake-me-up
 
 require (
 	cloud.google.com/go v0.37.4 // indirect
@@ -27,7 +27,7 @@ require (
 	github.com/robfig/cron v0.0.0-20180505203441-b41be1df6967
 	github.com/rogpeppe/go-internal v1.6.2 // indirect
 	github.com/sirupsen/logrus v1.6.0 // indirect
-	github.com/stretchr/testify v1.5.1
+	github.com/stretchr/testify v1.5.1 // indirect
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
 	golang.org/x/net v0.0.0-20200904194848-62affa334b73 // indirect
 	golang.org/x/sys v0.0.0-20200909081042-eff7692f9009 // indirect
@@ -37,4 +37,4 @@ require (
 	gopkg.in/yaml.v2 v2.3.0
 )
 
-go 1.14
+go 1.15

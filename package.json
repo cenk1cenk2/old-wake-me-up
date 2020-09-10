@@ -1,0 +1,42 @@
+{
+  "name": "root",
+  "private": true,
+  "repository": "https://github.com/cenk1cenk2/wake-me-up",
+  "scripts": {},
+  "workspaces": [
+    "frontend/"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  },
+  "lint-staged": {
+    "./*.{ts,js,tsx,jsx}": [
+      "prettier --loglevel warn --write",
+      "eslint --fix"
+    ],
+    "./*.{json,md,yml,yaml}": [
+      "prettier --loglevel warn --write"
+    ],
+    "./*.{go}": [
+      "gofmt -w"
+    ]
+  },
+  "devDependencies": {
+    "@cenk1cenk2/cz-cc": "^1.2.2",
+    "commitizen": "^4.2.1",
+    "husky": "^4.2.5",
+    "prettier": "^2.1.1",
+    "lint-staged": "^10.3.0",
+    "@cenk1cenk2/eslint-config": "^0.4.9",
+    "eslint": "^7.8.1",
+    "rimraf": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@cenk1cenk2/cz-cc"
+    }
+  }
+}

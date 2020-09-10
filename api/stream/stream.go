@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/cenk1cenk2/wake-me-up/auth"
+	"github.com/cenk1cenk2/wake-me-up/mode"
+	"github.com/cenk1cenk2/wake-me-up/model"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
-	"github.com/gotify/server/v2/auth"
-	"github.com/gotify/server/v2/mode"
-	"github.com/gotify/server/v2/model"
 )
 
 // The API provides a handler for a WebSocket stream API.
