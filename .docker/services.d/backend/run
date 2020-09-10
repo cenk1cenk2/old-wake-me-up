@@ -21,7 +21,7 @@ fi
 echo -e "${SEPERATOR}\n[start] ${SERVICE_NAME}\n${SEPERATOR}"
 
 # Package start command
-RUN_COMMAND="gin -x ui/ -i run ${SERVICE_PATH}"
+RUN_COMMAND="gin -x ui/ -b dist/gin -i run ${SERVICE_PATH}"
 if [[ ${PREFIX_LABEL:-'true'} == true ]]; then
   fdmove -c 2 1 /bin/bash -c "${RUN_COMMAND} | awk -v service='[${SERVICE_NAME}] ' '{print service \$0}'"
 else
