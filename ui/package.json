@@ -57,6 +57,7 @@
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
+    "@cenk1cenk2/cz-cc": "^1.2.2",
     "@cenk1cenk2/eslint-config": "^0.4.9",
     "@types/codemirror": "0.0.98",
     "@types/detect-browser": "^4.0.0",
@@ -72,6 +73,7 @@
     "@types/rimraf": "^3.0.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.11.1",
+    "commitizen": "^4.2.1",
     "core-js": "^3.6.5",
     "css-loader": "^4.3.0",
     "eslint": "^7.8.1",
@@ -104,5 +106,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./ui/node_modules/@cenk1cenk2/cz-cc"
+    }
   }
 }
