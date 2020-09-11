@@ -1,3 +1,4 @@
+import { IApplication, IMessage, IPagedMessages } from '@interfaces/interface'
 import axios, { AxiosResponse } from 'axios'
 import { action, IObservableArray, observable, reaction } from 'mobx'
 import { createTransformer } from 'mobx-utils'
@@ -5,7 +6,6 @@ import { createTransformer } from 'mobx-utils'
 import { BaseStore } from '../common/BaseStore'
 import * as config from '../config'
 import { SnackReporter } from '../snack/SnackManager'
-import { IApplication, IMessage, IPagedMessages } from '../types'
 
 const AllMessages = -1
 

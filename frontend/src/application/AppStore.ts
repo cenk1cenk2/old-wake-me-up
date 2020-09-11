@@ -1,10 +1,10 @@
+import { IApplication } from '@interfaces/interface'
 import axios from 'axios'
 import { action } from 'mobx'
 
 import { BaseStore } from '../common/BaseStore'
 import * as config from '../config'
 import { SnackReporter } from '../snack/SnackManager'
-import { IApplication } from '../types'
 
 export class AppStore extends BaseStore<IApplication> {
   public onDelete: () => void = () => {}

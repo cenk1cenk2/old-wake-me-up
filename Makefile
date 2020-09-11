@@ -1,4 +1,3 @@
-LICENSE_DIR=./licenses/
 BUILD_DIR=./build
 DOCKER_DIR=./docker/
 SHELL := /bin/bash
@@ -47,14 +46,7 @@ check-swagger: update-swagger
         exit 1; \
     fi
 
-extract-licenses:
-	mkdir ${LICENSE_DIR} || true
-	for LICENSE in $(shell find vendor/* -name LICENSE); do \
-		DIR=`echo $$LICENSE | tr "/" _ | sed -e 's/vendor_//; s/_LICENSE//'` ; \
-        cp $$LICENSE ${LICENSE_DIR}$$DIR ; \
-    done
-
-package-zip: extract-licenses
+package-zip:
 	for BUILD in $(shell find ${BUILD_DIR}/*); do \
        zip -j $$BUILD.zip $$BUILD ./LICENSE; \
        zip -ur $$BUILD.zip ${LICENSE_DIR}; \
@@ -81,7 +73,7 @@ build-docker-arm-7: require-version
 build-docker: build-docker-amd64 build-docker-arm-7
 
 build-js:
-	(cd ui && yarn build)
+	(cd frontend && yarn build)
 
 build-linux-amd64:
 	${DOCKER_RUN} ${DOCKER_BUILD_IMAGE}:$(GO_VERSION)-linux-amd64 ${DOCKER_GO_BUILD} -o ${BUILD_DIR}/gotify-linux-amd64 ${DOCKER_WORKDIR}
@@ -103,4 +95,4 @@ build-windows-386:
 
 build: build-linux-arm-7 build-linux-amd64 build-linux-386 build-linux-arm64 build-windows-amd64 build-windows-386
 
-.PHONY: test-race test-coverage test check-go check-js verify-swagger check download-tools update-swagger package-zip build-docker build-js build
+.PHONY: check-go check-js verify-swagger check download-tools update-swagger package-zip build-docker build-js build

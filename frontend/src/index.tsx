@@ -2,20 +2,22 @@ import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
 import 'typeface-roboto'
-import { initAxios } from './apiAuth'
+
 import { AppStore } from './application/AppStore'
 import { ClientStore } from './client/ClientStore'
 import * as config from './config'
-import { CurrentUser } from './CurrentUser'
-import { InjectProvider, StoreMapping } from './inject'
 import Layout from './layout/Layout'
 import { MessagesStore } from './message/MessagesStore'
 import { WebSocketStore } from './message/WebSocketStore'
 import { PluginStore } from './plugin/PluginStore'
-import { registerReactions } from './reactions'
-import registerServiceWorker from './registerServiceWorker'
+import registerServiceWorker from './service-worker'
 import { SnackManager } from './snack/SnackManager'
+import { InjectProvider } from './stores/inject-stores'
+import { StoreMapping } from './stores/inject-stores.interface'
+import { registerReactions } from './stores/reactions'
+import { CurrentUser } from './stores/user.store'
 import { UserStore } from './user/UserStore'
+import { initAxios } from '@utils/axios'
 
 const defaultDevConfig = {
   url: 'http://192.168.10.7:4200/'
@@ -32,7 +34,6 @@ const defaultProdConfig = {
 }
 
 declare global {
-  // tslint:disable-next-line
   interface Window {
     config: config.IConfig
   }

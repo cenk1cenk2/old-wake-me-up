@@ -1,26 +1,29 @@
 import { reaction } from 'mobx'
 
-import { StoreMapping } from './inject'
-import * as Notifications from './snack/browserNotification'
+import * as Notifications from '../snack/browserNotification'
+import { StoreMapping } from './inject-stores.interface'
 
-export const registerReactions = (stores: StoreMapping) => {
-  const clearAll = () => {
+export function registerReactions (stores: StoreMapping): void {
+  const clearAll = (): void => {
     stores.messagesStore.clearAll()
     stores.appStore.clear()
     stores.clientStore.clear()
     stores.userStore.clear()
     stores.wsStore.close()
   }
-  const loadAll = () => {
+
+  const loadAll = (): void => {
     stores.wsStore.listen((message) => {
       stores.messagesStore.publishSingleMessage(message)
       Notifications.notifyNewMessage(message)
+
       if (message.priority >= 4) {
         const src = 'static/notification.ogg'
         const audio = new Audio(src)
         audio.play()
       }
     })
+
     stores.appStore.refresh()
   }
 

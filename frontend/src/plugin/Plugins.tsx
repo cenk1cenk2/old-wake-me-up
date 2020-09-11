@@ -1,3 +1,4 @@
+import { IPlugin } from '@interfaces/interface'
 import { Switch, Button } from '@material-ui/core'
 import Grid from '@material-ui/core/Grid'
 import Paper from '@material-ui/core/Paper'
@@ -13,8 +14,7 @@ import { Link } from 'react-router-dom'
 
 import DefaultPage from '../common/DefaultPage'
 import ToggleVisibility from '../common/ToggleVisibility'
-import { inject, Stores } from '../inject'
-import { IPlugin } from '../types'
+import { inject, Stores } from '../stores/inject-stores'
 
 @observer
 class Plugins extends Component<Stores<'pluginStore'>> {

@@ -1,9 +1,9 @@
+import { IMessage } from '@interfaces/interface'
 import { AxiosError } from 'axios'
 
 import * as config from '../config'
-import { CurrentUser } from '../CurrentUser'
 import { SnackReporter } from '../snack/SnackManager'
-import { IMessage } from '../types'
+import { CurrentUser } from '../stores/user.store'
 
 export class WebSocketStore {
   private wsActive = false

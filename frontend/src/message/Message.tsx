@@ -1,3 +1,4 @@
+import { IMessageExtras } from '@interfaces/interface'
 import IconButton from '@material-ui/core/IconButton'
 import { createStyles, Theme, withStyles, WithStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
@@ -8,7 +9,6 @@ import TimeAgo from 'react-timeago'
 
 import Container from '../common/Container'
 import * as config from '../config'
-import { IMessageExtras } from '../types'
 import { RenderMode, contentType } from './extras'
 
 const styles = (theme: Theme) =>

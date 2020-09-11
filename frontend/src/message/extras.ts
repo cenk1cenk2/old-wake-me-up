@@ -1,4 +1,4 @@
-import { IMessageExtras } from '../types'
+import { IMessageExtras } from '@interfaces/interface'
 
 export enum RenderMode {
   Markdown = 'text/markdown',

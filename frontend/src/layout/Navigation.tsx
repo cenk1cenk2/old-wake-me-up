@@ -10,8 +10,8 @@ import { observer } from 'mobx-react'
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-import { inject, Stores } from '../inject'
 import { mayAllowPermission, requestPermission } from '../snack/browserNotification'
+import { inject, Stores } from '../stores/inject-stores'
 
 const styles = (theme: Theme): StyleRules<'drawerPaper' | 'toolbar' | 'link'> => ({
   drawerPaper: {

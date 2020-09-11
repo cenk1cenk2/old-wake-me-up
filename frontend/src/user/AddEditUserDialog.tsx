@@ -75,7 +75,9 @@ export default class AddEditDialog extends Component<IProps, IState> {
   public componentWillMount () {
     const { name, admin } = this.props
     this.setState({
-      ...this.state, name: name || '', admin: admin || false
+      ...this.state,
+      name: name || '',
+      admin: admin || false
     })
   }
 

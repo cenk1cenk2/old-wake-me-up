@@ -1,3 +1,4 @@
+import { IMessage } from '@interfaces/interface'
 import Button from '@material-ui/core/Button'
 import CircularProgress from '@material-ui/core/CircularProgress'
 import Grid from '@material-ui/core/Grid'
@@ -9,8 +10,7 @@ import ReactInfinite from 'react-infinite'
 import { RouteComponentProps } from 'react-router'
 
 import DefaultPage from '../common/DefaultPage'
-import { inject, Stores } from '../inject'
-import { IMessage } from '../types'
+import { inject, Stores } from '../stores/inject-stores'
 import Message from './Message'
 
 type IProps = RouteComponentProps<{ id: string }>

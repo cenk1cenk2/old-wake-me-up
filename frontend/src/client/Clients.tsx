@@ -1,3 +1,4 @@
+import { IClient } from '@interfaces/interface'
 import Button from '@material-ui/core/Button'
 import Grid from '@material-ui/core/Grid'
 import IconButton from '@material-ui/core/IconButton'
@@ -16,8 +17,7 @@ import React, { Component, SFC } from 'react'
 import ConfirmDialog from '../common/ConfirmDialog'
 import DefaultPage from '../common/DefaultPage'
 import ToggleVisibility from '../common/ToggleVisibility'
-import { inject, Stores } from '../inject'
-import { IClient } from '../types'
+import { inject, Stores } from '../stores/inject-stores'
 import AddClientDialog from './AddClientDialog'
 import UpdateDialog from './UpdateClientDialog'
 
@@ -96,9 +96,13 @@ const Row: SFC<IRowProps> = ({ name, value, fEdit, fDelete }) => (
     <TableCell>{name}</TableCell>
     <TableCell>
       <ToggleVisibility
-        value={value} style={{
-          display: 'flex', alignItems: 'center', width: 200
-        }} />
+        value={value}
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          width: 200
+        }}
+      />
     </TableCell>
     <TableCell align="right" padding="none">
       <IconButton onClick={fEdit} className="edit">

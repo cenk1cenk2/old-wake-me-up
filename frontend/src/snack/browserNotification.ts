@@ -1,7 +1,6 @@
+import { IMessage } from '@interfaces/interface'
 import Notify from 'notifyjs'
 import removeMarkdown from 'remove-markdown'
-
-import { IMessage } from '../types'
 
 export function mayAllowPermission (): boolean {
   return Notify.needsPermission && Notify.isSupported() && Notification.permission !== 'denied'

@@ -7,7 +7,7 @@
 // __clientToken__: a client is something that receives message and manages stuff like creating new tokens or delete messages. (f.ex this token should be used for an android app)
 // __appToken__: an application is something that sends messages (f.ex. this token should be used for a shell script)
 //
-// The token can be either transmitted through a header named `X-Gotify-Key` or a query parameter named `token`.
+// The token can be either transmitted through a header named `X-Wake-Me-Up-Key` or a query parameter named `token`.
 // There is also the possibility to authenticate through basic auth, this should only be used for creating a clientToken.
 //
 // \---
@@ -36,11 +36,11 @@
 //           in: query
 // 	      appTokenHeader:
 //           type: apiKey
-//           name: X-Gotify-Key
+//           name: X-Wake-Me-Up-Key
 //           in: header
 // 	      clientTokenHeader:
 //           type: apiKey
-//           name: X-Gotify-Key
+//           name: X-Wake-Me-Up-Key
 //           in: header
 //        basicAuth:
 //           type: basic

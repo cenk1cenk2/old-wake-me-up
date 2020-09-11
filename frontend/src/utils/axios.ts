@@ -1,17 +1,18 @@
+import { GeneralConstants } from '@interfaces/constants'
 import axios from 'axios'
 
-import { CurrentUser } from './CurrentUser'
-import { SnackReporter } from './snack/SnackManager'
+import { SnackReporter } from '../snack/SnackManager'
+import { CurrentUser } from '../stores/user.store'
 
-export const initAxios = (currentUser: CurrentUser, snack: SnackReporter) => {
+export function initAxios (currentUser: CurrentUser, snack: SnackReporter): void {
   axios.interceptors.request.use((config) => {
-    config.headers['X-Gotify-Key'] = currentUser.token()
+    config.headers[GeneralConstants.AUTHENTICATION_HEADER] = currentUser.token()
     return config
   })
 
   axios.interceptors.response.use(undefined, (error) => {
     if (!error.response) {
-      snack('Gotify server is not reachable, try refreshing the page.')
+      snack('Backend server is not reachable, try refreshing the page.')
       return Promise.reject(error)
     }
 

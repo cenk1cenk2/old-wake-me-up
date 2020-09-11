@@ -7,7 +7,7 @@ import React, { Component, FormEvent } from 'react'
 
 import Container from '../common/Container'
 import DefaultPage from '../common/DefaultPage'
-import { inject, Stores } from '../inject'
+import { inject, Stores } from '../stores/inject-stores'
 
 @observer
 class Login extends Component<Stores<'currentUser'>> {

@@ -15,8 +15,9 @@ import Typography from '@material-ui/core/Typography'
 import Container from '../common/Container'
 import DefaultPage from '../common/DefaultPage'
 import * as config from '../config'
-import { inject, Stores } from '../inject'
-import { IPlugin } from '../types'
+import { inject, Stores } from '../stores/inject-stores'
+
+import { IPlugin } from '@interfaces/interface'
 
 type IProps = RouteComponentProps<{ id: string }>
 
@@ -105,8 +106,11 @@ const PanelWrapper: React.SFC<IPanelWrapperProps> = ({ name, description, refres
   return (
     <Container
       style={{
-        display: 'block', width: '100%', margin: '20px'
-      }}>
+        display: 'block',
+        width: '100%',
+        margin: '20px'
+      }}
+    >
       <Typography variant="h5">
         {Icon ? (
           <span>

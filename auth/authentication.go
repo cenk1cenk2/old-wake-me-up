@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	headerName = "X-Gotify-Key"
+	headerName = "X-Wake-Me-Up-Key"
 )
 
 // The Database interface for encapsulating database access.

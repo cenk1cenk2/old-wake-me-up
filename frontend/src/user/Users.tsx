@@ -1,3 +1,4 @@
+import { IUser } from '@interfaces/interface'
 import Button from '@material-ui/core/Button'
 import Grid from '@material-ui/core/Grid'
 import IconButton from '@material-ui/core/IconButton'
@@ -16,8 +17,7 @@ import React, { Component, SFC } from 'react'
 
 import ConfirmDialog from '../common/ConfirmDialog'
 import DefaultPage from '../common/DefaultPage'
-import { inject, Stores } from '../inject'
-import { IUser } from '../types'
+import { inject, Stores } from '../stores/inject-stores'
 import AddEditDialog from './AddEditUserDialog'
 
 const styles = () => ({
