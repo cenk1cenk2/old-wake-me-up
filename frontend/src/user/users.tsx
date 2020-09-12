@@ -13,12 +13,12 @@ import Delete from '@material-ui/icons/Delete'
 import Edit from '@material-ui/icons/Edit'
 import { observable } from 'mobx'
 import { observer } from 'mobx-react'
-import React, { Component, SFC } from 'react'
+import React, { Component, FunctionComponent } from 'react'
 
 import ConfirmDialog from '../common/ConfirmDialog'
 import DefaultPage from '../common/DefaultPage'
 import { inject, Stores } from '../stores/inject-stores'
-import AddEditDialog from './AddEditUserDialog'
+import AddEditDialog from './add-edit-user.dialog'
 
 const styles = () => ({
   wrapper: {
@@ -34,7 +34,7 @@ interface IRowProps {
   fEdit: VoidFunction
 }
 
-const UserRow: SFC<IRowProps> = ({ name, admin, fDelete, fEdit }) => (
+const UserRow: FunctionComponent<IRowProps> = ({ name, admin, fDelete, fEdit }) => (
   <TableRow>
     <TableCell>{name}</TableCell>
     <TableCell>{admin ? 'Yes' : 'No'}</TableCell>

@@ -12,11 +12,11 @@ import { WebSocketStore } from './message/WebSocketStore'
 import { PluginStore } from './plugin/PluginStore'
 import registerServiceWorker from './service-worker'
 import { SnackManager } from './snack/SnackManager'
+import { AuthStore } from './stores/authentication.store'
 import { InjectProvider } from './stores/inject-stores'
-import { StoreMapping } from './stores/inject-stores.interface'
+import { AvailableStores, StoreMapping } from './stores/inject-stores.interface'
 import { registerReactions } from './stores/reactions'
-import { CurrentUser } from './stores/user.store'
-import { UserStore } from './user/UserStore'
+import { UserStore } from './stores/user.store'
 import { initAxios } from '@utils/axios'
 
 const defaultDevConfig = {
@@ -44,9 +44,9 @@ const initStores = (): StoreMapping => {
   const appStore = new AppStore(snackManager.snack)
   const userStore = new UserStore(snackManager.snack)
   const messagesStore = new MessagesStore(appStore, snackManager.snack)
-  const currentUser = new CurrentUser(snackManager.snack)
+  const authStore = new AuthStore(snackManager.snack)
   const clientStore = new ClientStore(snackManager.snack)
-  const wsStore = new WebSocketStore(snackManager.snack, currentUser)
+  const wsStore = new WebSocketStore(snackManager.snack, authStore)
   const pluginStore = new PluginStore(snackManager.snack)
   appStore.onDelete = () => messagesStore.clearAll()
 
@@ -55,7 +55,7 @@ const initStores = (): StoreMapping => {
     snackManager,
     userStore,
     messagesStore,
-    currentUser,
+    [AvailableStores.AUTH_STORE]: authStore,
     clientStore,
     wsStore,
     pluginStore
@@ -69,11 +69,14 @@ const initStores = (): StoreMapping => {
     config.set(window.config || defaultDevConfig)
   }
   const stores = initStores()
-  initAxios(stores.currentUser, stores.snackManager.snack)
+  initAxios(stores[AvailableStores.AUTH_STORE], stores.snackManager.snack)
 
   registerReactions(stores)
 
-  stores.currentUser.tryAuthenticate().catch(() => {})
+  try {
+    stores[AvailableStores.AUTH_STORE].tryAuthenticate()
+    // eslint-disable-next-line no-empty
+  } catch {}
 
   window.onbeforeunload = () => {
     stores.wsStore.close()

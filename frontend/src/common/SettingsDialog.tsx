@@ -10,21 +10,22 @@ import { observer } from 'mobx-react'
 import React, { Component } from 'react'
 
 import { inject, Stores } from '../stores/inject-stores'
+import { AvailableStores } from '../stores/inject-stores.interface'
 
 interface IProps {
   fClose: VoidFunction
 }
 
 @observer
-class SettingsDialog extends Component<IProps & Stores<'currentUser'>> {
+class SettingsDialog extends Component<IProps & Stores<AvailableStores.AUTH_STORE>> {
   @observable
   private pass = ''
 
   public render () {
     const { pass } = this
-    const { fClose, currentUser } = this.props
+    const { fClose } = this.props
     const submitAndClose = () => {
-      currentUser.changePassword(pass)
+      this.props[AvailableStores.AUTH_STORE].changePassword(pass)
       fClose()
     }
     return (
@@ -48,4 +49,4 @@ class SettingsDialog extends Component<IProps & Stores<'currentUser'>> {
   }
 }
 
-export default inject('currentUser')(SettingsDialog)
+export default inject(AvailableStores.AUTH_STORE)(SettingsDialog)

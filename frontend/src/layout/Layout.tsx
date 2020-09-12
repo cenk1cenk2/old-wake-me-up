@@ -6,6 +6,7 @@ import { observable } from 'mobx'
 import { observer } from 'mobx-react'
 import * as React from 'react'
 import { HashRouter, Redirect, Route, Switch } from 'react-router-dom'
+import { AvailableStores } from 'stores/inject-stores.interface'
 
 import Applications from '../application/Applications'
 import Clients from '../client/Clients'
@@ -19,8 +20,8 @@ import PluginDetailView from '../plugin/PluginDetailView'
 import Plugins from '../plugin/Plugins'
 import SnackBarHandler from '../snack/SnackBarHandler'
 import { inject, Stores } from '../stores/inject-stores'
-import Login from '../user/Login'
-import Users from '../user/Users'
+import Login from '../user/login'
+import Users from '../user/users'
 import Header from './Header'
 import Navigation from './Navigation'
 
@@ -56,7 +57,7 @@ const isThemeKey = (value: string | null): value is ThemeKey => {
 }
 
 @observer
-class Layout extends React.Component<WithStyles<'content'> & Stores<'currentUser' | 'snackManager'>> {
+class Layout extends React.Component<WithStyles<'content'> & Stores<AvailableStores.AUTH_STORE | 'snackManager'>> {
   private static defaultVersion = '0.0.0'
 
   @observable
@@ -90,7 +91,7 @@ class Layout extends React.Component<WithStyles<'content'> & Stores<'currentUser
   public render () {
     const { version, showSettings, currentTheme } = this
     const { classes,
-      currentUser: { loggedIn,
+      [AvailableStores.AUTH_STORE]: { loggedIn,
         authenticating,
         user: { name, admin },
         logout,
@@ -153,4 +154,4 @@ class Layout extends React.Component<WithStyles<'content'> & Stores<'currentUser
   }
 }
 
-export default withStyles(styles, { withTheme: true })(inject('currentUser', 'snackManager')(Layout))
+export default withStyles(styles, { withTheme: true })(inject<any>(AvailableStores.AUTH_STORE, 'snackManager')(Layout))

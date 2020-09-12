@@ -2326,46 +2326,6 @@
         "signature": "5859c951fdc2f03f96a25661b33eec6c3747b461dc9331bb1096690a8924edc5",
         "affectsGlobalScope": false
       },
-      "../node_modules/@material-ui/icons/CloudUpload.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@material-ui/icons/Delete.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@material-ui/icons/Edit.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./src/common/ConfirmDialog.tsx": {
-        "version": "20aa0cc3cf56bb15acd4482b6c559b2d29a7ef24cce4c94b5f88813d752b9932",
-        "signature": "9056ab39e1ba077531ad7972221d6c003debcd2b41eb1221cc3facbb9c0c8fb0",
-        "affectsGlobalScope": false
-      },
-      "./src/common/DefaultPage.tsx": {
-        "version": "7ec7eb0b38a52a9503eabba516494149040b2ea53e3136fa896098c5c9c32057",
-        "signature": "3bfd2070646ca937a20de704cf571770a6ce99a0fa16f7c89cf8249fc0bf73b8",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@material-ui/icons/Visibility.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@material-ui/icons/VisibilityOff.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./src/common/ToggleVisibility.tsx": {
-        "version": "af14019892d98e589a5cbf477a17a8be9d2aedb599148b8d5f9b461dbca367a8",
-        "signature": "e623d68275c4b0bd412339aed20309055b2a227afe45b1487850e8702aa3073f",
-        "affectsGlobalScope": false
-      },
       "../node_modules/mobx-utils/lib/from-promise.d.ts": {
         "version": "c1facdb897285cadbd2e45771fe7ad022d13a6bb1b24d2dc12502b307909d081",
         "signature": "c1facdb897285cadbd2e45771fe7ad022d13a6bb1b24d2dc12502b307909d081",
@@ -2474,6 +2434,11 @@
       "./src/message/MessagesStore.ts": {
         "version": "4390b7c785ae6344a9ffd38f8c5b4049ca0050e7048d001974a27a6db30be51a",
         "signature": "6dee5f66edd88a99dd279dd0c27b871bb7051cd565d0441b3040b9b364988207",
+        "affectsGlobalScope": false
+      },
+      "./src/interfaces/constants.ts": {
+        "version": "c0b19b6c2d0d1a577b955e49fee97b9ef42708c74a3d0ce879a04b008659a175",
+        "signature": "102b267ef4f11e8a5b488de947a33a9b081e10ab5661c28bc1b7c45a9a968989",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/ts3.1/globals.d.ts": {
@@ -2746,19 +2711,14 @@
         "signature": "f623c2850b8d7ce71c508e5f53f5acc6153edf0cdc9b7e5648b1340b219567e3",
         "affectsGlobalScope": false
       },
-      "./src/interfaces/constants.ts": {
-        "version": "c0b19b6c2d0d1a577b955e49fee97b9ef42708c74a3d0ce879a04b008659a175",
-        "signature": "102b267ef4f11e8a5b488de947a33a9b081e10ab5661c28bc1b7c45a9a968989",
-        "affectsGlobalScope": false
-      },
-      "./src/stores/user.store.ts": {
-        "version": "034533a2afe4e7628aa651058997b2b0004000f8ec88de18270c609d4aa9698f",
-        "signature": "75516a302a8f6dffc7f462b32ce9299af1780dcae91c1e0df97c10a89b939a37",
+      "./src/stores/authentication.store.ts": {
+        "version": "d9d08c338d32e9ecaab92cdb7c44f7368ace652f09f7d787724382e8d3f59087",
+        "signature": "2d77647a2aeddb97e0d94eaa238a4e6c2201fcad21477464e8bafee066870bec",
         "affectsGlobalScope": false
       },
       "./src/message/WebSocketStore.ts": {
-        "version": "0df8a76c22c136d3a9ecd5a0a6fe807595f9e21b0d9e52662c97d3db59deae60",
-        "signature": "1c9585ce255cdfcda881bdd458879bbf97eb35b6678ae310fcaaaa242064ba21",
+        "version": "cbd9c38a70c040bc428e4feae4e05985d274f2164081c379b389c952710ae38f",
+        "signature": "3166c457dccdbd03f01dc48a1a98daff3a227d897ee078df911aeb22a882e1d1",
         "affectsGlobalScope": false
       },
       "./src/plugin/PluginStore.ts": {
@@ -2766,14 +2726,54 @@
         "signature": "d6657bb47393097eaa61e40e07cf07134c186a69affd6fb188c9c47ae9457a7c",
         "affectsGlobalScope": false
       },
-      "./src/user/UserStore.ts": {
-        "version": "7c3ef18a68eb8925621901c3d6fd9060cd08bfcd521283c08eb00474baf8a213",
-        "signature": "c1598e740b164a6ac2cbefb1a69ccc1deaa7869b125384d9e16611cc99544874",
+      "./src/stores/user.store.ts": {
+        "version": "7cb370f64c347aae3f40968fbbb86db48595c796ee16723ff2c20e57296b95b7",
+        "signature": "749e1640fa1fb51da3b7ef4b1da0a3f155eafdf2d603449bb2c255d540d2f02c",
         "affectsGlobalScope": false
       },
       "./src/stores/inject-stores.interface.ts": {
-        "version": "389c15bdc0272d1f2487804af5e78ee098e1e89d71e504efefcff0477da30632",
-        "signature": "ebb886f3ff5c5f0cdf357bcd60c0f3e00757c88a2fc7741d2cb767a3e6756fd3",
+        "version": "e4ea1897fbea033c14185d814511e0ffe577b08672ff90396db09aea975f4e58",
+        "signature": "d3d9744f08c2fa06fb0aaa28d1ac89b58ec71bc27fde3fadd108d371f953ea5c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@material-ui/icons/CloudUpload.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@material-ui/icons/Delete.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@material-ui/icons/Edit.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./src/common/ConfirmDialog.tsx": {
+        "version": "20aa0cc3cf56bb15acd4482b6c559b2d29a7ef24cce4c94b5f88813d752b9932",
+        "signature": "9056ab39e1ba077531ad7972221d6c003debcd2b41eb1221cc3facbb9c0c8fb0",
+        "affectsGlobalScope": false
+      },
+      "./src/common/DefaultPage.tsx": {
+        "version": "7ec7eb0b38a52a9503eabba516494149040b2ea53e3136fa896098c5c9c32057",
+        "signature": "3bfd2070646ca937a20de704cf571770a6ce99a0fa16f7c89cf8249fc0bf73b8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@material-ui/icons/Visibility.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@material-ui/icons/VisibilityOff.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./src/common/ToggleVisibility.tsx": {
+        "version": "af14019892d98e589a5cbf477a17a8be9d2aedb599148b8d5f9b461dbca367a8",
+        "signature": "e623d68275c4b0bd412339aed20309055b2a227afe45b1487850e8702aa3073f",
         "affectsGlobalScope": false
       },
       "./src/stores/inject-stores.tsx": {
@@ -2832,8 +2832,8 @@
         "affectsGlobalScope": false
       },
       "./src/common/SettingsDialog.tsx": {
-        "version": "ba69d1a6c2500a9bf14bf2f3a2b52a7ecebf5da1a96008ff63423a38d7410c1d",
-        "signature": "54d55293cf66166c26a7a3c65ea449f4501f898f87285aa0f3557d285014b732",
+        "version": "bdfc014a6832052b9a3b1c671bebfbd2df90096583d7443610845b78543f32f3",
+        "signature": "9ffd452a3de18a27cb7f095ba6a4f0f5d882591e230e23bfc28831971fa20ea9",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/react-infinite/index.d.ts": {
@@ -2848,7 +2848,7 @@
       },
       "./src/common/Container.tsx": {
         "version": "969122a1da5207f6df15764b8f2b4b579ec5b4f995492e29f5895feb5cfee6fb",
-        "signature": "7e156eb7a34a6134e1c157e62da54e34d34ee79fd9febb0986a9445b93df86e2",
+        "signature": "ad4e13b248f01cdfc5a31be7b53cc254f2b433bdfe9a8a38ea3ca6ab0e7c710f",
         "affectsGlobalScope": false
       },
       "./src/message/extras.ts": {
@@ -2858,7 +2858,7 @@
       },
       "./src/message/Message.tsx": {
         "version": "02896f2480a628a1edde125fcf9c8913735e2f9b24a2ecd3745024fa1f239eea",
-        "signature": "868ac09287d2c3ae834be4fca0f6a3a15ad5b68a2d344537d54b10125eed084a",
+        "signature": "545734dcb91795d8f79e49dc8367fdb16d1636ef41bb9a46d9930b60f0be4bdd",
         "affectsGlobalScope": false
       },
       "./src/message/Messages.tsx": {
@@ -2921,18 +2921,18 @@
         "signature": "6a491c3fe7d2c00f1b1ff9d099f859fda3b85469e2d10e7e4d57783633b40654",
         "affectsGlobalScope": false
       },
-      "./src/user/Login.tsx": {
-        "version": "3d73565f3eb5379309b7af7df70bca6e3178ce28ff8df2cd7f393d99bb633fc9",
-        "signature": "8407ebecbcd483c86ee9db5641a3bc4c7fb56d65d2a11ec3637b5057cb89f154",
+      "./src/user/login.tsx": {
+        "version": "942c5d2a187772ebe97aad9103e45bc3479cbfdbda6b5da40dc1fba65a9d517f",
+        "signature": "57514b3cb6486319ac8706ec2c8018c89d8bb1a8529a50632bdfc06a095115a5",
         "affectsGlobalScope": false
       },
-      "./src/user/AddEditUserDialog.tsx": {
+      "./src/user/add-edit-user.dialog.tsx": {
         "version": "0c259c3f851d905505ebd205bcf0a521291f9b29060371f37aba085629951534",
         "signature": "aae02e85ae23fe014d7a3b7a06164e1a8d4e8d79b5db97e66e5948daf4ccafba",
         "affectsGlobalScope": false
       },
-      "./src/user/Users.tsx": {
-        "version": "660d4703a23251559067cada9ce245b411c46c1cc56719cb8bf7d5b4318f838a",
+      "./src/user/users.tsx": {
+        "version": "60d39a49c1f918a8f2887285be3b85ea1c3d8a0c03bd82fb0f6b8c4ff7690f8c",
         "signature": "63ee0e251adb5ad68c15833335fa8e2f3d4f267e2a6fd67b8bf1cbea7fb5004f",
         "affectsGlobalScope": false
       },
@@ -2983,7 +2983,7 @@
       },
       "./src/layout/Header.tsx": {
         "version": "6614be463479f7754c4798f82771eeabff673329048dbdf2d18408c6f219cc8d",
-        "signature": "0d062d322d860fb8945bc0e302344393e3afb9ad9a1c4ad09fe4f5414d6edd44",
+        "signature": "a0d14f5893e63c1099ed840a6af1300fc10ef536aac075411ceeb91f81bbf3f9",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/notifyjs/index.d.ts": {
@@ -3003,12 +3003,12 @@
       },
       "./src/layout/Navigation.tsx": {
         "version": "91a4e1da21ed3cfaa28d31d49fd46746b9f90efda11a258c03c8a7f10f085d26",
-        "signature": "c80c2e43f378d12e0e00d3d5ed9fcf1e99e604f9afa86ec400c1c9ccce8b0b6e",
+        "signature": "087e5a94041732dc1b35e4c23bd3e5a57076a04cee1924d0474d95a9ac09f140",
         "affectsGlobalScope": false
       },
       "./src/layout/Layout.tsx": {
-        "version": "a5c356a0d843b3c960544a99d4fb1f08ccb897c849915ce5e4b1505cbb67ea09",
-        "signature": "adc1e0b92eae149cb932ea7513030256996da399513ae12474295fdfff64a880",
+        "version": "db01783243deac12bb5e7f0920f68215cb128b1477f83dd9110ddc2cc4f5838e",
+        "signature": "aee1d0a9feff12d84e0d07faaa70b1020c15d3a267999a245f3105f37fe5d700",
         "affectsGlobalScope": false
       },
       "./src/service-worker.ts": {
@@ -3017,17 +3017,17 @@
         "affectsGlobalScope": false
       },
       "./src/stores/reactions.ts": {
-        "version": "a698d3db6cb4353bd25740b3000b54c2f92fe43565b6bebb2f453cf67d2cd121",
+        "version": "7d8228a8411e4424a75099da312579d4c050de18a8b71e98164f4c277085ba7b",
         "signature": "bd7ca526fe3a5f80d51944d1ddfc56c82279132844e2378421de202fd159b3a4",
         "affectsGlobalScope": false
       },
       "./src/utils/axios.ts": {
-        "version": "d280135f2a5dce67b35eecee979b9844bd362e4bf6d2898f96a603e1c3231f1d",
-        "signature": "f02718ecb8868b9c80d546eb148c2627cff5d4dda5e4233a187cbc918204e9d2",
+        "version": "455f12748b3c0bc5f8074748bd40fd023eceebb37684051e5f6fa4fe73a393bf",
+        "signature": "4fbb3290c521810cfb1297bf0db8a83a2132df910dc199eb91987d3db8c75dd0",
         "affectsGlobalScope": false
       },
       "./src/index.tsx": {
-        "version": "cd5cc2048a2d1ec38a4549290e1d1197686a14439a8efb90d7f58993c735f649",
+        "version": "c1b2495901466691343552578cb5631e8d34a145b79884c9b6c62c165690a67a",
         "signature": "bd8cf73bd29386bd8b89e0deaff1f9087878da6fcde3898c99e81b8e6b6f6b80",
         "affectsGlobalScope": true
       },
@@ -3466,6 +3466,7 @@
         "../node_modules/@types/react/index.d.ts",
         "../node_modules/mobx-react/dist/index.d.ts",
         "../node_modules/mobx/lib/mobx.d.ts",
+        "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx"
       ],
       "./src/common/ToggleVisibility.tsx": [
@@ -3507,11 +3508,11 @@
         "./src/plugin/PluginStore.ts",
         "./src/service-worker.ts",
         "./src/snack/SnackManager.ts",
+        "./src/stores/authentication.store.ts",
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx",
         "./src/stores/reactions.ts",
         "./src/stores/user.store.ts",
-        "./src/user/UserStore.ts",
         "./src/utils/axios.ts"
       ],
       "./src/interfaces/constants.ts": [
@@ -3586,9 +3587,10 @@
         "./src/plugin/PluginDetailView.tsx",
         "./src/plugin/Plugins.tsx",
         "./src/snack/SnackBarHandler.tsx",
+        "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx",
-        "./src/user/Login.tsx",
-        "./src/user/Users.tsx"
+        "./src/user/login.tsx",
+        "./src/user/users.tsx"
       ],
       "./src/layout/Navigation.tsx": [
         "../node_modules/@material-ui/core/Divider/index.d.ts",
@@ -3677,7 +3679,7 @@
         "./src/config.ts",
         "./src/interfaces/interface.ts",
         "./src/snack/SnackManager.ts",
-        "./src/stores/user.store.ts"
+        "./src/stores/authentication.store.ts"
       ],
       "./src/message/extras.ts": [
         "../node_modules/@types/node/ts3.1/fs.d.ts",
@@ -3792,6 +3794,22 @@
         "../node_modules/@types/remove-markdown/index.d.ts",
         "./src/interfaces/interface.ts"
       ],
+      "./src/stores/authentication.store.ts": [
+        "../node_modules/@types/node/ts3.1/fs.d.ts",
+        "../node_modules/@types/node/ts3.1/process.d.ts",
+        "../node_modules/@types/node/ts3.1/util.d.ts",
+        "../node_modules/@types/node/ts3.4/fs.d.ts",
+        "../node_modules/@types/node/ts3.4/process.d.ts",
+        "../node_modules/@types/node/ts3.4/util.d.ts",
+        "../node_modules/axios/index.d.ts",
+        "../node_modules/detect-browser/index.d.ts",
+        "../node_modules/js-base64/base64.d.ts",
+        "../node_modules/mobx/lib/mobx.d.ts",
+        "./src/config.ts",
+        "./src/interfaces/constants.ts",
+        "./src/interfaces/interface.ts",
+        "./src/snack/SnackManager.ts"
+      ],
       "./src/stores/inject-stores.interface.ts": [
         "../node_modules/@types/node/ts3.1/fs.d.ts",
         "../node_modules/@types/node/ts3.1/process.d.ts",
@@ -3805,8 +3823,8 @@
         "./src/message/WebSocketStore.ts",
         "./src/plugin/PluginStore.ts",
         "./src/snack/SnackManager.ts",
-        "./src/stores/user.store.ts",
-        "./src/user/UserStore.ts"
+        "./src/stores/authentication.store.ts",
+        "./src/stores/user.store.ts"
       ],
       "./src/stores/inject-stores.tsx": [
         "../node_modules/@types/node/ts3.1/fs.d.ts",
@@ -3838,11 +3856,9 @@
         "../node_modules/@types/node/ts3.4/process.d.ts",
         "../node_modules/@types/node/ts3.4/util.d.ts",
         "../node_modules/axios/index.d.ts",
-        "../node_modules/detect-browser/index.d.ts",
-        "../node_modules/js-base64/base64.d.ts",
         "../node_modules/mobx/lib/mobx.d.ts",
+        "./src/common/BaseStore.ts",
         "./src/config.ts",
-        "./src/interfaces/constants.ts",
         "./src/interfaces/interface.ts",
         "./src/snack/SnackManager.ts"
       ],
@@ -3864,7 +3880,7 @@
         "../node_modules/@types/node/ts3.4/util.d.ts",
         "../node_modules/@types/react/index.d.ts"
       ],
-      "./src/user/AddEditUserDialog.tsx": [
+      "./src/user/add-edit-user.dialog.tsx": [
         "../node_modules/@material-ui/core/Button/index.d.ts",
         "../node_modules/@material-ui/core/Dialog/index.d.ts",
         "../node_modules/@material-ui/core/DialogActions/index.d.ts",
@@ -3882,7 +3898,7 @@
         "../node_modules/@types/node/ts3.4/util.d.ts",
         "../node_modules/@types/react/index.d.ts"
       ],
-      "./src/user/Login.tsx": [
+      "./src/user/login.tsx": [
         "../node_modules/@material-ui/core/Button/index.d.ts",
         "../node_modules/@material-ui/core/Grid/index.d.ts",
         "../node_modules/@material-ui/core/TextField/index.d.ts",
@@ -3897,23 +3913,10 @@
         "../node_modules/mobx/lib/mobx.d.ts",
         "./src/common/Container.tsx",
         "./src/common/DefaultPage.tsx",
+        "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx"
       ],
-      "./src/user/UserStore.ts": [
-        "../node_modules/@types/node/ts3.1/fs.d.ts",
-        "../node_modules/@types/node/ts3.1/process.d.ts",
-        "../node_modules/@types/node/ts3.1/util.d.ts",
-        "../node_modules/@types/node/ts3.4/fs.d.ts",
-        "../node_modules/@types/node/ts3.4/process.d.ts",
-        "../node_modules/@types/node/ts3.4/util.d.ts",
-        "../node_modules/axios/index.d.ts",
-        "../node_modules/mobx/lib/mobx.d.ts",
-        "./src/common/BaseStore.ts",
-        "./src/config.ts",
-        "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts"
-      ],
-      "./src/user/Users.tsx": [
+      "./src/user/users.tsx": [
         "../node_modules/@material-ui/core/Button/index.d.ts",
         "../node_modules/@material-ui/core/Grid/index.d.ts",
         "../node_modules/@material-ui/core/IconButton/index.d.ts",
@@ -3939,7 +3942,7 @@
         "./src/common/DefaultPage.tsx",
         "./src/interfaces/interface.ts",
         "./src/stores/inject-stores.tsx",
-        "./src/user/AddEditUserDialog.tsx"
+        "./src/user/add-edit-user.dialog.tsx"
       ],
       "./src/utils/axios.ts": [
         "../node_modules/@types/node/ts3.1/fs.d.ts",
@@ -3951,7 +3954,7 @@
         "../node_modules/axios/index.d.ts",
         "./src/interfaces/constants.ts",
         "./src/snack/SnackManager.ts",
-        "./src/stores/user.store.ts"
+        "./src/stores/authentication.store.ts"
       ],
       "../node_modules/@material-ui/core/Accordion/Accordion.d.ts": [
         "../node_modules/@material-ui/core/Paper/index.d.ts",
@@ -10008,7 +10011,7 @@
       "./src/message/WebSocketStore.ts": [
         "./src/interfaces/interface.ts",
         "./src/snack/SnackManager.ts",
-        "./src/stores/user.store.ts"
+        "./src/stores/authentication.store.ts"
       ],
       "./src/message/extras.ts": [
         "./src/interfaces/interface.ts"
@@ -10034,6 +10037,11 @@
       "./src/snack/browserNotification.ts": [
         "./src/interfaces/interface.ts"
       ],
+      "./src/stores/authentication.store.ts": [
+        "../node_modules/axios/index.d.ts",
+        "./src/interfaces/interface.ts",
+        "./src/snack/SnackManager.ts"
+      ],
       "./src/stores/inject-stores.interface.ts": [
         "./src/application/AppStore.ts",
         "./src/client/ClientStore.ts",
@@ -10041,8 +10049,8 @@
         "./src/message/WebSocketStore.ts",
         "./src/plugin/PluginStore.ts",
         "./src/snack/SnackManager.ts",
-        "./src/stores/user.store.ts",
-        "./src/user/UserStore.ts"
+        "./src/stores/authentication.store.ts",
+        "./src/stores/user.store.ts"
       ],
       "./src/stores/inject-stores.tsx": [
         "../node_modules/@types/react/index.d.ts",
@@ -10052,7 +10060,7 @@
         "./src/stores/inject-stores.interface.ts"
       ],
       "./src/stores/user.store.ts": [
-        "../node_modules/axios/index.d.ts",
+        "./src/common/BaseStore.ts",
         "./src/interfaces/interface.ts",
         "./src/snack/SnackManager.ts"
       ],
@@ -10074,26 +10082,21 @@
         "../node_modules/@types/node/ts3.4/util.d.ts",
         "../node_modules/@types/react/index.d.ts"
       ],
-      "./src/user/AddEditUserDialog.tsx": [
+      "./src/user/add-edit-user.dialog.tsx": [
         "../node_modules/@types/react/index.d.ts"
       ],
-      "./src/user/Login.tsx": [
+      "./src/user/login.tsx": [
         "../node_modules/@types/react/index.d.ts",
         "./src/stores/inject-stores.interface.ts"
       ],
-      "./src/user/UserStore.ts": [
-        "./src/common/BaseStore.ts",
-        "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts"
-      ],
-      "./src/user/Users.tsx": [
+      "./src/user/users.tsx": [
         "../node_modules/@material-ui/core/styles/index.d.ts",
         "../node_modules/@types/react/index.d.ts",
         "./src/stores/inject-stores.interface.ts"
       ],
       "./src/utils/axios.ts": [
         "./src/snack/SnackManager.ts",
-        "./src/stores/user.store.ts"
+        "./src/stores/authentication.store.ts"
       ],
       "../node_modules/@material-ui/core/Accordion/Accordion.d.ts": [
         "../node_modules/@material-ui/core/Paper/index.d.ts",
@@ -16101,16 +16104,16 @@
       "./src/snack/SnackBarHandler.tsx",
       "./src/snack/SnackManager.ts",
       "./src/snack/browserNotification.ts",
+      "./src/stores/authentication.store.ts",
       "./src/stores/inject-stores.interface.ts",
       "./src/stores/inject-stores.tsx",
       "./src/stores/reactions.ts",
       "./src/stores/user.store.ts",
       "./src/types/notifyjs.d.ts",
       "./src/types/react-timeago.d.ts",
-      "./src/user/AddEditUserDialog.tsx",
-      "./src/user/Login.tsx",
-      "./src/user/UserStore.ts",
-      "./src/user/Users.tsx",
+      "./src/user/add-edit-user.dialog.tsx",
+      "./src/user/login.tsx",
+      "./src/user/users.tsx",
       "./src/utils/axios.ts",
       "../node_modules/@material-ui/core/Accordion/Accordion.d.ts",
       "../node_modules/@material-ui/core/Accordion/index.d.ts",
@@ -16699,76 +16702,6 @@
       "../node_modules/typescript/lib/lib.es2020.bigint.d.ts",
       "../node_modules/typescript/lib/lib.es5.d.ts",
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts"
-    ],
-    "affectedFilesPendingEmit": [
-      [
-        "./src/application/Applications.tsx",
-        0
-      ],
-      [
-        "./src/client/Clients.tsx",
-        0
-      ],
-      [
-        "./src/common/SettingsDialog.tsx",
-        0
-      ],
-      [
-        "./src/index.tsx",
-        0
-      ],
-      [
-        "./src/inject.interface.ts",
-        0
-      ],
-      [
-        "./src/inject.tsx",
-        0
-      ],
-      [
-        "./src/layout/Layout.tsx",
-        0
-      ],
-      [
-        "./src/layout/Navigation.tsx",
-        0
-      ],
-      [
-        "./src/message/Messages.tsx",
-        0
-      ],
-      [
-        "./src/plugin/PluginDetailView.tsx",
-        0
-      ],
-      [
-        "./src/plugin/Plugins.tsx",
-        0
-      ],
-      [
-        "./src/reactions.ts",
-        0
-      ],
-      [
-        "./src/snack/SnackBarHandler.tsx",
-        0
-      ],
-      [
-        "./src/stores/inject-stores.interface.ts",
-        0
-      ],
-      [
-        "./src/user/Login.tsx",
-        0
-      ],
-      [
-        "./src/user/Users.tsx",
-        0
-      ],
-      [
-        "./src/utils/axios.ts",
-        0
-      ]
     ]
   },
   "version": "4.0.2"

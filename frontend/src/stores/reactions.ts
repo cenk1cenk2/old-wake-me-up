@@ -1,7 +1,7 @@
 import { reaction } from 'mobx'
 
 import * as Notifications from '../snack/browserNotification'
-import { StoreMapping } from './inject-stores.interface'
+import { AvailableStores, StoreMapping } from './inject-stores.interface'
 
 export function registerReactions (stores: StoreMapping): void {
   const clearAll = (): void => {
@@ -28,7 +28,7 @@ export function registerReactions (stores: StoreMapping): void {
   }
 
   reaction(
-    () => stores.currentUser.loggedIn,
+    () => stores[AvailableStores.AUTH_STORE].loggedIn,
     (loggedIn) => {
       if (loggedIn) {
         loadAll()
@@ -39,7 +39,7 @@ export function registerReactions (stores: StoreMapping): void {
   )
 
   reaction(
-    () => stores.currentUser.connectionErrorMessage,
+    () => stores[AvailableStores.AUTH_STORE].connectionErrorMessage,
     (connectionErrorMessage) => {
       if (!connectionErrorMessage) {
         clearAll()

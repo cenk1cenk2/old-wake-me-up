@@ -2,11 +2,11 @@ import { GeneralConstants } from '@interfaces/constants'
 import axios from 'axios'
 
 import { SnackReporter } from '../snack/SnackManager'
-import { CurrentUser } from '../stores/user.store'
+import { AuthStore } from '../stores/authentication.store'
 
-export function initAxios (currentUser: CurrentUser, snack: SnackReporter): void {
+export function initAxios (authenticationStore: AuthStore, snack: SnackReporter): void {
   axios.interceptors.request.use((config) => {
-    config.headers[GeneralConstants.AUTHENTICATION_HEADER] = currentUser.token()
+    config.headers[GeneralConstants.AUTHENTICATION_HEADER] = authenticationStore.token()
     return config
   })
 
@@ -19,7 +19,7 @@ export function initAxios (currentUser: CurrentUser, snack: SnackReporter): void
     const status = error.response.status
 
     if (status === 401) {
-      currentUser.tryAuthenticate().then(() => snack('Could not complete request.'))
+      authenticationStore.tryAuthenticate().then(() => snack('Could not complete request.'))
     }
 
     if (status === 400 || status === 403 || status === 500) {

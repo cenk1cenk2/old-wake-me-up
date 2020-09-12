@@ -3,22 +3,22 @@ import { AxiosError } from 'axios'
 
 import * as config from '../config'
 import { SnackReporter } from '../snack/SnackManager'
-import { CurrentUser } from '../stores/user.store'
+import { AuthStore } from '../stores/authentication.store'
 
 export class WebSocketStore {
   private wsActive = false
   private ws: WebSocket | null = null
 
-  public constructor (private readonly snack: SnackReporter, private readonly currentUser: CurrentUser) {}
+  public constructor (private readonly snack: SnackReporter, private readonly authenticationStore: AuthStore) {}
 
   public listen = (callback: (msg: IMessage) => void) => {
-    if (!this.currentUser.token() || this.wsActive) {
+    if (!this.authenticationStore.token() || this.wsActive) {
       return
     }
     this.wsActive = true
 
     const wsUrl = config.get('url').replace('http', 'ws').replace('https', 'wss')
-    const ws = new WebSocket(wsUrl + 'stream?token=' + this.currentUser.token())
+    const ws = new WebSocket(wsUrl + 'stream?token=' + this.authenticationStore.token())
 
     ws.onerror = (e) => {
       this.wsActive = false
@@ -29,7 +29,7 @@ export class WebSocketStore {
 
     ws.onclose = () => {
       this.wsActive = false
-      this.currentUser
+      this.authenticationStore
         .tryAuthenticate()
         .then(() => {
           this.snack('WebSocket connection closed, trying again in 30 seconds.')
