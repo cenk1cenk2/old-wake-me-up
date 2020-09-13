@@ -16,6 +16,10 @@ export function get<T extends keyof typeof CONFIG> (val: T): typeof CONFIG[T] {
   return config[val]
 }
 
+export function dump (): typeof CONFIG {
+  return config
+}
+
 export function initiateConfig (): void {
   if (process.env.NODE_ENV === 'production') {
     const { port, hostname, protocol, pathname } = window.location

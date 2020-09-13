@@ -25,7 +25,7 @@ export abstract class BaseStore<T extends IHasID> implements IClearable {
   public getByID (id: number): T {
     const item = this.getByIDOrUndefined(id)
     if (typeof item === 'undefined') {
-      throw new Error('cannot find item with id ' + id)
+      throw new Error('Cannot find item with id: ' + id)
     }
     return item
   }

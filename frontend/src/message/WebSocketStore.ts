@@ -2,8 +2,8 @@ import { IMessage } from '@interfaces/interface'
 import { AxiosError } from 'axios'
 
 import * as config from '../configuration'
-import { SnackReporter } from '../snack/SnackManager'
-import { AuthStore } from '../stores/authentication.store'
+import { SnackReporter } from '@stores/snack-manager.store'
+import { AuthStore } from '@stores/auth.store'
 
 export class WebSocketStore {
   private wsActive = false

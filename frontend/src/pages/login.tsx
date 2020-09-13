@@ -5,20 +5,21 @@ import { observable } from 'mobx'
 import { observer } from 'mobx-react'
 import React, { Component, FormEvent } from 'react'
 
-import Container from '../common/Container'
-import DefaultPage from '../common/DefaultPage'
+import Container from '../components/Container'
+import DefaultPage from '../components/DefaultPage'
 import { inject } from '@stores/inject-stores'
 import { Stores, AvailableStores } from '@stores/inject-stores.interface'
 
 @observer
 class Login extends Component<Stores<AvailableStores.AUTH_STORE>> {
   @observable
-  private username: string
+  private username = ''
   @observable
-  private password: string
+  private password = ''
 
   public render () {
     const { username, password } = this
+
     return (
       <DefaultPage title="Login" maxWidth={640}>
         <Container>

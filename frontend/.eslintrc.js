@@ -6,11 +6,19 @@ module.exports = {
       {
         pathGroups: [
           {
+            pattern: '@root/**',
+            group: 'parent'
+          },
+          {
             pattern: '@stores/**',
             group: 'parent'
           },
           {
             pattern: '@utils/**',
+            group: 'parent'
+          },
+          {
+            pattern: '@themes/**',
             group: 'parent'
           }
         ],

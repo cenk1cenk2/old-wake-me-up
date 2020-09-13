@@ -5,11 +5,11 @@ import { observable, reaction } from 'mobx'
 import { observer } from 'mobx-react'
 import React, { Component } from 'react'
 
-import { inject } from '../stores/inject-stores'
-import { Stores } from '../stores/inject-stores.interface'
+import { inject } from '@stores/inject-stores'
+import { AvailableStores, Stores } from '@stores/inject-stores.interface'
 
 @observer
-class SnackBarHandler extends Component<Stores<'snackManager'>> {
+class SnackBarHandler extends Component<Stores<AvailableStores.SNACK_MANAGER>> {
   private static MAX_VISIBLE_SNACK_TIME_IN_MS = 6000
   private static MIN_VISIBLE_SNACK_TIME_IN_MS = 1000
 
@@ -18,14 +18,18 @@ class SnackBarHandler extends Component<Stores<'snackManager'>> {
   @observable
   private openWhen = 0
 
-  private dispose: () => void = () => {}
+  private dispose: () => void
 
-  public componentDidMount = () => (this.dispose = reaction(() => this.props.snackManager.counter, this.onNewSnack))
+  public componentDidMount (): void {
+    this.dispose = reaction(() => this.props[AvailableStores.SNACK_MANAGER].counter, this.onNewSnack.bind(this))
+  }
 
-  public componentWillUnmount = () => this.dispose()
+  public componentWillUnmount (): void {
+    this.dispose()
+  }
 
   public render () {
-    const { message: current, hasNext } = this.props.snackManager
+    const { message: current, hasNext } = this.props[AvailableStores.SNACK_MANAGER]
     const duration = hasNext() ? SnackBarHandler.MIN_VISIBLE_SNACK_TIME_IN_MS : SnackBarHandler.MAX_VISIBLE_SNACK_TIME_IN_MS
 
     return (
@@ -33,11 +37,22 @@ class SnackBarHandler extends Component<Stores<'snackManager'>> {
         anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
         open={this.open}
         autoHideDuration={duration}
-        onClose={this.closeCurrentSnack}
-        onExited={this.openNextSnack}
+        onClose={() => {
+          this.closeCurrentSnack()
+        }}
+        onExited={() => {
+          this.openNextSnack()
+        }}
         message={<span id="message-id">{current}</span>}
         action={
-          <IconButton key="close" aria-label="Close" color="inherit" onClick={this.closeCurrentSnack}>
+          <IconButton
+            key="close"
+            aria-label="Close"
+            color="inherit"
+            onClick={() => {
+              this.closeCurrentSnack()
+            }}
+          >
             <Close />
           </IconButton>
         }
@@ -45,7 +60,7 @@ class SnackBarHandler extends Component<Stores<'snackManager'>> {
     )
   }
 
-  private onNewSnack = () => {
+  private onNewSnack (): void {
     const { open, openWhen } = this
 
     if (!open) {
@@ -54,6 +69,7 @@ class SnackBarHandler extends Component<Stores<'snackManager'>> {
     }
 
     const snackOpenSince = Date.now() - openWhen
+
     if (snackOpenSince > SnackBarHandler.MIN_VISIBLE_SNACK_TIME_IN_MS) {
       this.closeCurrentSnack()
     } else {
@@ -61,15 +77,17 @@ class SnackBarHandler extends Component<Stores<'snackManager'>> {
     }
   }
 
-  private openNextSnack = () => {
-    if (this.props.snackManager.hasNext()) {
+  private openNextSnack (): void {
+    if (this.props[AvailableStores.SNACK_MANAGER].hasNext()) {
       this.open = true
       this.openWhen = Date.now()
-      this.props.snackManager.next()
+      this.props[AvailableStores.SNACK_MANAGER].next()
     }
   }
 
-  private closeCurrentSnack = () => (this.open = false)
+  private closeCurrentSnack (): void {
+    this.open = false
+  }
 }
 
-export default inject('snackManager')(SnackBarHandler)
+export default inject(AvailableStores.SNACK_MANAGER)(SnackBarHandler)

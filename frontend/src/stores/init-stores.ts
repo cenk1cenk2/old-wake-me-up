@@ -1,32 +1,23 @@
-import { AppStore } from '../application/AppStore'
 import { ClientStore } from '../client/ClientStore'
-import { MessagesStore } from '../message/MessagesStore'
 import { WebSocketStore } from '../message/WebSocketStore'
-import { PluginStore } from '../plugin/PluginStore'
-import { SnackManager } from '../snack/SnackManager'
-import { AuthStore } from '../stores/authentication.store'
 import { AvailableStores, StoreMapping } from '../stores/inject-stores.interface'
 import { UserStore } from '../stores/user.store'
+import { AuthStore } from '@stores/auth.store'
+import { SnackManager } from '@stores/snack-manager.store'
 
 export function initStores (): StoreMapping {
   const snackManager = new SnackManager()
-  const appStore = new AppStore(snackManager.snack)
-  const userStore = new UserStore(snackManager.snack)
-  const messagesStore = new MessagesStore(appStore, snackManager.snack)
-  const authStore = new AuthStore(snackManager.snack)
-  const clientStore = new ClientStore(snackManager.snack)
-  const wsStore = new WebSocketStore(snackManager.snack, authStore)
-  const pluginStore = new PluginStore(snackManager.snack)
-  appStore.onDelete = () => messagesStore.clearAll()
+
+  const authStore = new AuthStore(snackManager)
+  const userStore = new UserStore(snackManager.show)
+  const clientStore = new ClientStore(snackManager.show)
+  const wsStore = new WebSocketStore(snackManager.show, authStore)
 
   return {
-    appStore,
-    snackManager,
+    [AvailableStores.SNACK_MANAGER]: snackManager,
     userStore,
-    messagesStore,
     [AvailableStores.AUTH_STORE]: authStore,
     clientStore,
-    wsStore,
-    pluginStore
+    wsStore
   }
 }

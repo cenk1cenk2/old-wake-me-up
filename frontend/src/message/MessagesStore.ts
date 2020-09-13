@@ -4,7 +4,7 @@ import { action, IObservableArray, observable, reaction } from 'mobx'
 import { createTransformer } from 'mobx-utils'
 
 import * as config from '../configuration'
-import { SnackReporter } from '../snack/SnackManager'
+import { SnackReporter } from '@stores/snack-manager.store'
 import { BaseStore } from '../stores/base.store'
 
 const AllMessages = -1

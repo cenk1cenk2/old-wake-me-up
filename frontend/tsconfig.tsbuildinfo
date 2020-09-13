@@ -427,28 +427,33 @@
         "affectsGlobalScope": false
       },
       "./src/utils/logger/logger-transport.ts": {
-        "version": "75f6a3126d5fa08d4221ea2a7f4ce75252b16c7a7534795cd722fabc8ec61a51",
+        "version": "6bae39cc6a951dd6411d9092b55971df29de02552040b8b6e3086a579f608351",
         "signature": "b77726ca70485a654ee287770871c9cdad2e39c32e51edc05f8654eca7a71dd7",
         "affectsGlobalScope": false
       },
       "./src/utils/logger/logger.constants.ts": {
-        "version": "bb5ece56ab62e7d4e1baf25cf61967747bda315839842534ee67c96265ada832",
+        "version": "43baaac2ac5148abc46977b589da8a5850482b76d438445df71b53b9572c9146",
         "signature": "90f8717e51141e5fc04e717d686af6afe16357d3497b922aed9a55d0ada45b2e",
         "affectsGlobalScope": false
       },
       "./src/utils/logger/logger.interface.ts": {
-        "version": "8f125a690847558e003e7aa291bf9025fa7e915a0708a3495495b3dbffd66688",
+        "version": "e1da933dbcaea4dca0131a99e0ce60a0743de56116aae4bc9e5e832011b083ee",
         "signature": "0b7e45e54224881ff987e4366c38cfe647c5c55fbb678b07de7d230a269ac6c6",
         "affectsGlobalScope": false
       },
-      "./src/utils/logger/index.ts": {
-        "version": "2648175ba253c65b84596731157042643ad59a88b55f9bf6b263bb6e96e937ae",
+      "./src/utils/logger/logger.ts": {
+        "version": "d233820056f2deaaca594c9bea7339f816b59b9d59fc928d5811dca56ce60582",
         "signature": "f7f7a66bbe7d9dc3e518e318a7405ca2377de632624da37949b6ed0988130e7d",
         "affectsGlobalScope": false
       },
+      "./src/utils/logger/index.ts": {
+        "version": "ad8aca61e6ad8ad797493a789210352b1428583377de781320565a40cd83c013",
+        "signature": "04a2d18c11897d47e4db1ca2ca9f36b08855af9639f6c07b455e322586aa3874",
+        "affectsGlobalScope": false
+      },
       "./src/configuration.ts": {
-        "version": "00680b67fa505045e45f02e3fdefb7fe2853f48b4478e6fb271e3f5eafc05a8e",
-        "signature": "51ac324cbea7977139cfe2447877521d8c0a5ada50faae5941c66ceeefa3f085",
+        "version": "a2623c321f17c363819a0013cb69546cc9c3f24be0a82a8f75ce3e4e635d13d4",
+        "signature": "52cee7a48bc283d8b05dba62611c349194056b651e49e124e607f5ca0e0b8eef",
         "affectsGlobalScope": true
       },
       "./node_modules/@types/react/global.d.ts": {
@@ -476,9 +481,9 @@
         "signature": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
         "affectsGlobalScope": false
       },
-      "./src/interfaces/interface.ts": {
-        "version": "0e3a53b2bcb31a8539097afd89979cdce62e907a71d66a24b4e2e9b6b59ea5a3",
-        "signature": "0f302227a6cefb03e5956e64e5b7dbc345205cee01be7441ec98ed8f3a6e2e7b",
+      "./src/service-worker.ts": {
+        "version": "25b2921287c4250b08c17b177c78d5a344bd0b161dfc29984d64e4e8e7abe4fc",
+        "signature": "616ece755776571a817a2a350c1d43e94f40c69161bf33741e1da9bde35434c3",
         "affectsGlobalScope": false
       },
       "./node_modules/@material-ui/types/index.d.ts": {
@@ -2611,29 +2616,364 @@
         "signature": "5859c951fdc2f03f96a25661b33eec6c3747b461dc9331bb1096690a8924edc5",
         "affectsGlobalScope": false
       },
+      "./src/interfaces/interface.ts": {
+        "version": "0e3a53b2bcb31a8539097afd89979cdce62e907a71d66a24b4e2e9b6b59ea5a3",
+        "signature": "0f302227a6cefb03e5956e64e5b7dbc345205cee01be7441ec98ed8f3a6e2e7b",
+        "affectsGlobalScope": false
+      },
+      "./src/stores/snack-manager.store.ts": {
+        "version": "8bb62c2cc6dad6db0e9c2a525ff43e335693bf943a15fb85eb9366d138ff7a2e",
+        "signature": "b6445146437ccb14a0af305cb4a3e82199cb008ecdc3aed4c5ac1667082008a4",
+        "affectsGlobalScope": false
+      },
       "./src/stores/base.store.interface.ts": {
-        "version": "7e7778db2d4c609de089b1050d5eca64124683a7c3cdf2503b4a37f78e29fe8b",
+        "version": "38bf3d68ee6feb539c41735b7a91037f82bb19c45127cd781092638c56f9110d",
         "signature": "78cef94ab0b214dda66ee5aa3a29c6f0cf2de441208c6fd092ed591c0d83a555",
         "affectsGlobalScope": false
       },
       "./src/stores/base.store.ts": {
-        "version": "1ea2095bd3766cd424eda29cb4d1e4a2b6b3f6a44b93e86f4ab1378d029356ae",
+        "version": "882412e64078b887d5c8f94fc5247b50c58bbaef38341debffc00ae46d5cae02",
         "signature": "761b5141932e571466cc7166861cdb4fe51d607634fd65aec7d76b9b018a1f24",
         "affectsGlobalScope": false
       },
-      "./src/snack/SnackManager.ts": {
-        "version": "8b98004274b9035d33e52b9252c676c548e202d0398e83c812f0909a03e81aa5",
-        "signature": "1f3c9ab73db36dd23b0d5382c9f8364b7746388856b1578663342694d22c020d",
-        "affectsGlobalScope": false
-      },
-      "./src/application/AppStore.ts": {
-        "version": "02c8b021c609a8474356e4d4e675d8af5fc5f091d88f562228aaace1ad24f8e9",
-        "signature": "31271b9bae667daf2b97db519a73fab58a1027c9991da6a40ed79f6c497ace01",
-        "affectsGlobalScope": false
-      },
       "./src/client/ClientStore.ts": {
-        "version": "4e5ee124c1c3340f5551b00c01cedcfd35f7867cf2690eae13d92f24e1be1cea",
-        "signature": "a76144d85dd97a2b824aaa19d840f9d055b812c9443ff3e0ac1c68eeceb42e30",
+        "version": "40bdd6d919c62ad2e56881d389b0d27d5cd1c275e3e2715e16634ec417263a64",
+        "signature": "bec07c620bbb9e4f1c71c18b0c445c481c18be49a1112f64da54a662b556ed8b",
+        "affectsGlobalScope": false
+      },
+      "./src/interfaces/constants.ts": {
+        "version": "c0b19b6c2d0d1a577b955e49fee97b9ef42708c74a3d0ce879a04b008659a175",
+        "signature": "102b267ef4f11e8a5b488de947a33a9b081e10ab5661c28bc1b7c45a9a968989",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/detect-browser/index.d.ts": {
+        "version": "1d37fdd2ef7debac710be41aa3029c8c392b58aa786b04651e546a724ebd105a",
+        "signature": "1d37fdd2ef7debac710be41aa3029c8c392b58aa786b04651e546a724ebd105a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/js-base64/base64.d.ts": {
+        "version": "a01ad0d2fd27b666bdb0f15f71816a2f32da55563a8b1a36d125314232f29fb8",
+        "signature": "a01ad0d2fd27b666bdb0f15f71816a2f32da55563a8b1a36d125314232f29fb8",
+        "affectsGlobalScope": false
+      },
+      "./src/stores/auth.store.ts": {
+        "version": "bf68c1a6a872dd3d9f6d89dd6233c5fef9e53ffae30ae80764e2d62d5c9e392c",
+        "signature": "8e963cd5db48f9f102336a052e45ce08567882f710a76e8c6819dcecdcc95ff8",
+        "affectsGlobalScope": false
+      },
+      "./src/message/WebSocketStore.ts": {
+        "version": "05d397557e8b62437a243fa3018ced19c7c13be887175e5a2c5dc52b9faf192f",
+        "signature": "ccc38715be1143211af535a9c21115b93486f2cc9c8146b00d9539bd84784bb4",
+        "affectsGlobalScope": false
+      },
+      "./src/stores/user.store.ts": {
+        "version": "d41d4cea8d31be4658e93dbbfa650715fc676238841e496c9e490b2f0b5b6f60",
+        "signature": "fc28db4756801561eb56a02d2564959515727474bc5b75782750cf3cca653a17",
+        "affectsGlobalScope": false
+      },
+      "./src/stores/inject-stores.interface.ts": {
+        "version": "ad9b707c728e47385a544f9bd73a0f1fd93b7bfdd250470c61fed9538e1102d2",
+        "signature": "8ba5ce66ab95da5b8d0e706bc69c7e98df574776413842593f1a534c35c01926",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/Delete.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/Edit.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./src/components/ConfirmDialog.tsx": {
+        "version": "20aa0cc3cf56bb15acd4482b6c559b2d29a7ef24cce4c94b5f88813d752b9932",
+        "signature": "9056ab39e1ba077531ad7972221d6c003debcd2b41eb1221cc3facbb9c0c8fb0",
+        "affectsGlobalScope": false
+      },
+      "./src/components/DefaultPage.tsx": {
+        "version": "7ec7eb0b38a52a9503eabba516494149040b2ea53e3136fa896098c5c9c32057",
+        "signature": "3bfd2070646ca937a20de704cf571770a6ce99a0fa16f7c89cf8249fc0bf73b8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/Visibility.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/VisibilityOff.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./src/components/ToggleVisibility.tsx": {
+        "version": "af14019892d98e589a5cbf477a17a8be9d2aedb599148b8d5f9b461dbca367a8",
+        "signature": "e623d68275c4b0bd412339aed20309055b2a227afe45b1487850e8702aa3073f",
+        "affectsGlobalScope": false
+      },
+      "./src/stores/inject-stores.tsx": {
+        "version": "489f936e910d6e7f9deb987c1de326f37fe767fb1f4db23d47dcbaed7ceb82f0",
+        "signature": "0c18b108811ad146b07bcf775ec6590e7e24a43755fb316b662923ca23861645",
+        "affectsGlobalScope": false
+      },
+      "./src/client/AddClientDialog.tsx": {
+        "version": "eaeb3925b04eb25c6ba8ef8aed50a056b7834b121803e8865ac770b893be8067",
+        "signature": "c657dccf6ddf9b200f316d3778b0856e01164e75c9e37e5723ad6828f4e3be26",
+        "affectsGlobalScope": false
+      },
+      "./src/client/UpdateClientDialog.tsx": {
+        "version": "c4920d9fbac54daa15f11389503bc05a52d99b2033417985b99e1263b673c529",
+        "signature": "a2d458bd516a942bd6f4111e504d43b8a272f1dab60c16c038186fbb6db1ecfc",
+        "affectsGlobalScope": false
+      },
+      "./src/client/Clients.tsx": {
+        "version": "88f59bba1b295965a525548fe005c7e59e008ac898f01a686c8761cfca877614",
+        "signature": "5a8b367902a65cc589ceae71da5ac94013587011cc73e9ae818dead6ae463e07",
+        "affectsGlobalScope": false
+      },
+      "./src/components/ConnectionErrorBanner.tsx": {
+        "version": "84e878a6d81b7633d675b55413decf40340bcf07f3bb9040769b96f1bb8f1746",
+        "signature": "b1ba0c853a20b95fd0244e9e265beb3027c8f62189f9b3a1c431d431ca9b42eb",
+        "affectsGlobalScope": false
+      },
+      "./src/components/LoadingSpinner.tsx": {
+        "version": "47e4e7a9d4648c358f4408a6804c8e9434ded84cd69b111b86d3f9fc1cbf9cd7",
+        "signature": "730d9dd507bd3102b1515873b88a5d6e0dbc6e4d028268e26d6e9309bf962bc4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/KeyboardArrowUp.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./src/components/ScrollUpButton.tsx": {
+        "version": "45537de04ea3086b9563a67e403ec4343af165f8e1592d62d8e5398d0087a394",
+        "signature": "14514a69be806c94e7b4dbe8719e0ebd3e5bab5e2fda9a2d1ecf1194bb3bbf9b",
+        "affectsGlobalScope": false
+      },
+      "./src/components/SettingsDialog.tsx": {
+        "version": "b3e3510544adaabf3fdb58eb3867366b7e08221d4ac03c6ba6e8ad9dfc4260aa",
+        "signature": "14331791250d9d3073109c95890c60437f4f6d5c22bb622c2bd6db4fffae96af",
+        "affectsGlobalScope": false
+      },
+      "./src/interfaces/theme.constants.ts": {
+        "version": "06180df01d6efa18cc35ee0368bc5ca381aa97ead460b19ab42f262b38b391dc",
+        "signature": "2bc94bd53f91d61dc46efc5354905d93746f0ff36736106f4c03d3029f602262",
+        "affectsGlobalScope": false
+      },
+      "./src/interfaces/text.interface.ts": {
+        "version": "7c5007bd98cc53a65f890171f624a20e98d628f972b5018b446571f3f6fc530f",
+        "signature": "567aa20243004bb11006565070fe4b5cfacb12c3f5a56e07c2f73548c0ac4768",
+        "affectsGlobalScope": false
+      },
+      "./src/interfaces/theme.interface.ts": {
+        "version": "a002f6f59f1272c1b850eb372505fd75cc470812ea14d085591a31720713578b",
+        "signature": "da19d8cce52586ede503c0251abe01de304d218074fceb6c4a348a30859532b1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/AccountCircle.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/Apps.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/Chat.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/DevicesOther.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/ExitToApp.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/GitHub.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/Highlight.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/Menu.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/SupervisorAccount.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./src/layout/components/header.tsx": {
+        "version": "1b4ce2b49d9b20f9d4ae1436324cbefaf274840067208be59b5864e785516f2c",
+        "signature": "6dea9c1368290c7f94da36f664c865c27eb382d4184957d0b82d8fd07f0e86c4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/Close.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/notifyjs/index.d.ts": {
+        "version": "aaebbec1da47b078c03a3ff0c88535a867874b898df01b0c6535de3c34d07afc",
+        "signature": "aaebbec1da47b078c03a3ff0c88535a867874b898df01b0c6535de3c34d07afc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/remove-markdown/index.d.ts": {
+        "version": "707043feee34760c4b15c7114fa94f1706d614d0c331aa3acb06f6b88ba1a14a",
+        "signature": "707043feee34760c4b15c7114fa94f1706d614d0c331aa3acb06f6b88ba1a14a",
+        "affectsGlobalScope": false
+      },
+      "./src/notifications/browser-notification.handler.ts": {
+        "version": "df37ad34ee154fba6d8a6c75a0a3d7fee62fa6fee27fd8e2b20094ab96fee3cb",
+        "signature": "45929325964f1c93696e411383118463220dd24fe620d311e59f099041573cdd",
+        "affectsGlobalScope": false
+      },
+      "./src/layout/components/navigation.tsx": {
+        "version": "f359d4346e9300e988578ed912f73595ffa794f18b9c5a31ca1be7abd99eded7",
+        "signature": "907fa3be7eced1c594d18f92287e9e81b7c88701fef63652559c55226823e0c3",
+        "affectsGlobalScope": false
+      },
+      "./src/notifications/snack-bar.handler.tsx": {
+        "version": "dcf61dea5c09ae1969d65edc0dd2b04edbc57a175bd779699238dab8d8edcd3d",
+        "signature": "fd2699c0b6ef0e690b3103eba9c478851799ddc2601d7c903217ce486eaa96f0",
+        "affectsGlobalScope": false
+      },
+      "./src/components/Container.tsx": {
+        "version": "969122a1da5207f6df15764b8f2b4b579ec5b4f995492e29f5895feb5cfee6fb",
+        "signature": "ad4e13b248f01cdfc5a31be7b53cc254f2b433bdfe9a8a38ea3ca6ab0e7c710f",
+        "affectsGlobalScope": false
+      },
+      "./src/pages/login.tsx": {
+        "version": "ff90762ee108acb209f0f04f54b8865db66fc8040c250bb8d6c9adb52ebccb6d",
+        "signature": "18a62568bc126a85b1e63311254426299d277f027643ed93b14db15029fac2da",
+        "affectsGlobalScope": false
+      },
+      "./src/user/add-edit-user.dialog.tsx": {
+        "version": "0c259c3f851d905505ebd205bcf0a521291f9b29060371f37aba085629951534",
+        "signature": "aae02e85ae23fe014d7a3b7a06164e1a8d4e8d79b5db97e66e5948daf4ccafba",
+        "affectsGlobalScope": false
+      },
+      "./src/user/users.tsx": {
+        "version": "158d95bb8b054d13283a212ad18e8d084b8a323952deaf5755370199b39a48e5",
+        "signature": "63ee0e251adb5ad68c15833335fa8e2f3d4f267e2a6fd67b8bf1cbea7fb5004f",
+        "affectsGlobalScope": false
+      },
+      "./src/themes/default.text.ts": {
+        "version": "eeee97a47b286c75b87816ea9006d2627207c7b24689a1707338a2449bf5ed43",
+        "signature": "26ed2222a412c6f1e7a22fa648368c116bb3300f5474fc92c21cdc42a491799e",
+        "affectsGlobalScope": false
+      },
+      "./src/themes/dark.theme.ts": {
+        "version": "c6ee2ab83b035a8976649531e294fc1e959e1df56c73093564621e3edaf7255f",
+        "signature": "e2b625e0a5bc4c7adf7a5cb89ce705eb9ee600f70c2161b8c012721f262afda2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/hoist-non-react-statics/index.d.ts": {
+        "version": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
+        "signature": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/styled-components/index.d.ts": {
+        "version": "7f6371dceeb8658c9657a903b5e2c6a24eae211ab8c1465ceb8b61d8d0e4792b",
+        "signature": "7f6371dceeb8658c9657a903b5e2c6a24eae211ab8c1465ceb8b61d8d0e4792b",
+        "affectsGlobalScope": true
+      },
+      "./src/themes/global.theme.tsx": {
+        "version": "9d07be72da3f0a49126ba6d43c4bc77e03e8d30d32d72d41e516a47a496dfa1a",
+        "signature": "a3ca82a794f31c04fbad4d779a4ea2c75b06e60290b6432efe62bdf647dce9c4",
+        "affectsGlobalScope": false
+      },
+      "./src/layout/index.tsx": {
+        "version": "aa3f28453c8151cb086a95dc13e9b374f501abfadc208f5b3f21180c6185a76d",
+        "signature": "e3757a11a66a80cc7386ef2ae801ca83a26576a703bb2b7fb52b5b7ecf156d34",
+        "affectsGlobalScope": false
+      },
+      "./src/stores/init-stores.ts": {
+        "version": "7c7c93f0b2c718b90ab6c38391606aaae14c0aac54f1a981001022801a501001",
+        "signature": "c19ae76024a7df3cdf01574089b390b316c720407ad81a16d8a5a6e1001a4d41",
+        "affectsGlobalScope": false
+      },
+      "./src/stores/reactions.ts": {
+        "version": "0983a3459fb8f37ccf3927a2b529bbf5691fc843cf7603a998622399baa1924f",
+        "signature": "bd7ca526fe3a5f80d51944d1ddfc56c82279132844e2378421de202fd159b3a4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@tanem/react-nprogress/dist/types.d.ts": {
+        "version": "6364fd75e945011d03dd7e7270fccc61f7ee00720a2f064f229466adb8bf2809",
+        "signature": "6364fd75e945011d03dd7e7270fccc61f7ee00720a2f064f229466adb8bf2809",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts": {
+        "version": "b57090c80909b709a7bdc70f25fa27bf1db1d96c7676d91e71d2787a25214495",
+        "signature": "b57090c80909b709a7bdc70f25fa27bf1db1d96c7676d91e71d2787a25214495",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@tanem/react-nprogress/dist/NProgress.d.ts": {
+        "version": "132c02c9d09798983cf04914430f9fe0e3d7c853208145b73c3b173d5dbde63e",
+        "signature": "132c02c9d09798983cf04914430f9fe0e3d7c853208145b73c3b173d5dbde63e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@tanem/react-nprogress/dist/withNProgress.d.ts": {
+        "version": "a50e009f6674d9868fd4659f02620a6acbdd79a9fe515b5e3c5682670de9a9da",
+        "signature": "a50e009f6674d9868fd4659f02620a6acbdd79a9fe515b5e3c5682670de9a9da",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@tanem/react-nprogress/dist/index.d.ts": {
+        "version": "e67e9d24c9a71952bb62b14bc9326c3bb931e174ebaeed31622252d26b4b6939",
+        "signature": "e67e9d24c9a71952bb62b14bc9326c3bb931e174ebaeed31622252d26b4b6939",
+        "affectsGlobalScope": false
+      },
+      "./src/themes/page-loader.tsx": {
+        "version": "4d89fe500a5337a4ff42b985f41f9e9a11bc35c3246cc8d84bac918c02c734ac",
+        "signature": "326cb13d2996a951e3e2cb8f6f378c597fb7c03fb45e8f457b3d17c0ce5eed22",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/axios.ts": {
+        "version": "4ef998ab7553b82240edb739e6f46811e92715f7b0d0aeb4b2ce5b7ddc65d724",
+        "signature": "ccfe1dc12b4715c8b27ab4f5ab1ced297457d31e95a8eb9f39965f3847d4d7c6",
+        "affectsGlobalScope": false
+      },
+      "./src/index.tsx": {
+        "version": "2d42d0350341b7d58ab9d8ffafe9f2b48b7e3438de0582145febb5bc6bf1bcdd",
+        "signature": "bb27042837ae8ce3cd7338312549eb5ea0b1501f79c325adc2aa5085cf72aaa3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-markdown/index.d.ts": {
+        "version": "db6e02fd3d77ebe45d9328da83772787481e0982dcc53723d7a5ba8c6b25bfa1",
+        "signature": "db6e02fd3d77ebe45d9328da83772787481e0982dcc53723d7a5ba8c6b25bfa1",
+        "affectsGlobalScope": false
+      },
+      "./src/message/extras.ts": {
+        "version": "80b390520db13d50c8704c46da074f146236b013844ebfca69c18751f4dd2270",
+        "signature": "99c2050213779cd73ce508edb3f85e881bd76c1446430fa3cce01d75d01860e8",
+        "affectsGlobalScope": false
+      },
+      "./src/message/Message.tsx": {
+        "version": "e2707d722c24546b70d01e19fc76529d893ecda1411d48885160a8d91f0c0c95",
+        "signature": "9198eb85f8995ce589b052db3331d860498e26161aac5b4ae1bd58eccb93d9fa",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-infinite/index.d.ts": {
+        "version": "9ca28ee066a3188c65f1b79dcb68d7b43d3be1c8c63f3400c81498ca7180ff38",
+        "signature": "9ca28ee066a3188c65f1b79dcb68d7b43d3be1c8c63f3400c81498ca7180ff38",
+        "affectsGlobalScope": false
+      },
+      "./src/message/Messages.tsx": {
+        "version": "6ef4308a5df20aaea2819bede682ba2b990bbc153e1b13ce3e6bb3f16e33a1e5",
+        "signature": "c9b604801831c869b525fd988169fbaaca8705db5ec10b515c448c4d0fe9bbd4",
         "affectsGlobalScope": false
       },
       "./node_modules/mobx-utils/lib/from-promise.d.ts": {
@@ -2742,348 +3082,8 @@
         "affectsGlobalScope": false
       },
       "./src/message/MessagesStore.ts": {
-        "version": "79ba63fc047ba1574a007e647b31b730f9c5b500085a6c5c38d85af7331a7c21",
-        "signature": "2294b2149dfb7287ff13e318939f7ff4e0c271143413393f4d47abcc254b22c9",
-        "affectsGlobalScope": false
-      },
-      "./src/interfaces/constants.ts": {
-        "version": "c0b19b6c2d0d1a577b955e49fee97b9ef42708c74a3d0ce879a04b008659a175",
-        "signature": "102b267ef4f11e8a5b488de947a33a9b081e10ab5661c28bc1b7c45a9a968989",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/detect-browser/index.d.ts": {
-        "version": "1d37fdd2ef7debac710be41aa3029c8c392b58aa786b04651e546a724ebd105a",
-        "signature": "1d37fdd2ef7debac710be41aa3029c8c392b58aa786b04651e546a724ebd105a",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/js-base64/base64.d.ts": {
-        "version": "a01ad0d2fd27b666bdb0f15f71816a2f32da55563a8b1a36d125314232f29fb8",
-        "signature": "a01ad0d2fd27b666bdb0f15f71816a2f32da55563a8b1a36d125314232f29fb8",
-        "affectsGlobalScope": false
-      },
-      "./src/stores/authentication.store.ts": {
-        "version": "4474d048cc3e671e04e307452b6089629082864086bbb77e549a84dd15efde49",
-        "signature": "2d77647a2aeddb97e0d94eaa238a4e6c2201fcad21477464e8bafee066870bec",
-        "affectsGlobalScope": false
-      },
-      "./src/message/WebSocketStore.ts": {
-        "version": "1fad53d1194ddbd57c413a911cc704de309ed5aec8c3d822970093becc71307c",
-        "signature": "3166c457dccdbd03f01dc48a1a98daff3a227d897ee078df911aeb22a882e1d1",
-        "affectsGlobalScope": false
-      },
-      "./src/plugin/PluginStore.ts": {
-        "version": "99c05f8b8183f35d09411f48b359e012611e8949b27135cdc78747e8228f3062",
-        "signature": "a5cc9e1bb2ef5d9bb3ce70d46376cf5b354615998cd071dd44dbf591d4cafdef",
-        "affectsGlobalScope": false
-      },
-      "./src/stores/user.store.ts": {
-        "version": "cc48b6a5e3c36cf596caa8d7e50c56ec05d4f08b133ac413e8c3451d1c1498c9",
-        "signature": "6a916f88f5f7e727abcd1ae69c2d13e9ce6e09ce6cc8aad46acd9fb82c53594f",
-        "affectsGlobalScope": false
-      },
-      "./src/stores/inject-stores.interface.ts": {
-        "version": "8b5ffc5e16a80ac1f21f5d35255d9c705be3ca07873052a9e6e53efb5a3c191d",
-        "signature": "cb6c9d23b0f7c66689300479b9215d617c84ae43213870639adeb4ccb320940b",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/CloudUpload.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Delete.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Edit.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./src/common/ConfirmDialog.tsx": {
-        "version": "20aa0cc3cf56bb15acd4482b6c559b2d29a7ef24cce4c94b5f88813d752b9932",
-        "signature": "9056ab39e1ba077531ad7972221d6c003debcd2b41eb1221cc3facbb9c0c8fb0",
-        "affectsGlobalScope": false
-      },
-      "./src/common/DefaultPage.tsx": {
-        "version": "7ec7eb0b38a52a9503eabba516494149040b2ea53e3136fa896098c5c9c32057",
-        "signature": "3bfd2070646ca937a20de704cf571770a6ce99a0fa16f7c89cf8249fc0bf73b8",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Visibility.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/VisibilityOff.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./src/common/ToggleVisibility.tsx": {
-        "version": "af14019892d98e589a5cbf477a17a8be9d2aedb599148b8d5f9b461dbca367a8",
-        "signature": "e623d68275c4b0bd412339aed20309055b2a227afe45b1487850e8702aa3073f",
-        "affectsGlobalScope": false
-      },
-      "./src/stores/inject-stores.tsx": {
-        "version": "489f936e910d6e7f9deb987c1de326f37fe767fb1f4db23d47dcbaed7ceb82f0",
-        "signature": "0c18b108811ad146b07bcf775ec6590e7e24a43755fb316b662923ca23861645",
-        "affectsGlobalScope": false
-      },
-      "./src/application/AddApplicationDialog.tsx": {
-        "version": "e1c8791afe65fd7040a652c5ac8493c67daf6dc9b9ad9d03b1e775a0be50caa4",
-        "signature": "32b4fe779860e5d2f30b7ef8e1e3862ea97bc77a45dcfa7cf95b3747169a81b9",
-        "affectsGlobalScope": false
-      },
-      "./src/application/UpdateApplicationDialog.tsx": {
-        "version": "49891861a9d91f45a131f4202b4ac280a6a685ac1bc334ac152af717d1a5429b",
-        "signature": "ecda81d53ea017c1026d55afee1d97e5b2897366ed6388fc8dba52078e00a8cc",
-        "affectsGlobalScope": false
-      },
-      "./src/application/Applications.tsx": {
-        "version": "2a04a3bd48358ecab6ba5867a59000bd67770b51d51ba40931a0f1b96d1f9ae7",
-        "signature": "2b76008603242828fdfec90d481bf7bc9b3602d910d77a19eacb658c0579a27a",
-        "affectsGlobalScope": false
-      },
-      "./src/client/AddClientDialog.tsx": {
-        "version": "eaeb3925b04eb25c6ba8ef8aed50a056b7834b121803e8865ac770b893be8067",
-        "signature": "c657dccf6ddf9b200f316d3778b0856e01164e75c9e37e5723ad6828f4e3be26",
-        "affectsGlobalScope": false
-      },
-      "./src/client/UpdateClientDialog.tsx": {
-        "version": "c4920d9fbac54daa15f11389503bc05a52d99b2033417985b99e1263b673c529",
-        "signature": "a2d458bd516a942bd6f4111e504d43b8a272f1dab60c16c038186fbb6db1ecfc",
-        "affectsGlobalScope": false
-      },
-      "./src/client/Clients.tsx": {
-        "version": "798c638578befe9bfea13032fae442368a17b001c00552536e5fb11037c83978",
-        "signature": "5a8b367902a65cc589ceae71da5ac94013587011cc73e9ae818dead6ae463e07",
-        "affectsGlobalScope": false
-      },
-      "./src/common/ConnectionErrorBanner.tsx": {
-        "version": "84e878a6d81b7633d675b55413decf40340bcf07f3bb9040769b96f1bb8f1746",
-        "signature": "b1ba0c853a20b95fd0244e9e265beb3027c8f62189f9b3a1c431d431ca9b42eb",
-        "affectsGlobalScope": false
-      },
-      "./src/common/LoadingSpinner.tsx": {
-        "version": "47e4e7a9d4648c358f4408a6804c8e9434ded84cd69b111b86d3f9fc1cbf9cd7",
-        "signature": "730d9dd507bd3102b1515873b88a5d6e0dbc6e4d028268e26d6e9309bf962bc4",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/KeyboardArrowUp.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./src/common/ScrollUpButton.tsx": {
-        "version": "45537de04ea3086b9563a67e403ec4343af165f8e1592d62d8e5398d0087a394",
-        "signature": "14514a69be806c94e7b4dbe8719e0ebd3e5bab5e2fda9a2d1ecf1194bb3bbf9b",
-        "affectsGlobalScope": false
-      },
-      "./src/common/SettingsDialog.tsx": {
-        "version": "74a1c45584b2cad185c41e091fb42eda601d8037f5311b6a58c12fd2e61810e1",
-        "signature": "9ffd452a3de18a27cb7f095ba6a4f0f5d882591e230e23bfc28831971fa20ea9",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/react-infinite/index.d.ts": {
-        "version": "9ca28ee066a3188c65f1b79dcb68d7b43d3be1c8c63f3400c81498ca7180ff38",
-        "signature": "9ca28ee066a3188c65f1b79dcb68d7b43d3be1c8c63f3400c81498ca7180ff38",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-markdown/index.d.ts": {
-        "version": "db6e02fd3d77ebe45d9328da83772787481e0982dcc53723d7a5ba8c6b25bfa1",
-        "signature": "db6e02fd3d77ebe45d9328da83772787481e0982dcc53723d7a5ba8c6b25bfa1",
-        "affectsGlobalScope": false
-      },
-      "./src/common/Container.tsx": {
-        "version": "969122a1da5207f6df15764b8f2b4b579ec5b4f995492e29f5895feb5cfee6fb",
-        "signature": "ad4e13b248f01cdfc5a31be7b53cc254f2b433bdfe9a8a38ea3ca6ab0e7c710f",
-        "affectsGlobalScope": false
-      },
-      "./src/message/extras.ts": {
-        "version": "80b390520db13d50c8704c46da074f146236b013844ebfca69c18751f4dd2270",
-        "signature": "99c2050213779cd73ce508edb3f85e881bd76c1446430fa3cce01d75d01860e8",
-        "affectsGlobalScope": false
-      },
-      "./src/message/Message.tsx": {
-        "version": "5548be6534568e5ef3c1422a1d017805a16ee7250b824f185562d0a98e157a64",
-        "signature": "545734dcb91795d8f79e49dc8367fdb16d1636ef41bb9a46d9930b60f0be4bdd",
-        "affectsGlobalScope": false
-      },
-      "./src/message/Messages.tsx": {
-        "version": "636ccfed8051cea162b25b1d3b335c25c7d0622b3c99a62cb7c2ce4e57dd9b69",
-        "signature": "ba0b276796326fe2e173cba562f70d17c0ea6f55e190ad5bbdb68fc4a1fc4f90",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/codemirror/index.d.ts": {
-        "version": "59e1a98b6e8328e226e3c23fd93272507cf31b256e940ad1ebd34c2bbc824383",
-        "signature": "59e1a98b6e8328e226e3c23fd93272507cf31b256e940ad1ebd34c2bbc824383",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-codemirror2/index.d.ts": {
-        "version": "85a4d87aedf6db2ee1b634201dccbed512d1fa1382cf568c2da30e998ac00a08",
-        "signature": "85a4d87aedf6db2ee1b634201dccbed512d1fa1382cf568c2da30e998ac00a08",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Info.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Build.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Subject.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Refresh.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./src/plugin/PluginDetailView.tsx": {
-        "version": "66d13659060777699416e2a9fadcf422bf964d8179442bb48ed512bba3d9f072",
-        "signature": "4461e99ccbcaac86831f90018e3d89382fc9eeea128dd03a48e8369dc6295450",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Settings.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./src/plugin/Plugins.tsx": {
-        "version": "1ce381c090365b99dfb8696dfe78032d3b11299f4af7f24f4014d8d4daad20d6",
-        "signature": "633af32841a814ee6d0bc8e97e72c94055483cba607c251bc0284c3fb0b58fd7",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Close.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./src/snack/SnackBarHandler.tsx": {
-        "version": "088c061bb4bbbcf6f199d25525a0baab3e65eb17284203a445ad7245bad822ca",
-        "signature": "6a491c3fe7d2c00f1b1ff9d099f859fda3b85469e2d10e7e4d57783633b40654",
-        "affectsGlobalScope": false
-      },
-      "./src/user/login.tsx": {
-        "version": "41cf78bc371f4800291950e94e66b682d4fa0ece2189639ba06ae2b27872a3fd",
-        "signature": "18a62568bc126a85b1e63311254426299d277f027643ed93b14db15029fac2da",
-        "affectsGlobalScope": false
-      },
-      "./src/user/add-edit-user.dialog.tsx": {
-        "version": "0c259c3f851d905505ebd205bcf0a521291f9b29060371f37aba085629951534",
-        "signature": "aae02e85ae23fe014d7a3b7a06164e1a8d4e8d79b5db97e66e5948daf4ccafba",
-        "affectsGlobalScope": false
-      },
-      "./src/user/users.tsx": {
-        "version": "0be1daa0f9c84f3049b36f29e26e08f5ea05fea34cdf0536e663a70e64b4ca1d",
-        "signature": "63ee0e251adb5ad68c15833335fa8e2f3d4f267e2a6fd67b8bf1cbea7fb5004f",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/AccountCircle.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Apps.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Chat.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/DevicesOther.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/ExitToApp.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/GitHub.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Highlight.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/Menu.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material-ui/icons/SupervisorAccount.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./src/layout/Header.tsx": {
-        "version": "6614be463479f7754c4798f82771eeabff673329048dbdf2d18408c6f219cc8d",
-        "signature": "a0d14f5893e63c1099ed840a6af1300fc10ef536aac075411ceeb91f81bbf3f9",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/notifyjs/index.d.ts": {
-        "version": "aaebbec1da47b078c03a3ff0c88535a867874b898df01b0c6535de3c34d07afc",
-        "signature": "aaebbec1da47b078c03a3ff0c88535a867874b898df01b0c6535de3c34d07afc",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/remove-markdown/index.d.ts": {
-        "version": "707043feee34760c4b15c7114fa94f1706d614d0c331aa3acb06f6b88ba1a14a",
-        "signature": "707043feee34760c4b15c7114fa94f1706d614d0c331aa3acb06f6b88ba1a14a",
-        "affectsGlobalScope": false
-      },
-      "./src/snack/browserNotification.ts": {
-        "version": "809df906f1a9ad7a58d78e039b704b17f5ee2c9309099598f6f3e4c9621838ee",
-        "signature": "45929325964f1c93696e411383118463220dd24fe620d311e59f099041573cdd",
-        "affectsGlobalScope": false
-      },
-      "./src/layout/Navigation.tsx": {
-        "version": "add2d318212d554d1b39e4c96b83702296aeeddefd905a4dda8e3303f4c3b797",
-        "signature": "087e5a94041732dc1b35e4c23bd3e5a57076a04cee1924d0474d95a9ac09f140",
-        "affectsGlobalScope": false
-      },
-      "./src/layout/Layout.tsx": {
-        "version": "7918bd7d5bf280144e36d59541a5d8248fd8f9762479f7f91e0228f7af0dedd8",
-        "signature": "aee1d0a9feff12d84e0d07faaa70b1020c15d3a267999a245f3105f37fe5d700",
-        "affectsGlobalScope": false
-      },
-      "./src/service-worker.ts": {
-        "version": "25b2921287c4250b08c17b177c78d5a344bd0b161dfc29984d64e4e8e7abe4fc",
-        "signature": "616ece755776571a817a2a350c1d43e94f40c69161bf33741e1da9bde35434c3",
-        "affectsGlobalScope": false
-      },
-      "./src/stores/init-stores.ts": {
-        "version": "b30f3d88d9ec989d58d927edb12e118130543af166383ee7de10a2fa8fb6ec53",
-        "signature": "c19ae76024a7df3cdf01574089b390b316c720407ad81a16d8a5a6e1001a4d41",
-        "affectsGlobalScope": false
-      },
-      "./src/stores/reactions.ts": {
-        "version": "7d8228a8411e4424a75099da312579d4c050de18a8b71e98164f4c277085ba7b",
-        "signature": "bd7ca526fe3a5f80d51944d1ddfc56c82279132844e2378421de202fd159b3a4",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/axios.ts": {
-        "version": "ebd409c35e676dea12e920eeefa66a20f4c8aa4a425bf476764cef27c7c3345c",
-        "signature": "88a87708796cd1cc74a61f9f34c4afaa0ada9d495023afef812082722827f7d3",
-        "affectsGlobalScope": false
-      },
-      "./src/index.tsx": {
-        "version": "868ed4f5a400d3f312d2fda9d92c120337366cd51f63b7a001cc90cb993e5046",
-        "signature": "bb27042837ae8ce3cd7338312549eb5ea0b1501f79c325adc2aa5085cf72aaa3",
+        "version": "549052dbbb724468c5da2ca4e89942b0b53505c1aace3322e4c152d3139f55b5",
+        "signature": "c619f2c19e8ad1575f5f03fcdd2f290d0e79ecbd40d20c120e398c323a039fa5",
         "affectsGlobalScope": false
       },
       "./src/types/config.d.ts": {
@@ -3101,9 +3101,24 @@
         "signature": "8c31b4816257b12eaa15fc69424c7591c803f9d4afd256ce1f2721ff7b05f58a",
         "affectsGlobalScope": false
       },
+      "./src/types/react.d.ts": {
+        "version": "5d56bdee70809f2080e0e51e60221cb325b8bafaa0dbd13e4cabacd5b42229e2",
+        "signature": "5d56bdee70809f2080e0e51e60221cb325b8bafaa0dbd13e4cabacd5b42229e2",
+        "affectsGlobalScope": false
+      },
+      "./src/types/styled-components.d.ts": {
+        "version": "f2f889cfe37c92aac7c39e9cedb08b2e4c5c8d33b4b464c869572953b7e0d44c",
+        "signature": "f2f889cfe37c92aac7c39e9cedb08b2e4c5c8d33b4b464c869572953b7e0d44c",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@types/anymatch/index.d.ts": {
         "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
         "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/codemirror/index.d.ts": {
+        "version": "59e1a98b6e8328e226e3c23fd93272507cf31b256e940ad1ebd34c2bbc824383",
+        "signature": "59e1a98b6e8328e226e3c23fd93272507cf31b256e940ad1ebd34c2bbc824383",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
@@ -3146,6 +3161,11 @@
         "signature": "2f07b2510d335c48c811b8d9832bcc15d416664c2806a78ec2f706ab709fbaf8",
         "affectsGlobalScope": true
       },
+      "./node_modules/@types/js-cookie/index.d.ts": {
+        "version": "c5240d27e13ed70d930c0588966bf86fb9ca58a443e52fc737bcd5e46658558a",
+        "signature": "c5240d27e13ed70d930c0588966bf86fb9ca58a443e52fc737bcd5e46658558a",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@types/json-schema/index.d.ts": {
         "version": "b2be568d8ce95fcb26eebd04c035d94825655fdf689bf67d799f5ff8cbbb1024",
         "signature": "b2be568d8ce95fcb26eebd04c035d94825655fdf689bf67d799f5ff8cbbb1024",
@@ -3160,6 +3180,36 @@
         "version": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
         "signature": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
         "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-native/globals.d.ts": {
+        "version": "80132c7ac792dda5dcd7787cf83acc5e67cc9704fe212b170786bb7791bc2982",
+        "signature": "80132c7ac792dda5dcd7787cf83acc5e67cc9704fe212b170786bb7791bc2982",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/react-native/legacy-properties.d.ts": {
+        "version": "818a9a35cf844bd8380e9273b8ed82023c614164d0975f096b8c9b680730cbc3",
+        "signature": "818a9a35cf844bd8380e9273b8ed82023c614164d0975f096b8c9b680730cbc3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-native/BatchedBridge.d.ts": {
+        "version": "496293b62091a5bfb97dac7a0055f3e73dfc7b8d8c220000ecf68635c0bef790",
+        "signature": "496293b62091a5bfb97dac7a0055f3e73dfc7b8d8c220000ecf68635c0bef790",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/react-native/Devtools.d.ts": {
+        "version": "715ee74e86e7388d2923cd6377fafcf3f86bea534d5cb4c827a1603383fabdb3",
+        "signature": "715ee74e86e7388d2923cd6377fafcf3f86bea534d5cb4c827a1603383fabdb3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-native/LaunchScreen.d.ts": {
+        "version": "234b97ac9af46707f2315ff395a9b340d37b7dbc8290d91f5d6bd97189d220f3",
+        "signature": "234b97ac9af46707f2315ff395a9b340d37b7dbc8290d91f5d6bd97189d220f3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-native/index.d.ts": {
+        "version": "6cf8aef15b2bba3a931b79d0f98ff8f99cb2b5adaad2f9eca56455a70b209a2e",
+        "signature": "6cf8aef15b2bba3a931b79d0f98ff8f99cb2b5adaad2f9eca56455a70b209a2e",
+        "affectsGlobalScope": true
       },
       "./node_modules/@types/react-transition-group/CSSTransition.d.ts": {
         "version": "1429ac61feca4fdc074f60eb9b07f8b9e2c0ef9335c26e18d05f8ab67653f72b",
@@ -3262,6 +3312,9 @@
       "rootDir": "./src",
       "baseUrl": "./src",
       "paths": {
+        "@root/*": [
+          "./*"
+        ],
         "@interfaces/*": [
           "interfaces/*"
         ],
@@ -3270,6 +3323,9 @@
         ],
         "@stores/*": [
           "stores/*"
+        ],
+        "@themes/*": [
+          "themes/*"
         ]
       },
       "skipLibCheck": true,
@@ -6702,15 +6758,6 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
-      "./node_modules/@material-ui/icons/Build.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
       "./node_modules/@material-ui/icons/Chat.d.ts": [
         "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -6721,15 +6768,6 @@
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
       "./node_modules/@material-ui/icons/Close.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
-      "./node_modules/@material-ui/icons/CloudUpload.d.ts": [
         "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
@@ -6792,15 +6830,6 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
-      "./node_modules/@material-ui/icons/Info.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
       "./node_modules/@material-ui/icons/KeyboardArrowUp.d.ts": [
         "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -6811,33 +6840,6 @@
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
       "./node_modules/@material-ui/icons/Menu.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
-      "./node_modules/@material-ui/icons/Refresh.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
-      "./node_modules/@material-ui/icons/Settings.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
-      "./node_modules/@material-ui/icons/Subject.d.ts": [
         "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
@@ -7182,6 +7184,56 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/@tanem/react-nprogress/dist/NProgress.d.ts": [
+        "./node_modules/@tanem/react-nprogress/dist/types.d.ts",
+        "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@tanem/react-nprogress/dist/index.d.ts": [
+        "./node_modules/@tanem/react-nprogress/dist/NProgress.d.ts",
+        "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts",
+        "./node_modules/@tanem/react-nprogress/dist/withNProgress.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@tanem/react-nprogress/dist/types.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts": [
+        "./node_modules/@tanem/react-nprogress/dist/types.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@tanem/react-nprogress/dist/withNProgress.d.ts": [
+        "./node_modules/@tanem/react-nprogress/dist/types.d.ts",
+        "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./node_modules/@types/anymatch/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
@@ -7310,6 +7362,15 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
+      "./node_modules/@types/hoist-non-react-statics/index.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./node_modules/@types/html-minifier-terser/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
@@ -7319,6 +7380,14 @@
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
       "./node_modules/@types/js-base64/index.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@types/js-cookie/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
@@ -7902,6 +7971,62 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/@types/react-native/BatchedBridge.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@types/react-native/Devtools.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react-native/Devtools.d.ts"
+      ],
+      "./node_modules/@types/react-native/LaunchScreen.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@types/react-native/globals.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@types/react-native/index.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react-native/BatchedBridge.d.ts",
+        "./node_modules/@types/react-native/Devtools.d.ts",
+        "./node_modules/@types/react-native/LaunchScreen.d.ts",
+        "./node_modules/@types/react-native/globals.d.ts",
+        "./node_modules/@types/react-native/legacy-properties.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-native/legacy-properties.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react-native/index.d.ts"
+      ],
       "./node_modules/@types/react-router-dom/index.d.ts": [
         "./node_modules/@types/history/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -8016,6 +8141,17 @@
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@types/styled-components/index.d.ts": [
+        "./node_modules/@types/hoist-non-react-statics/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/csstype/index.d.ts"
       ],
       "./node_modules/@types/tapable/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9011,16 +9147,6 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
-      "./node_modules/react-codemirror2/index.d.ts": [
-        "./node_modules/@types/codemirror/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./node_modules/react-markdown/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
@@ -9307,87 +9433,6 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/winston-transport/index.d.ts"
       ],
-      "./src/application/AddApplicationDialog.tsx": [
-        "./node_modules/@material-ui/core/Button/index.d.ts",
-        "./node_modules/@material-ui/core/Dialog/index.d.ts",
-        "./node_modules/@material-ui/core/DialogActions/index.d.ts",
-        "./node_modules/@material-ui/core/DialogContent/index.d.ts",
-        "./node_modules/@material-ui/core/DialogContentText/index.d.ts",
-        "./node_modules/@material-ui/core/DialogTitle/index.d.ts",
-        "./node_modules/@material-ui/core/TextField/index.d.ts",
-        "./node_modules/@material-ui/core/Tooltip/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/application/AppStore.ts": [
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/axios/index.d.ts",
-        "./node_modules/mobx/lib/mobx.d.ts",
-        "./src/configuration.ts",
-        "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/base.store.ts"
-      ],
-      "./src/application/Applications.tsx": [
-        "./node_modules/@material-ui/core/Avatar/index.d.ts",
-        "./node_modules/@material-ui/core/Button/index.d.ts",
-        "./node_modules/@material-ui/core/Grid/index.d.ts",
-        "./node_modules/@material-ui/core/IconButton/index.d.ts",
-        "./node_modules/@material-ui/core/Paper/index.d.ts",
-        "./node_modules/@material-ui/core/Table/index.d.ts",
-        "./node_modules/@material-ui/core/TableBody/index.d.ts",
-        "./node_modules/@material-ui/core/TableCell/index.d.ts",
-        "./node_modules/@material-ui/core/TableHead/index.d.ts",
-        "./node_modules/@material-ui/core/TableRow/index.d.ts",
-        "./node_modules/@material-ui/icons/CloudUpload.d.ts",
-        "./node_modules/@material-ui/icons/Delete.d.ts",
-        "./node_modules/@material-ui/icons/Edit.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/mobx-react/dist/index.d.ts",
-        "./node_modules/mobx/lib/mobx.d.ts",
-        "./src/application/AddApplicationDialog.tsx",
-        "./src/application/UpdateApplicationDialog.tsx",
-        "./src/common/ConfirmDialog.tsx",
-        "./src/common/DefaultPage.tsx",
-        "./src/common/ToggleVisibility.tsx",
-        "./src/configuration.ts",
-        "./src/interfaces/interface.ts",
-        "./src/stores/inject-stores.interface.ts",
-        "./src/stores/inject-stores.tsx"
-      ],
-      "./src/application/UpdateApplicationDialog.tsx": [
-        "./node_modules/@material-ui/core/Button/index.d.ts",
-        "./node_modules/@material-ui/core/Dialog/index.d.ts",
-        "./node_modules/@material-ui/core/DialogActions/index.d.ts",
-        "./node_modules/@material-ui/core/DialogContent/index.d.ts",
-        "./node_modules/@material-ui/core/DialogContentText/index.d.ts",
-        "./node_modules/@material-ui/core/DialogTitle/index.d.ts",
-        "./node_modules/@material-ui/core/TextField/index.d.ts",
-        "./node_modules/@material-ui/core/Tooltip/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./src/client/AddClientDialog.tsx": [
         "./node_modules/@material-ui/core/Button/index.d.ts",
         "./node_modules/@material-ui/core/Dialog/index.d.ts",
@@ -9415,8 +9460,8 @@
         "./node_modules/mobx/lib/mobx.d.ts",
         "./src/configuration.ts",
         "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/base.store.ts"
+        "./src/stores/base.store.ts",
+        "./src/stores/snack-manager.store.ts"
       ],
       "./src/client/Clients.tsx": [
         "./node_modules/@material-ui/core/Button/index.d.ts",
@@ -9441,9 +9486,9 @@
         "./node_modules/mobx/lib/mobx.d.ts",
         "./src/client/AddClientDialog.tsx",
         "./src/client/UpdateClientDialog.tsx",
-        "./src/common/ConfirmDialog.tsx",
-        "./src/common/DefaultPage.tsx",
-        "./src/common/ToggleVisibility.tsx",
+        "./src/components/ConfirmDialog.tsx",
+        "./src/components/DefaultPage.tsx",
+        "./src/components/ToggleVisibility.tsx",
         "./src/interfaces/interface.ts",
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx"
@@ -9465,7 +9510,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/common/ConfirmDialog.tsx": [
+      "./src/components/ConfirmDialog.tsx": [
         "./node_modules/@material-ui/core/Button/index.d.ts",
         "./node_modules/@material-ui/core/Dialog/index.d.ts",
         "./node_modules/@material-ui/core/DialogActions/index.d.ts",
@@ -9480,7 +9525,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/common/ConnectionErrorBanner.tsx": [
+      "./src/components/ConnectionErrorBanner.tsx": [
         "./node_modules/@material-ui/core/Button/index.d.ts",
         "./node_modules/@material-ui/core/Typography/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9491,7 +9536,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/common/Container.tsx": [
+      "./src/components/Container.tsx": [
         "./node_modules/@material-ui/core/Paper/index.d.ts",
         "./node_modules/@material-ui/core/styles/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9502,7 +9547,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/common/DefaultPage.tsx": [
+      "./src/components/DefaultPage.tsx": [
         "./node_modules/@material-ui/core/Grid/index.d.ts",
         "./node_modules/@material-ui/core/Typography/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9513,7 +9558,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/common/LoadingSpinner.tsx": [
+      "./src/components/LoadingSpinner.tsx": [
         "./node_modules/@material-ui/core/CircularProgress/index.d.ts",
         "./node_modules/@material-ui/core/Grid/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9523,9 +9568,9 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./src/common/DefaultPage.tsx"
+        "./src/components/DefaultPage.tsx"
       ],
-      "./src/common/ScrollUpButton.tsx": [
+      "./src/components/ScrollUpButton.tsx": [
         "./node_modules/@material-ui/core/Fab/index.d.ts",
         "./node_modules/@material-ui/icons/KeyboardArrowUp.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9536,7 +9581,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/common/SettingsDialog.tsx": [
+      "./src/components/SettingsDialog.tsx": [
         "./node_modules/@material-ui/core/Button/index.d.ts",
         "./node_modules/@material-ui/core/Dialog/index.d.ts",
         "./node_modules/@material-ui/core/DialogActions/index.d.ts",
@@ -9556,7 +9601,7 @@
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx"
       ],
-      "./src/common/ToggleVisibility.tsx": [
+      "./src/components/ToggleVisibility.tsx": [
         "./node_modules/@material-ui/core/IconButton/index.d.ts",
         "./node_modules/@material-ui/core/Typography/index.d.ts",
         "./node_modules/@material-ui/icons/Visibility.d.ts",
@@ -9588,12 +9633,13 @@
         "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./src/configuration.ts",
-        "./src/layout/Layout.tsx",
+        "./src/layout/index.tsx",
         "./src/service-worker.ts",
         "./src/stores/init-stores.ts",
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx",
         "./src/stores/reactions.ts",
+        "./src/themes/page-loader.tsx",
         "./src/utils/axios.ts",
         "./src/utils/logger/index.ts"
       ],
@@ -9613,7 +9659,35 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
-      "./src/layout/Header.tsx": [
+      "./src/interfaces/text.interface.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/csstype/index.d.ts"
+      ],
+      "./src/interfaces/theme.constants.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./src/interfaces/theme.interface.ts": [
+        "./node_modules/@material-ui/core/styles/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/csstype/index.d.ts",
+        "./src/interfaces/text.interface.ts"
+      ],
+      "./src/layout/components/header.tsx": [
         "./node_modules/@material-ui/core/AppBar/index.d.ts",
         "./node_modules/@material-ui/core/Button/index.d.ts",
         "./node_modules/@material-ui/core/IconButton/index.d.ts",
@@ -9641,40 +9715,7 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/mobx-react/dist/index.d.ts"
       ],
-      "./src/layout/Layout.tsx": [
-        "./node_modules/@material-ui/core/CssBaseline/index.d.ts",
-        "./node_modules/@material-ui/core/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/@types/react-router-dom/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/axios/index.d.ts",
-        "./node_modules/mobx-react/dist/index.d.ts",
-        "./node_modules/mobx/lib/mobx.d.ts",
-        "./src/application/Applications.tsx",
-        "./src/client/Clients.tsx",
-        "./src/common/ConnectionErrorBanner.tsx",
-        "./src/common/LoadingSpinner.tsx",
-        "./src/common/ScrollUpButton.tsx",
-        "./src/common/SettingsDialog.tsx",
-        "./src/configuration.ts",
-        "./src/interfaces/interface.ts",
-        "./src/layout/Header.tsx",
-        "./src/layout/Navigation.tsx",
-        "./src/message/Messages.tsx",
-        "./src/plugin/PluginDetailView.tsx",
-        "./src/plugin/Plugins.tsx",
-        "./src/snack/SnackBarHandler.tsx",
-        "./src/stores/inject-stores.interface.ts",
-        "./src/stores/inject-stores.tsx",
-        "./src/user/login.tsx",
-        "./src/user/users.tsx"
-      ],
-      "./src/layout/Navigation.tsx": [
+      "./src/layout/components/navigation.tsx": [
         "./node_modules/@material-ui/core/Divider/index.d.ts",
         "./node_modules/@material-ui/core/Drawer/Drawer.d.ts",
         "./node_modules/@material-ui/core/Drawer/index.d.ts",
@@ -9692,9 +9733,42 @@
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/mobx-react/dist/index.d.ts",
-        "./src/snack/browserNotification.ts",
+        "./src/notifications/browser-notification.handler.ts",
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx"
+      ],
+      "./src/layout/index.tsx": [
+        "./node_modules/@material-ui/core/CssBaseline/index.d.ts",
+        "./node_modules/@material-ui/core/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/axios/index.d.ts",
+        "./node_modules/mobx-react/dist/index.d.ts",
+        "./node_modules/mobx/lib/mobx.d.ts",
+        "./src/client/Clients.tsx",
+        "./src/components/ConnectionErrorBanner.tsx",
+        "./src/components/LoadingSpinner.tsx",
+        "./src/components/ScrollUpButton.tsx",
+        "./src/components/SettingsDialog.tsx",
+        "./src/configuration.ts",
+        "./src/interfaces/interface.ts",
+        "./src/interfaces/theme.constants.ts",
+        "./src/interfaces/theme.interface.ts",
+        "./src/layout/components/header.tsx",
+        "./src/layout/components/navigation.tsx",
+        "./src/notifications/snack-bar.handler.tsx",
+        "./src/pages/login.tsx",
+        "./src/stores/inject-stores.interface.ts",
+        "./src/stores/inject-stores.tsx",
+        "./src/themes/dark.theme.ts",
+        "./src/themes/global.theme.tsx",
+        "./src/user/users.tsx"
       ],
       "./src/message/Message.tsx": [
         "./node_modules/@material-ui/core/IconButton/index.d.ts",
@@ -9709,7 +9783,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/react-markdown/index.d.ts",
-        "./src/common/Container.tsx",
+        "./src/components/Container.tsx",
         "./src/configuration.ts",
         "./src/interfaces/interface.ts",
         "./src/message/extras.ts",
@@ -9731,7 +9805,7 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/mobx-react/dist/index.d.ts",
         "./node_modules/mobx/lib/mobx.d.ts",
-        "./src/common/DefaultPage.tsx",
+        "./src/components/DefaultPage.tsx",
         "./src/interfaces/interface.ts",
         "./src/message/Message.tsx",
         "./src/stores/inject-stores.interface.ts",
@@ -9749,8 +9823,8 @@
         "./node_modules/mobx/lib/mobx.d.ts",
         "./src/configuration.ts",
         "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/base.store.ts"
+        "./src/stores/base.store.ts",
+        "./src/stores/snack-manager.store.ts"
       ],
       "./src/message/WebSocketStore.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9762,8 +9836,8 @@
         "./node_modules/axios/index.d.ts",
         "./src/configuration.ts",
         "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/authentication.store.ts"
+        "./src/stores/auth.store.ts",
+        "./src/stores/snack-manager.store.ts"
       ],
       "./src/message/extras.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9774,78 +9848,19 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./src/interfaces/interface.ts"
       ],
-      "./src/plugin/PluginDetailView.tsx": [
-        "./node_modules/@material-ui/core/Button/index.d.ts",
-        "./node_modules/@material-ui/core/Typography/index.d.ts",
-        "./node_modules/@material-ui/icons/Build.d.ts",
-        "./node_modules/@material-ui/icons/Info.d.ts",
-        "./node_modules/@material-ui/icons/Refresh.d.ts",
-        "./node_modules/@material-ui/icons/Subject.d.ts",
+      "./src/notifications/browser-notification.handler.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/@types/react-router/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/react-codemirror2/index.d.ts",
-        "./node_modules/react-markdown/index.d.ts",
-        "./src/common/Container.tsx",
-        "./src/common/DefaultPage.tsx",
-        "./src/configuration.ts",
+        "./node_modules/@types/notifyjs/index.d.ts",
+        "./node_modules/@types/remove-markdown/index.d.ts",
         "./src/interfaces/interface.ts",
-        "./src/stores/inject-stores.interface.ts",
-        "./src/stores/inject-stores.tsx"
+        "./src/utils/logger/index.ts"
       ],
-      "./src/plugin/PluginStore.ts": [
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/axios/index.d.ts",
-        "./node_modules/mobx/lib/mobx.d.ts",
-        "./src/configuration.ts",
-        "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/base.store.ts"
-      ],
-      "./src/plugin/Plugins.tsx": [
-        "./node_modules/@material-ui/core/Grid/index.d.ts",
-        "./node_modules/@material-ui/core/Paper/index.d.ts",
-        "./node_modules/@material-ui/core/Table/index.d.ts",
-        "./node_modules/@material-ui/core/TableBody/index.d.ts",
-        "./node_modules/@material-ui/core/TableCell/index.d.ts",
-        "./node_modules/@material-ui/core/TableHead/index.d.ts",
-        "./node_modules/@material-ui/core/TableRow/index.d.ts",
-        "./node_modules/@material-ui/core/index.d.ts",
-        "./node_modules/@material-ui/icons/Settings.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/@types/react-router-dom/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/mobx-react/dist/index.d.ts",
-        "./src/common/DefaultPage.tsx",
-        "./src/common/ToggleVisibility.tsx",
-        "./src/interfaces/interface.ts",
-        "./src/stores/inject-stores.interface.ts",
-        "./src/stores/inject-stores.tsx"
-      ],
-      "./src/service-worker.ts": [
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
-      "./src/snack/SnackBarHandler.tsx": [
+      "./src/notifications/snack-bar.handler.tsx": [
         "./node_modules/@material-ui/core/IconButton/index.d.ts",
         "./node_modules/@material-ui/core/Snackbar/index.d.ts",
         "./node_modules/@material-ui/icons/Close.d.ts",
@@ -9861,27 +9876,33 @@
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx"
       ],
-      "./src/snack/SnackManager.ts": [
+      "./src/pages/login.tsx": [
+        "./node_modules/@material-ui/core/Button/index.d.ts",
+        "./node_modules/@material-ui/core/Grid/index.d.ts",
+        "./node_modules/@material-ui/core/TextField/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/mobx/lib/mobx.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/mobx-react/dist/index.d.ts",
+        "./node_modules/mobx/lib/mobx.d.ts",
+        "./src/components/Container.tsx",
+        "./src/components/DefaultPage.tsx",
+        "./src/stores/inject-stores.interface.ts",
+        "./src/stores/inject-stores.tsx"
       ],
-      "./src/snack/browserNotification.ts": [
+      "./src/service-worker.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/@types/notifyjs/index.d.ts",
-        "./node_modules/@types/remove-markdown/index.d.ts",
-        "./src/interfaces/interface.ts"
+        "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
-      "./src/stores/authentication.store.ts": [
+      "./src/stores/auth.store.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
@@ -9895,7 +9916,8 @@
         "./src/configuration.ts",
         "./src/interfaces/constants.ts",
         "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts"
+        "./src/stores/snack-manager.store.ts",
+        "./src/utils/logger/index.ts"
       ],
       "./src/stores/base.store.interface.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9922,14 +9944,11 @@
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./src/application/AppStore.ts",
         "./src/client/ClientStore.ts",
-        "./src/message/MessagesStore.ts",
         "./src/message/WebSocketStore.ts",
-        "./src/plugin/PluginStore.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/authentication.store.ts",
+        "./src/stores/auth.store.ts",
         "./src/stores/inject-stores.interface.ts",
+        "./src/stores/snack-manager.store.ts",
         "./src/stores/user.store.ts"
       ],
       "./src/stores/inject-stores.interface.ts": [
@@ -9939,13 +9958,10 @@
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./src/application/AppStore.ts",
         "./src/client/ClientStore.ts",
-        "./src/message/MessagesStore.ts",
         "./src/message/WebSocketStore.ts",
-        "./src/plugin/PluginStore.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/authentication.store.ts",
+        "./src/stores/auth.store.ts",
+        "./src/stores/snack-manager.store.ts",
         "./src/stores/user.store.ts"
       ],
       "./src/stores/inject-stores.tsx": [
@@ -9967,8 +9983,17 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/mobx/lib/mobx.d.ts",
-        "./src/snack/browserNotification.ts",
+        "./src/notifications/browser-notification.handler.ts",
         "./src/stores/inject-stores.interface.ts"
+      ],
+      "./src/stores/snack-manager.store.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/mobx/lib/mobx.d.ts"
       ],
       "./src/stores/user.store.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9981,8 +10006,49 @@
         "./node_modules/mobx/lib/mobx.d.ts",
         "./src/configuration.ts",
         "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/base.store.ts"
+        "./src/stores/base.store.ts",
+        "./src/stores/snack-manager.store.ts"
+      ],
+      "./src/themes/dark.theme.ts": [
+        "./node_modules/@material-ui/core/styles/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./src/interfaces/theme.interface.ts",
+        "./src/themes/default.text.ts"
+      ],
+      "./src/themes/default.text.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./src/interfaces/theme.interface.ts"
+      ],
+      "./src/themes/global.theme.tsx": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts"
+      ],
+      "./src/themes/page-loader.tsx": [
+        "./node_modules/@tanem/react-nprogress/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/prop-types/index.d.ts",
+        "./node_modules/@types/react-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/types/config.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -10010,6 +10076,25 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/types/react.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/types/styled-components.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts",
+        "./src/interfaces/theme.interface.ts"
+      ],
       "./src/user/add-edit-user.dialog.tsx": [
         "./node_modules/@material-ui/core/Button/index.d.ts",
         "./node_modules/@material-ui/core/Dialog/index.d.ts",
@@ -10027,24 +10112,6 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/user/login.tsx": [
-        "./node_modules/@material-ui/core/Button/index.d.ts",
-        "./node_modules/@material-ui/core/Grid/index.d.ts",
-        "./node_modules/@material-ui/core/TextField/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/mobx-react/dist/index.d.ts",
-        "./node_modules/mobx/lib/mobx.d.ts",
-        "./src/common/Container.tsx",
-        "./src/common/DefaultPage.tsx",
-        "./src/stores/inject-stores.interface.ts",
-        "./src/stores/inject-stores.tsx"
       ],
       "./src/user/users.tsx": [
         "./node_modules/@material-ui/core/Button/index.d.ts",
@@ -10068,8 +10135,8 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/mobx-react/dist/index.d.ts",
         "./node_modules/mobx/lib/mobx.d.ts",
-        "./src/common/ConfirmDialog.tsx",
-        "./src/common/DefaultPage.tsx",
+        "./src/components/ConfirmDialog.tsx",
+        "./src/components/DefaultPage.tsx",
         "./src/interfaces/interface.ts",
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx",
@@ -10084,8 +10151,8 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/axios/index.d.ts",
         "./src/interfaces/constants.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/authentication.store.ts"
+        "./src/stores/auth.store.ts",
+        "./src/stores/snack-manager.store.ts"
       ],
       "./src/utils/logger/index.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -10094,11 +10161,7 @@
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/winston/index.d.ts",
-        "./src/configuration.ts",
-        "./src/utils/logger/logger-transport.ts",
-        "./src/utils/logger/logger.constants.ts",
-        "./src/utils/logger/logger.interface.ts"
+        "./src/utils/logger/logger.ts"
       ],
       "./src/utils/logger/logger-transport.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -10128,6 +10191,19 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/winston/index.d.ts",
         "./src/utils/logger/logger.constants.ts"
+      ],
+      "./src/utils/logger/logger.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/winston/index.d.ts",
+        "./src/configuration.ts",
+        "./src/utils/logger/logger-transport.ts",
+        "./src/utils/logger/logger.constants.ts",
+        "./src/utils/logger/logger.interface.ts"
       ]
     },
     "exportedModulesMap": {
@@ -13555,15 +13631,6 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
-      "./node_modules/@material-ui/icons/Build.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
       "./node_modules/@material-ui/icons/Chat.d.ts": [
         "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -13574,15 +13641,6 @@
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
       "./node_modules/@material-ui/icons/Close.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
-      "./node_modules/@material-ui/icons/CloudUpload.d.ts": [
         "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
@@ -13645,15 +13703,6 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
-      "./node_modules/@material-ui/icons/Info.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
       "./node_modules/@material-ui/icons/KeyboardArrowUp.d.ts": [
         "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -13664,33 +13713,6 @@
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
       "./node_modules/@material-ui/icons/Menu.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
-      "./node_modules/@material-ui/icons/Refresh.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
-      "./node_modules/@material-ui/icons/Settings.d.ts": [
-        "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts"
-      ],
-      "./node_modules/@material-ui/icons/Subject.d.ts": [
         "./node_modules/@material-ui/core/SvgIcon/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
@@ -14035,6 +14057,56 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/@tanem/react-nprogress/dist/NProgress.d.ts": [
+        "./node_modules/@tanem/react-nprogress/dist/types.d.ts",
+        "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@tanem/react-nprogress/dist/index.d.ts": [
+        "./node_modules/@tanem/react-nprogress/dist/NProgress.d.ts",
+        "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts",
+        "./node_modules/@tanem/react-nprogress/dist/withNProgress.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@tanem/react-nprogress/dist/types.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts": [
+        "./node_modules/@tanem/react-nprogress/dist/types.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@tanem/react-nprogress/dist/withNProgress.d.ts": [
+        "./node_modules/@tanem/react-nprogress/dist/types.d.ts",
+        "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./node_modules/@types/anymatch/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
@@ -14163,6 +14235,15 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
+      "./node_modules/@types/hoist-non-react-statics/index.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./node_modules/@types/html-minifier-terser/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
@@ -14172,6 +14253,14 @@
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
       "./node_modules/@types/js-base64/index.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@types/js-cookie/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
@@ -14755,6 +14844,62 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/@types/react-native/BatchedBridge.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@types/react-native/Devtools.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react-native/Devtools.d.ts"
+      ],
+      "./node_modules/@types/react-native/LaunchScreen.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@types/react-native/globals.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@types/react-native/index.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react-native/BatchedBridge.d.ts",
+        "./node_modules/@types/react-native/Devtools.d.ts",
+        "./node_modules/@types/react-native/LaunchScreen.d.ts",
+        "./node_modules/@types/react-native/globals.d.ts",
+        "./node_modules/@types/react-native/legacy-properties.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-native/legacy-properties.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react-native/index.d.ts"
+      ],
       "./node_modules/@types/react-router-dom/index.d.ts": [
         "./node_modules/@types/history/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -14869,6 +15014,17 @@
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@types/styled-components/index.d.ts": [
+        "./node_modules/@types/hoist-non-react-statics/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/csstype/index.d.ts"
       ],
       "./node_modules/@types/tapable/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -15864,16 +16020,6 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
-      "./node_modules/react-codemirror2/index.d.ts": [
-        "./node_modules/@types/codemirror/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./node_modules/react-markdown/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
@@ -16160,28 +16306,13 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/winston-transport/index.d.ts"
       ],
-      "./src/application/AddApplicationDialog.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/application/AppStore.ts": [
-        "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/base.store.ts"
-      ],
-      "./src/application/Applications.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./src/stores/inject-stores.interface.ts"
-      ],
-      "./src/application/UpdateApplicationDialog.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./src/client/AddClientDialog.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/client/ClientStore.ts": [
         "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/base.store.ts"
+        "./src/stores/base.store.ts",
+        "./src/stores/snack-manager.store.ts"
       ],
       "./src/client/Clients.tsx": [
         "./node_modules/@types/react/index.d.ts",
@@ -16190,36 +16321,42 @@
       "./src/client/UpdateClientDialog.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/common/Container.tsx": [
+      "./src/components/Container.tsx": [
         "./node_modules/@material-ui/core/styles/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/common/DefaultPage.tsx": [
+      "./src/components/DefaultPage.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/common/ScrollUpButton.tsx": [
+      "./src/components/ScrollUpButton.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/common/SettingsDialog.tsx": [
+      "./src/components/SettingsDialog.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/stores/inject-stores.interface.ts"
       ],
-      "./src/common/ToggleVisibility.tsx": [
+      "./src/components/ToggleVisibility.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/layout/Header.tsx": [
+      "./src/interfaces/text.interface.ts": [
+        "./node_modules/csstype/index.d.ts"
+      ],
+      "./src/interfaces/theme.interface.ts": [
+        "./node_modules/@material-ui/core/styles/index.d.ts",
+        "./node_modules/csstype/index.d.ts",
+        "./src/interfaces/text.interface.ts"
+      ],
+      "./src/layout/components/header.tsx": [
         "./node_modules/@material-ui/core/index.d.ts",
         "./node_modules/@material-ui/core/styles/createBreakpoints.d.ts",
         "./node_modules/@material-ui/core/styles/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/layout/Layout.tsx": [
+      "./src/layout/components/navigation.tsx": [
         "./node_modules/@material-ui/core/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./src/stores/inject-stores.interface.ts"
+        "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/layout/Navigation.tsx": [
-        "./node_modules/@material-ui/core/index.d.ts",
+      "./src/layout/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/stores/inject-stores.interface.ts"
       ],
@@ -16236,42 +16373,33 @@
       "./src/message/MessagesStore.ts": [
         "./node_modules/mobx-utils/lib/mobx-utils.d.ts",
         "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/base.store.ts"
+        "./src/stores/base.store.ts",
+        "./src/stores/snack-manager.store.ts"
       ],
       "./src/message/WebSocketStore.ts": [
         "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/authentication.store.ts"
+        "./src/stores/auth.store.ts",
+        "./src/stores/snack-manager.store.ts"
       ],
       "./src/message/extras.ts": [
         "./src/interfaces/interface.ts"
       ],
-      "./src/plugin/PluginDetailView.tsx": [
-        "./node_modules/@types/react-router/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./src/stores/inject-stores.interface.ts"
-      ],
-      "./src/plugin/PluginStore.ts": [
-        "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/base.store.ts"
-      ],
-      "./src/plugin/Plugins.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./src/stores/inject-stores.interface.ts"
-      ],
-      "./src/snack/SnackBarHandler.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./src/stores/inject-stores.interface.ts"
-      ],
-      "./src/snack/browserNotification.ts": [
+      "./src/notifications/browser-notification.handler.ts": [
         "./src/interfaces/interface.ts"
       ],
-      "./src/stores/authentication.store.ts": [
+      "./src/notifications/snack-bar.handler.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/stores/inject-stores.interface.ts"
+      ],
+      "./src/pages/login.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/stores/inject-stores.interface.ts"
+      ],
+      "./src/stores/auth.store.ts": [
         "./node_modules/axios/index.d.ts",
         "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts"
+        "./src/stores/snack-manager.store.ts",
+        "./src/utils/logger/logger.interface.ts"
       ],
       "./src/stores/base.store.ts": [
         "./src/stores/base.store.interface.ts"
@@ -16280,13 +16408,10 @@
         "./src/stores/inject-stores.interface.ts"
       ],
       "./src/stores/inject-stores.interface.ts": [
-        "./src/application/AppStore.ts",
         "./src/client/ClientStore.ts",
-        "./src/message/MessagesStore.ts",
         "./src/message/WebSocketStore.ts",
-        "./src/plugin/PluginStore.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/authentication.store.ts",
+        "./src/stores/auth.store.ts",
+        "./src/stores/snack-manager.store.ts",
         "./src/stores/user.store.ts"
       ],
       "./src/stores/inject-stores.tsx": [
@@ -16298,8 +16423,20 @@
       ],
       "./src/stores/user.store.ts": [
         "./src/interfaces/interface.ts",
-        "./src/snack/SnackManager.ts",
-        "./src/stores/base.store.ts"
+        "./src/stores/base.store.ts",
+        "./src/stores/snack-manager.store.ts"
+      ],
+      "./src/themes/dark.theme.ts": [
+        "./src/interfaces/theme.interface.ts"
+      ],
+      "./src/themes/default.text.ts": [
+        "./src/interfaces/theme.interface.ts"
+      ],
+      "./src/themes/global.theme.tsx": [
+        "./node_modules/@types/styled-components/index.d.ts"
+      ],
+      "./src/themes/page-loader.tsx": [
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/types/config.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -16327,12 +16464,27 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/user/add-edit-user.dialog.tsx": [
+      "./src/types/react.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/user/login.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./src/stores/inject-stores.interface.ts"
+      "./src/types/styled-components.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts",
+        "./src/interfaces/theme.interface.ts"
+      ],
+      "./src/user/add-edit-user.dialog.tsx": [
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/user/users.tsx": [
         "./node_modules/@material-ui/core/styles/index.d.ts",
@@ -16340,12 +16492,11 @@
         "./src/stores/inject-stores.interface.ts"
       ],
       "./src/utils/axios.ts": [
-        "./src/snack/SnackManager.ts",
-        "./src/stores/authentication.store.ts"
+        "./src/stores/auth.store.ts",
+        "./src/stores/snack-manager.store.ts"
       ],
       "./src/utils/logger/index.ts": [
-        "./src/utils/logger/logger.constants.ts",
-        "./src/utils/logger/logger.interface.ts"
+        "./src/utils/logger/logger.ts"
       ],
       "./src/utils/logger/logger-transport.ts": [
         "./node_modules/winston-transport/index.d.ts",
@@ -16354,6 +16505,10 @@
       "./src/utils/logger/logger.interface.ts": [
         "./node_modules/winston/index.d.ts",
         "./src/utils/logger/logger.constants.ts"
+      ],
+      "./src/utils/logger/logger.ts": [
+        "./src/utils/logger/logger.constants.ts",
+        "./src/utils/logger/logger.interface.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -16672,22 +16827,16 @@
       "./node_modules/@material-ui/core/withWidth/withWidth.d.ts",
       "./node_modules/@material-ui/icons/AccountCircle.d.ts",
       "./node_modules/@material-ui/icons/Apps.d.ts",
-      "./node_modules/@material-ui/icons/Build.d.ts",
       "./node_modules/@material-ui/icons/Chat.d.ts",
       "./node_modules/@material-ui/icons/Close.d.ts",
-      "./node_modules/@material-ui/icons/CloudUpload.d.ts",
       "./node_modules/@material-ui/icons/Delete.d.ts",
       "./node_modules/@material-ui/icons/DevicesOther.d.ts",
       "./node_modules/@material-ui/icons/Edit.d.ts",
       "./node_modules/@material-ui/icons/ExitToApp.d.ts",
       "./node_modules/@material-ui/icons/GitHub.d.ts",
       "./node_modules/@material-ui/icons/Highlight.d.ts",
-      "./node_modules/@material-ui/icons/Info.d.ts",
       "./node_modules/@material-ui/icons/KeyboardArrowUp.d.ts",
       "./node_modules/@material-ui/icons/Menu.d.ts",
-      "./node_modules/@material-ui/icons/Refresh.d.ts",
-      "./node_modules/@material-ui/icons/Settings.d.ts",
-      "./node_modules/@material-ui/icons/Subject.d.ts",
       "./node_modules/@material-ui/icons/SupervisorAccount.d.ts",
       "./node_modules/@material-ui/icons/Visibility.d.ts",
       "./node_modules/@material-ui/icons/VisibilityOff.d.ts",
@@ -16723,6 +16872,11 @@
       "./node_modules/@material-ui/system/index.d.ts",
       "./node_modules/@material-ui/system/node_modules/csstype/index.d.ts",
       "./node_modules/@material-ui/types/index.d.ts",
+      "./node_modules/@tanem/react-nprogress/dist/NProgress.d.ts",
+      "./node_modules/@tanem/react-nprogress/dist/index.d.ts",
+      "./node_modules/@tanem/react-nprogress/dist/types.d.ts",
+      "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts",
+      "./node_modules/@tanem/react-nprogress/dist/withNProgress.d.ts",
       "./node_modules/@types/anymatch/index.d.ts",
       "./node_modules/@types/codemirror/index.d.ts",
       "./node_modules/@types/color-name/index.d.ts",
@@ -16737,8 +16891,10 @@
       "./node_modules/@types/history/createHashHistory.d.ts",
       "./node_modules/@types/history/createMemoryHistory.d.ts",
       "./node_modules/@types/history/index.d.ts",
+      "./node_modules/@types/hoist-non-react-statics/index.d.ts",
       "./node_modules/@types/html-minifier-terser/index.d.ts",
       "./node_modules/@types/js-base64/index.d.ts",
+      "./node_modules/@types/js-cookie/index.d.ts",
       "./node_modules/@types/json-schema/index.d.ts",
       "./node_modules/@types/json5/index.d.ts",
       "./node_modules/@types/minimatch/index.d.ts",
@@ -16799,6 +16955,12 @@
       "./node_modules/@types/prop-types/index.d.ts",
       "./node_modules/@types/react-dom/index.d.ts",
       "./node_modules/@types/react-infinite/index.d.ts",
+      "./node_modules/@types/react-native/BatchedBridge.d.ts",
+      "./node_modules/@types/react-native/Devtools.d.ts",
+      "./node_modules/@types/react-native/LaunchScreen.d.ts",
+      "./node_modules/@types/react-native/globals.d.ts",
+      "./node_modules/@types/react-native/index.d.ts",
+      "./node_modules/@types/react-native/legacy-properties.d.ts",
       "./node_modules/@types/react-router-dom/index.d.ts",
       "./node_modules/@types/react-router/index.d.ts",
       "./node_modules/@types/react-transition-group/CSSTransition.d.ts",
@@ -16811,6 +16973,7 @@
       "./node_modules/@types/react/index.d.ts",
       "./node_modules/@types/remove-markdown/index.d.ts",
       "./node_modules/@types/source-list-map/index.d.ts",
+      "./node_modules/@types/styled-components/index.d.ts",
       "./node_modules/@types/tapable/index.d.ts",
       "./node_modules/@types/tern/index.d.ts",
       "./node_modules/@types/tern/lib/infer/index.d.ts",
@@ -16915,7 +17078,6 @@
       "./node_modules/mobx/lib/utils/iterable.d.ts",
       "./node_modules/mobx/lib/utils/utils.d.ts",
       "./node_modules/popper.js/index.d.ts",
-      "./node_modules/react-codemirror2/index.d.ts",
       "./node_modules/react-markdown/index.d.ts",
       "./node_modules/source-map/source-map.d.ts",
       "./node_modules/typescript/lib/lib.dom.d.ts",
@@ -16950,60 +17112,298 @@
       "./node_modules/winston/index.d.ts",
       "./node_modules/winston/lib/winston/config/index.d.ts",
       "./node_modules/winston/lib/winston/transports/index.d.ts",
-      "./src/application/AddApplicationDialog.tsx",
-      "./src/application/AppStore.ts",
-      "./src/application/Applications.tsx",
-      "./src/application/UpdateApplicationDialog.tsx",
       "./src/client/AddClientDialog.tsx",
       "./src/client/ClientStore.ts",
       "./src/client/Clients.tsx",
       "./src/client/UpdateClientDialog.tsx",
-      "./src/common/ConfirmDialog.tsx",
-      "./src/common/ConnectionErrorBanner.tsx",
-      "./src/common/Container.tsx",
-      "./src/common/DefaultPage.tsx",
-      "./src/common/LoadingSpinner.tsx",
-      "./src/common/ScrollUpButton.tsx",
-      "./src/common/SettingsDialog.tsx",
-      "./src/common/ToggleVisibility.tsx",
+      "./src/components/ConfirmDialog.tsx",
+      "./src/components/ConnectionErrorBanner.tsx",
+      "./src/components/Container.tsx",
+      "./src/components/DefaultPage.tsx",
+      "./src/components/LoadingSpinner.tsx",
+      "./src/components/ScrollUpButton.tsx",
+      "./src/components/SettingsDialog.tsx",
+      "./src/components/ToggleVisibility.tsx",
       "./src/configuration.ts",
       "./src/index.tsx",
       "./src/interfaces/constants.ts",
       "./src/interfaces/interface.ts",
-      "./src/layout/Header.tsx",
-      "./src/layout/Layout.tsx",
-      "./src/layout/Navigation.tsx",
+      [
+        "./src/interfaces/text.interface.ts",
+        [
+          {
+            "file": "./src/interfaces/text.interface.ts",
+            "start": 9,
+            "length": 18,
+            "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'LineHeightProperty'.",
+            "category": 1,
+            "code": 2305
+          },
+          {
+            "file": "./src/interfaces/text.interface.ts",
+            "start": 29,
+            "length": 18,
+            "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'FontWeightProperty'.",
+            "category": 1,
+            "code": 2305
+          },
+          {
+            "file": "./src/interfaces/text.interface.ts",
+            "start": 49,
+            "length": 16,
+            "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'FontSizeProperty'.",
+            "category": 1,
+            "code": 2305
+          },
+          {
+            "file": "./src/interfaces/text.interface.ts",
+            "start": 67,
+            "length": 13,
+            "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'ColorProperty'.",
+            "category": 1,
+            "code": 2305
+          }
+        ]
+      ],
+      "./src/interfaces/theme.constants.ts",
+      [
+        "./src/interfaces/theme.interface.ts",
+        [
+          {
+            "file": "./src/interfaces/theme.interface.ts",
+            "start": 58,
+            "length": 13,
+            "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'ColorProperty'.",
+            "category": 1,
+            "code": 2305
+          },
+          {
+            "file": "./src/interfaces/theme.interface.ts",
+            "start": 73,
+            "length": 16,
+            "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'MinWidthProperty'.",
+            "category": 1,
+            "code": 2305
+          },
+          {
+            "file": "./src/interfaces/theme.interface.ts",
+            "start": 91,
+            "length": 13,
+            "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'WidthProperty'.",
+            "category": 1,
+            "code": 2305
+          }
+        ]
+      ],
+      "./src/layout/components/header.tsx",
+      "./src/layout/components/navigation.tsx",
+      "./src/layout/index.tsx",
       "./src/message/Message.tsx",
-      "./src/message/Messages.tsx",
+      [
+        "./src/message/Messages.tsx",
+        [
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 806,
+            "length": 28,
+            "code": 2344,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type '\"messagesStore\" | \"appStore\"' does not satisfy the constraint 'AvailableStores.AUTH_STORE | AvailableStores.SNACK_MANAGER | \"userStore\" | \"clientStore\" | \"wsStore\"'.",
+              "category": 1,
+              "code": 2344,
+              "next": [
+                {
+                  "messageText": "Type '\"messagesStore\"' is not assignable to type 'AvailableStores.AUTH_STORE | AvailableStores.SNACK_MANAGER | \"userStore\" | \"clientStore\" | \"wsStore\"'.",
+                  "category": 1,
+                  "code": 2322
+                }
+              ]
+            }
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 1242,
+            "length": 28,
+            "code": 2344,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type '\"messagesStore\" | \"appStore\"' does not satisfy the constraint 'AvailableStores.AUTH_STORE | AvailableStores.SNACK_MANAGER | \"userStore\" | \"clientStore\" | \"wsStore\"'.",
+              "category": 1,
+              "code": 2344,
+              "next": [
+                {
+                  "messageText": "Type '\"messagesStore\"' is not assignable to type 'AvailableStores.AUTH_STORE | AvailableStores.SNACK_MANAGER | \"userStore\" | \"clientStore\" | \"wsStore\"'.",
+                  "category": 1,
+                  "code": 2322
+                }
+              ]
+            }
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 1701,
+            "length": 3,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'get' does not exist on type 'unknown'."
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 1746,
+            "length": 11,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'canLoadMore' does not exist on type 'unknown'."
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 1791,
+            "length": 7,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'getName' does not exist on type 'unknown'."
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 2071,
+            "length": 12,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'refreshByApp' does not exist on type 'unknown'."
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 2289,
+            "length": 11,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'removeByApp' does not exist on type 'unknown'."
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 3133,
+            "length": 15,
+            "code": 2344,
+            "category": 1,
+            "messageText": "Type '\"messagesStore\"' does not satisfy the constraint 'AvailableStores.AUTH_STORE | AvailableStores.SNACK_MANAGER | \"userStore\" | \"clientStore\" | \"wsStore\"'."
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 3254,
+            "length": 6,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'exists' does not exist on type 'unknown'."
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 3297,
+            "length": 8,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'loadMore' does not exist on type 'unknown'."
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 3469,
+            "length": 12,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'removeSingle' does not exist on type 'unknown'."
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 4086,
+            "length": 11,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'canLoadMore' does not exist on type 'unknown'."
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 4171,
+            "length": 8,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'loadMore' does not exist on type 'unknown'."
+          },
+          {
+            "file": "./src/message/Messages.tsx",
+            "start": 4458,
+            "length": 15,
+            "code": 2345,
+            "category": 1,
+            "messageText": "Argument of type '\"messagesStore\"' is not assignable to parameter of type 'AvailableStores.AUTH_STORE | AvailableStores.SNACK_MANAGER | \"userStore\" | \"clientStore\" | \"wsStore\"'."
+          }
+        ]
+      ],
       "./src/message/MessagesStore.ts",
       "./src/message/WebSocketStore.ts",
       "./src/message/extras.ts",
-      "./src/plugin/PluginDetailView.tsx",
-      "./src/plugin/PluginStore.ts",
-      "./src/plugin/Plugins.tsx",
+      "./src/notifications/browser-notification.handler.ts",
+      "./src/notifications/snack-bar.handler.tsx",
+      "./src/pages/login.tsx",
       "./src/service-worker.ts",
-      "./src/snack/SnackBarHandler.tsx",
-      "./src/snack/SnackManager.ts",
-      "./src/snack/browserNotification.ts",
-      "./src/stores/authentication.store.ts",
+      "./src/stores/auth.store.ts",
       "./src/stores/base.store.interface.ts",
       "./src/stores/base.store.ts",
       "./src/stores/init-stores.ts",
       "./src/stores/inject-stores.interface.ts",
       "./src/stores/inject-stores.tsx",
       "./src/stores/reactions.ts",
+      "./src/stores/snack-manager.store.ts",
       "./src/stores/user.store.ts",
+      "./src/themes/dark.theme.ts",
+      "./src/themes/default.text.ts",
+      "./src/themes/global.theme.tsx",
+      [
+        "./src/themes/page-loader.tsx",
+        [
+          {
+            "file": "./src/themes/page-loader.tsx",
+            "start": 2149,
+            "length": 29,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type '{ opacity: number; pointerEvents: \"none\"; transition: string; position: \"absolute\"; width: string; height: string; 'background-color': string; 'z-index': string; 'backdrop-filter': string; }' is not assignable to type 'CSSProperties'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Object literal may only specify known properties, and ''background-color'' does not exist in type 'CSSProperties'.",
+                  "category": 1,
+                  "code": 2353
+                }
+              ]
+            },
+            "relatedInformation": [
+              {
+                "file": "./node_modules/@types/react/index.d.ts",
+                "start": 77013,
+                "length": 5,
+                "messageText": "The expected type comes from property 'style' which is declared here on type 'DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>'",
+                "category": 3,
+                "code": 6500
+              }
+            ]
+          }
+        ]
+      ],
       "./src/types/config.d.ts",
       "./src/types/notifyjs.d.ts",
       "./src/types/react-timeago.d.ts",
+      "./src/types/react.d.ts",
+      "./src/types/styled-components.d.ts",
       "./src/user/add-edit-user.dialog.tsx",
-      "./src/user/login.tsx",
       "./src/user/users.tsx",
       "./src/utils/axios.ts",
       "./src/utils/logger/index.ts",
       "./src/utils/logger/logger-transport.ts",
       "./src/utils/logger/logger.constants.ts",
-      "./src/utils/logger/logger.interface.ts"
+      "./src/utils/logger/logger.interface.ts",
+      "./src/utils/logger/logger.ts"
     ]
   },
   "version": "4.0.2"

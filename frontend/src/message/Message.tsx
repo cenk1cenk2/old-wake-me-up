@@ -7,7 +7,7 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import TimeAgo from 'react-timeago'
 
-import Container from '../common/Container'
+import Container from '../components/Container'
 import * as config from '../configuration'
 import { RenderMode, contentType } from './extras'
 

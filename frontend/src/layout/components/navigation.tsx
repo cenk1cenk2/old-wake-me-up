@@ -10,9 +10,9 @@ import { observer } from 'mobx-react'
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-import { mayAllowPermission, requestPermission } from '../snack/browserNotification'
-import { inject } from '../stores/inject-stores'
-import { Stores } from '../stores/inject-stores.interface'
+import { mayAllowPermission, requestPermission } from '../../notifications/browser-notification.handler'
+import { inject } from '@stores/inject-stores'
+import { Stores } from '@stores/inject-stores.interface'
 
 const styles = (theme: Theme): StyleRules<'drawerPaper' | 'toolbar' | 'link'> => ({
   drawerPaper: {
@@ -37,26 +37,12 @@ interface IProps {
 }
 
 @observer
-class Navigation extends Component<IProps & Styles & Stores<'appStore'>, { showRequestNotification: boolean }> {
+class Navigation extends Component<IProps & Styles, { showRequestNotification: boolean }> {
   public state = { showRequestNotification: mayAllowPermission() }
 
   public render () {
-    const { classes, loggedIn, appStore, navOpen, setNavOpen } = this.props
+    const { classes, loggedIn, navOpen, setNavOpen } = this.props
     const { showRequestNotification } = this.state
-    const apps = appStore.getItems()
-
-    const userApps =
-      apps.length === 0
-        ? null
-        : apps.map((app) => {
-          return (
-            <Link onClick={() => setNavOpen(false)} className={`${classes.link} item`} to={'/messages/' + app.id} key={app.id}>
-              <ListItem button>
-                <ListItemText primary={app.name} />
-              </ListItem>
-            </Link>
-          )
-        })
 
     const placeholderItems = [
       <ListItem button disabled key={-1}>
@@ -76,7 +62,7 @@ class Navigation extends Component<IProps & Styles & Stores<'appStore'>, { showR
           </ListItem>
         </Link>
         <Divider />
-        <div>{loggedIn ? userApps : placeholderItems}</div>
+        <div>{loggedIn ? placeholderItems : placeholderItems}</div>
         <Divider />
         <Typography align="center" style={{ marginTop: 10 }}>
           {showRequestNotification ? (
@@ -115,4 +101,4 @@ const ResponsiveDrawer: React.FC<DrawerProps & { navOpen: boolean, setNavOpen: (
   )
 }
 
-export default withStyles(styles, { withTheme: true })(inject('appStore')(Navigation))
+export default withStyles(styles, { withTheme: true })(Navigation)

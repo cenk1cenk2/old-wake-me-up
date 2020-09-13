@@ -2,20 +2,23 @@ import { IMessage } from '@interfaces/interface'
 import Notify from 'notifyjs'
 import removeMarkdown from 'remove-markdown'
 
+import { Logger } from '@utils/logger'
+
 export function mayAllowPermission (): boolean {
   return Notify.needsPermission && Notify.isSupported() && Notification.permission !== 'denied'
 }
 
-export function requestPermission () {
+export function requestPermission (): void {
+  const logger = new Logger('browser-notification').log
   if (Notify.needsPermission && Notify.isSupported()) {
     Notify.requestPermission(
-      () => console.log('granted notification permissions'),
-      () => console.log('notification permission denied')
+      () => logger.info('Granted browser notification permissions.'),
+      () => logger.warn('Browser notification permission denied.')
     )
   }
 }
 
-export function notifyNewMessage (msg: IMessage) {
+export function notifyNewMessage (msg: IMessage): void {
   const notify = new Notify(msg.title, {
     body: removeMarkdown(msg.message),
     icon: msg.image,
@@ -23,10 +26,11 @@ export function notifyNewMessage (msg: IMessage) {
     notifyClick: closeAndFocus,
     notifyShow: closeAfterTimeout
   })
+
   notify.show()
 }
 
-function closeAndFocus (event: Event) {
+function closeAndFocus (event: Event): void {
   if (window.parent) {
     window.parent.focus()
   }
@@ -36,7 +40,7 @@ function closeAndFocus (event: Event) {
   target.close()
 }
 
-function closeAfterTimeout (event: Event) {
+function closeAfterTimeout (event: Event): void {
   setTimeout(() => {
     const target = event.target as Notification
     target.close()

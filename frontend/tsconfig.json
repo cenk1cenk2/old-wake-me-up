@@ -21,9 +21,11 @@
     "rootDir": "./src/",
     "baseUrl": "./src/",
     "paths": {
+      "@root/*": ["./*"],
       "@interfaces/*": ["interfaces/*"],
       "@utils/*": ["utils/*"],
-      "@stores/*": ["stores/*"]
+      "@stores/*": ["stores/*"],
+      "@themes/*": ["themes/*"]
     }
   },
   "exclude": ["node_modules"],

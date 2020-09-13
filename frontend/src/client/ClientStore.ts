@@ -3,7 +3,7 @@ import axios from 'axios'
 import { action } from 'mobx'
 
 import * as config from '../configuration'
-import { SnackReporter } from '../snack/SnackManager'
+import { SnackReporter } from '@stores/snack-manager.store'
 import { BaseStore } from '../stores/base.store'
 
 export class ClientStore extends BaseStore<IClient> {

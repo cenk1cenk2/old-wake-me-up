@@ -69,7 +69,7 @@ interface IProps extends Styles {
   name: string
   admin: boolean
   version: string
-  toggleTheme: VoidFunction
+  // toggleTheme: VoidFunction
   showSettings: VoidFunction
   logout: VoidFunction
   style: CSSProperties
@@ -80,7 +80,7 @@ interface IProps extends Styles {
 @observer
 class Header extends Component<IProps> {
   public render () {
-    const { classes, version, name, loggedIn, admin, toggleTheme, logout, style, setNavOpen, width } = this.props
+    const { classes, version, name, loggedIn, admin, logout, style, setNavOpen, width } = this.props
 
     const position = width === 'xs' ? 'sticky' : 'fixed'
 
@@ -101,10 +101,6 @@ class Header extends Component<IProps> {
           </div>
           {loggedIn && this.renderButtons(name, admin, logout, width, setNavOpen)}
           <div>
-            <IconButton onClick={toggleTheme} color="inherit">
-              <Highlight />
-            </IconButton>
-
             <a href="https://github.com/gotify/server" className={classes.link} target="_blank" rel="noopener noreferrer">
               <IconButton color="inherit">
                 <GitHubIcon />
@@ -128,14 +124,8 @@ class Header extends Component<IProps> {
             <ResponsiveButton icon={<SupervisorAccount />} label="users" width={width} color="inherit" />
           </Link>
         )}
-        <Link className={classes.link} to="/applications" id="navigate-apps">
-          <ResponsiveButton icon={<Chat />} label="apps" width={width} color="inherit" />
-        </Link>
         <Link className={classes.link} to="/clients" id="navigate-clients">
           <ResponsiveButton icon={<DevicesOther />} label="clients" width={width} color="inherit" />
-        </Link>
-        <Link className={classes.link} to="/plugins" id="navigate-plugins">
-          <ResponsiveButton icon={<Apps />} label="plugins" width={width} color="inherit" />
         </Link>
         <ResponsiveButton icon={<AccountCircle />} label={name} onClick={showSettings} id="changepw" width={width} color="inherit" />
         <ResponsiveButton icon={<ExitToApp />} label="Logout" onClick={logout} id="logout" width={width} color="inherit" />

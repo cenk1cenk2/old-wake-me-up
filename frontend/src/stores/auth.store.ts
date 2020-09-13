@@ -5,8 +5,9 @@ import { detect } from 'detect-browser'
 import { Base64 } from 'js-base64'
 import { observable } from 'mobx'
 
-import * as config from '../configuration'
-import { SnackReporter } from '../snack/SnackManager'
+import * as configuration from '@root/configuration'
+import { SnackManager } from '@stores/snack-manager.store'
+import { Logger } from '@utils/logger'
 
 export class AuthStore {
   @observable
@@ -21,11 +22,13 @@ export class AuthStore {
   }
   @observable
   public connectionErrorMessage: string | null = null
+  protected logger = new Logger(this.constructor.name).log
+  private config = configuration.dump()
   private tokenCache: string | null = null
   private reconnectTimeoutId: number | null = null
   private reconnectTime = 7500
 
-  public constructor (private readonly snack: SnackReporter) {}
+  public constructor (private readonly snack: SnackManager) {}
 
   public token (): string | null {
     if (this.tokenCache !== null) {
@@ -48,13 +51,13 @@ export class AuthStore {
 
     try {
       const response = await axios.create().request({
-        url: config.get('url') + 'client',
+        url: this.config.url + 'client',
         method: 'POST',
         data: { name },
         headers: { Authorization: 'Basic ' + Base64.encode(username + ':' + password) }
       })
 
-      this.snack(`A client named '${name}' was created for your session.`)
+      this.snack.show(`A client named '${name}' was created for your session.`)
       this.setToken(response.data.token)
 
       try {
@@ -63,11 +66,11 @@ export class AuthStore {
         this.loggedIn = true
       } catch {
         this.authenticating = false
-        console.log('create client succeeded, but authenticated with given token failed')
+        this.logger.warn('Creating client succeeded, but authenticated with given token failed.')
       }
     } catch (e) {
       this.authenticating = false
-      return this.snack('Login failed')
+      return this.snack.show('Login failed.')
     }
   }
 
@@ -77,7 +80,7 @@ export class AuthStore {
     }
 
     try {
-      const response = await axios.create().get(config.get('url') + 'current/user', { headers: { [GeneralConstants.AUTHENTICATION_HEADER]: this.token() } })
+      const response = await axios.create().get(this.config.url + 'current/user', { headers: { [GeneralConstants.AUTHENTICATION_HEADER]: this.token() } })
 
       this.user = response.data
       this.loggedIn = true
@@ -108,12 +111,12 @@ export class AuthStore {
 
   public async logout (): Promise<void> {
     try {
-      const response = await axios.get(config.get('url') + 'client')
+      const response = await axios.get(this.config.url + 'client')
 
       response.data
         .filter((client) => client.token === this.tokenCache)
         .forEach((client) => {
-          return axios.delete(config.get('url') + 'client/' + client.id)
+          return axios.delete(this.config.url + 'client/' + client.id)
         })
     } finally {
       window.localStorage.removeItem(GeneralConstants.TOKEN_NAME)
@@ -123,13 +126,13 @@ export class AuthStore {
   }
 
   public changePassword (pass: string): void {
-    axios.post(config.get('url') + 'current/user/password', { pass }).then(() => this.snack('Password changed'))
+    axios.post(this.config.url + 'current/user/password', { pass }).then(() => this.snack.show('Password changed.'))
   }
 
   public tryReconnect (quiet = false): void {
     this.tryAuthenticate().catch(() => {
       if (!quiet) {
-        this.snack('Reconnect failed')
+        this.snack.show('Reconnect failed.')
       }
     })
   }
