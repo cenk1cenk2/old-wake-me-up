@@ -48,5 +48,4 @@ export class UserStore extends BaseStore<IUser> {
 
     this.snack('User deleted.')
   }
-
 }

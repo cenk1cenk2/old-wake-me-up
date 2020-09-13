@@ -2,9 +2,9 @@ import { IClient } from '@interfaces/interface'
 import axios from 'axios'
 import { action } from 'mobx'
 
-import { BaseStore } from '../stores/base.store'
 import * as config from '../configuration'
 import { SnackReporter } from '../snack/SnackManager'
+import { BaseStore } from '../stores/base.store'
 
 export class ClientStore extends BaseStore<IClient> {
   public constructor (private readonly snack: SnackReporter) {

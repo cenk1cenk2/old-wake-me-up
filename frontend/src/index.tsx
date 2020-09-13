@@ -5,12 +5,12 @@ import 'typeface-roboto'
 import { initiateConfig } from './configuration'
 import Layout from './layout/Layout'
 import registerServiceWorker from './service-worker'
-import { initStores } from './stores/init-stores'
-import { InjectProvider } from './stores/inject-stores'
-import { AvailableStores } from './stores/inject-stores.interface'
-import { registerReactions } from './stores/reactions'
-import { Logger } from './utils/logger'
+import { initStores } from '@stores/init-stores'
+import { InjectProvider } from '@stores/inject-stores'
+import { AvailableStores } from '@stores/inject-stores.interface'
+import { registerReactions } from '@stores/reactions'
 import { initAxios } from '@utils/axios'
+import { Logger } from '@utils/logger'
 
 function bootstrap (): void {
   initiateConfig()

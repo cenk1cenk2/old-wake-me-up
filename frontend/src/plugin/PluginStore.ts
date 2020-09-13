@@ -2,9 +2,9 @@ import { IPlugin } from '@interfaces/interface'
 import axios from 'axios'
 import { action } from 'mobx'
 
-import { BaseStore } from '../stores/base.store'
 import * as config from '../configuration'
 import { SnackReporter } from '../snack/SnackManager'
+import { BaseStore } from '../stores/base.store'
 
 export class PluginStore extends BaseStore<IPlugin> {
   public onDelete: () => void = () => {}

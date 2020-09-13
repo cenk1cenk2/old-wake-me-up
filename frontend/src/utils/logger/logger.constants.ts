@@ -7,5 +7,5 @@ export enum LogLevels {
 }
 
 export enum LoggerConstants {
-  DEFAULT_LOGGER = 'default',
+  DEFAULT_LOGGER = 'default'
 }

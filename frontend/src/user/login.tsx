@@ -7,15 +7,15 @@ import React, { Component, FormEvent } from 'react'
 
 import Container from '../common/Container'
 import DefaultPage from '../common/DefaultPage'
-import { inject } from '../stores/inject-stores'
-import { Stores, AvailableStores } from '../stores/inject-stores.interface'
+import { inject } from '@stores/inject-stores'
+import { Stores, AvailableStores } from '@stores/inject-stores.interface'
 
 @observer
 class Login extends Component<Stores<AvailableStores.AUTH_STORE>> {
   @observable
-  private username = ''
+  private username: string
   @observable
-  private password = ''
+  private password: string
 
   public render () {
     const { username, password } = this

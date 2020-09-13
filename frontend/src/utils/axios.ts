@@ -2,7 +2,7 @@ import { GeneralConstants } from '@interfaces/constants'
 import axios from 'axios'
 
 import { SnackReporter } from '../snack/SnackManager'
-import { AuthStore } from '../stores/authentication.store'
+import { AuthStore } from '@stores/authentication.store'
 
 export function initAxios (authenticationStore: AuthStore, snack: SnackReporter): void {
   axios.interceptors.request.use((config) => {

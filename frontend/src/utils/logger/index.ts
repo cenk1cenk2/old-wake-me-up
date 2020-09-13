@@ -1,10 +1,9 @@
 import * as config from 'configuration'
-import figures from 'figures'
 import winston, { format } from 'winston'
 
-import { BrowserConsole } from './logger-transport'
-import { LoggerConstants, LogLevels } from './logger.constants'
-import { ILogger, LoggerFormat } from './logger.interface'
+import { BrowserConsole } from '@utils/logger/logger-transport'
+import { LoggerConstants, LogLevels } from '@utils/logger/logger.constants'
+import { ILogger, LoggerFormat } from '@utils/logger/logger.interface'
 
 export class Logger {
   static readonly levels = {
@@ -29,7 +28,6 @@ export class Logger {
   public getInstance (): ILogger {
     if (this.id ? !winston.loggers.has(this.id) : !winston.loggers.has(LoggerConstants.DEFAULT_LOGGER)) {
       this.initiateLogger()
-
     }
 
     if (this.id) {
@@ -65,12 +63,10 @@ export class Logger {
       levels: Logger.levels,
       format: format.combine(format.splat(), format.json({ space: 2 }), format.prettyPrint(), logFormat),
       transports: [
-        new BrowserConsole(
-          {
-            level: this.loglevel || LogLevels.debug,
-            silent: this.loglevel === LogLevels.silent
-          },
-        )
+        new BrowserConsole({
+          level: this.loglevel || LogLevels.debug,
+          silent: this.loglevel === LogLevels.silent
+        })
       ]
     })
 

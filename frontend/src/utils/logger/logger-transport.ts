@@ -4,13 +4,6 @@ import winston from 'winston'
 import TransportStream from 'winston-transport'
 
 export class BrowserConsole extends TransportStream {
-  private methods = {
-    debug: 'debug',
-    error: 'error',
-    info: 'info',
-    warn: 'warn'
-  }
-
   constructor (opts?: TransportStream.TransportStreamOptions) {
     super(opts)
 
@@ -26,11 +19,10 @@ export class BrowserConsole extends TransportStream {
     })
 
     const { [MESSAGE]: message, [LEVEL]: level } = logEntry
-    const mappedMethod = this.methods[level]
 
     if (Object.getOwnPropertySymbols(logEntry).length === 2)
-    // eslint-disable-next-line no-console
-      console[mappedMethod](message)
+      // eslint-disable-next-line no-console
+      console[level](message)
     else {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
@@ -43,10 +35,10 @@ export class BrowserConsole extends TransportStream {
 
       if (args && Object.keys(args).length > 0) {
         // eslint-disable-next-line no-console
-        console[mappedMethod](message, EOL, args)
+        console[level](message, EOL, EOL, args)
       } else {
         // eslint-disable-next-line no-console
-        console[mappedMethod](message)
+        console[level](message)
       }
     }
 

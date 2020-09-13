@@ -1,6 +1,6 @@
 import { LeveledLogMethod, Logger as Winston } from 'winston'
 
-import { LogLevels } from './logger.constants'
+import { LogLevels } from '@utils/logger/logger.constants'
 
 export interface LoggerFormat {
   level: string

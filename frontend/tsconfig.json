@@ -23,7 +23,7 @@
     "paths": {
       "@interfaces/*": ["interfaces/*"],
       "@utils/*": ["utils/*"],
-      "@stores/*": ["stores"]
+      "@stores/*": ["stores/*"]
     }
   },
   "exclude": ["node_modules"],

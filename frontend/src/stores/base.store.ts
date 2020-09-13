@@ -41,5 +41,4 @@ export abstract class BaseStore<T extends IHasID> implements IClearable {
   protected abstract requestItems (): Promise<T[]>
 
   protected abstract requestDelete (id: number): Promise<void>
-
 }

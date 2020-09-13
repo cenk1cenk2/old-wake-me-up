@@ -1,3 +1,5 @@
+import { Logger } from '@utils/logger'
+
 let config: typeof CONFIG
 
 declare global {
@@ -10,7 +12,7 @@ export function set (c: typeof CONFIG): void {
   config = c
 }
 
-export function get <T extends keyof typeof CONFIG> (val: T): typeof CONFIG[T] {
+export function get<T extends keyof typeof CONFIG> (val: T): typeof CONFIG[T] {
   return config[val]
 }
 
@@ -30,6 +32,8 @@ export function initiateConfig (): void {
     config = window.config ?? { ...CONFIG, ...productionConfigOverride }
   } else {
     config = window.config ?? CONFIG
-
   }
+
+  const logger = new Logger('configuration').log
+  logger.debug(`Running in ${process.env.NODE_ENV} mode.`, config)
 }
