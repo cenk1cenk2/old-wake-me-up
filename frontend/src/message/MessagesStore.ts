@@ -3,8 +3,8 @@ import axios, { AxiosResponse } from 'axios'
 import { action, IObservableArray, observable, reaction } from 'mobx'
 import { createTransformer } from 'mobx-utils'
 
-import { BaseStore } from '../common/BaseStore'
-import * as config from '../config'
+import { BaseStore } from '../stores/base.store'
+import * as config from '../configuration'
 import { SnackReporter } from '../snack/SnackManager'
 
 const AllMessages = -1

@@ -22,3 +22,6 @@ export enum AvailableStores {
   AUTH_STORE = 'AuthStore',
   USER_STORE = 'UserStore',
 }
+
+export type AllStores = Extract<keyof StoreMapping, string>
+export type Stores<T extends AllStores> = Pick<StoreMapping, T>

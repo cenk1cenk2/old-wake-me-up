@@ -14,7 +14,8 @@ import { Link } from 'react-router-dom'
 
 import DefaultPage from '../common/DefaultPage'
 import ToggleVisibility from '../common/ToggleVisibility'
-import { inject, Stores } from '../stores/inject-stores'
+import { inject } from '../stores/inject-stores'
+import { Stores } from '../stores/inject-stores.interface'
 
 @observer
 class Plugins extends Component<Stores<'pluginStore'>> {

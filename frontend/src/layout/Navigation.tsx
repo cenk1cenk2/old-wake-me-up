@@ -11,7 +11,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 import { mayAllowPermission, requestPermission } from '../snack/browserNotification'
-import { inject, Stores } from '../stores/inject-stores'
+import { inject } from '../stores/inject-stores'
+import { Stores } from '../stores/inject-stores.interface'
 
 const styles = (theme: Theme): StyleRules<'drawerPaper' | 'toolbar' | 'link'> => ({
   drawerPaper: {

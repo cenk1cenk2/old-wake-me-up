@@ -5,7 +5,7 @@ import { detect } from 'detect-browser'
 import { Base64 } from 'js-base64'
 import { observable } from 'mobx'
 
-import * as config from '../config'
+import * as config from '../configuration'
 import { SnackReporter } from '../snack/SnackManager'
 
 export class AuthStore {

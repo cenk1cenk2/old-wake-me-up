@@ -7,8 +7,8 @@ import React, { Component, FormEvent } from 'react'
 
 import Container from '../common/Container'
 import DefaultPage from '../common/DefaultPage'
-import { inject, Stores } from '../stores/inject-stores'
-import { AvailableStores } from '../stores/inject-stores.interface'
+import { inject } from '../stores/inject-stores'
+import { Stores, AvailableStores } from '../stores/inject-stores.interface'
 
 @observer
 class Login extends Component<Stores<AvailableStores.AUTH_STORE>> {
@@ -23,7 +23,7 @@ class Login extends Component<Stores<AvailableStores.AUTH_STORE>> {
       <DefaultPage title="Login" maxWidth={640}>
         <Container>
           <Grid item xs={12}>
-            <form onSubmit={this.preventDefault} id="login-form">
+            <form onSubmit={(e) => this.preventDefault(e)} id="login-form">
               <Grid container style={{ textAlign: 'center' }} direction="column" justify="center" alignItems="stretch">
                 <TextField autoFocus className="name" label="Username" margin="dense" value={username} onChange={(e) => (this.username = e.target.value)} />
                 <TextField type="password" className="password" label="Password" margin="normal" value={password} onChange={(e) => (this.password = e.target.value)} />
@@ -35,7 +35,7 @@ class Login extends Component<Stores<AvailableStores.AUTH_STORE>> {
                   color="primary"
                   disabled={!!this.props[AvailableStores.AUTH_STORE].connectionErrorMessage}
                   style={{ marginTop: 15, marginBottom: 5 }}
-                  onClick={this.login.bind(this)}
+                  onClick={(e) => this.login(e)}
                 >
                   Login
                 </Button>
@@ -49,7 +49,6 @@ class Login extends Component<Stores<AvailableStores.AUTH_STORE>> {
 
   private login (e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault()
-    console.log(this)
     this.props[AvailableStores.AUTH_STORE].login(this.username, this.password)
   }
 

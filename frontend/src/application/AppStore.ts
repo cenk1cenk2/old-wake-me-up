@@ -2,8 +2,8 @@ import { IApplication } from '@interfaces/interface'
 import axios from 'axios'
 import { action } from 'mobx'
 
-import { BaseStore } from '../common/BaseStore'
-import * as config from '../config'
+import { BaseStore } from '../stores/base.store'
+import * as config from '../configuration'
 import { SnackReporter } from '../snack/SnackManager'
 
 export class AppStore extends BaseStore<IApplication> {

@@ -8,7 +8,7 @@ import ReactMarkdown from 'react-markdown'
 import TimeAgo from 'react-timeago'
 
 import Container from '../common/Container'
-import * as config from '../config'
+import * as config from '../configuration'
 import { RenderMode, contentType } from './extras'
 
 const styles = (theme: Theme) =>

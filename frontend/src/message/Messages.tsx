@@ -10,7 +10,8 @@ import ReactInfinite from 'react-infinite'
 import { RouteComponentProps } from 'react-router'
 
 import DefaultPage from '../common/DefaultPage'
-import { inject, Stores } from '../stores/inject-stores'
+import { inject } from '../stores/inject-stores'
+import { Stores } from '../stores/inject-stores.interface'
 import Message from './Message'
 
 type IProps = RouteComponentProps<{ id: string }>

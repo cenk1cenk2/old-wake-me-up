@@ -84,7 +84,12 @@ module.exports = {
       template: 'public/index.html'
     }),
     new webpack.DefinePlugin({
-      // 'process.env': getEnvVars('./env-vars.yml'),
+      CONFIG: JSON.stringify(require('config').util.toObject())
     })
-  ]
+  ],
+  node: {
+    fs: 'empty'
+  },
+  externals: {
+  }
 }

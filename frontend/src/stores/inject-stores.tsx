@@ -1,10 +1,7 @@
 import { inject as mobxInject, Provider } from 'mobx-react'
 import * as React from 'react'
 
-import { StoreMapping } from './inject-stores.interface'
-
-export type AllStores = Extract<keyof StoreMapping, string>
-export type Stores<T extends AllStores> = Pick<StoreMapping, T>
+import { AllStores, StoreMapping } from './inject-stores.interface'
 
 export function inject<I extends AllStores> (...stores: I[]) {
   return <P extends unknown>(node: React.ComponentType<P>): React.ComponentType<Pick<P, Exclude<keyof P, I>>> => {

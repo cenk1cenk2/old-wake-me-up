@@ -14,8 +14,9 @@ import Typography from '@material-ui/core/Typography'
 
 import Container from '../common/Container'
 import DefaultPage from '../common/DefaultPage'
-import * as config from '../config'
-import { inject, Stores } from '../stores/inject-stores'
+import * as config from '../configuration'
+import { inject } from '../stores/inject-stores'
+import { Stores } from '../stores/inject-stores.interface'
 
 import { IPlugin } from '@interfaces/interface'
 

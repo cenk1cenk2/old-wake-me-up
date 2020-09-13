@@ -17,7 +17,8 @@ import React, { Component, FunctionComponent } from 'react'
 
 import ConfirmDialog from '../common/ConfirmDialog'
 import DefaultPage from '../common/DefaultPage'
-import { inject, Stores } from '../stores/inject-stores'
+import { inject } from '../stores/inject-stores'
+import { Stores } from '../stores/inject-stores.interface'
 import AddEditDialog from './add-edit-user.dialog'
 
 const styles = () => ({

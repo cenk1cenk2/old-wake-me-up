@@ -1,7 +1,7 @@
 import { IMessage } from '@interfaces/interface'
 import { AxiosError } from 'axios'
 
-import * as config from '../config'
+import * as config from '../configuration'
 import { SnackReporter } from '../snack/SnackManager'
 import { AuthStore } from '../stores/authentication.store'
 

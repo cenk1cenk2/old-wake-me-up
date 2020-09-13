@@ -5,7 +5,8 @@ import { observable, reaction } from 'mobx'
 import { observer } from 'mobx-react'
 import React, { Component } from 'react'
 
-import { inject, Stores } from '../stores/inject-stores'
+import { inject } from '../stores/inject-stores'
+import { Stores } from '../stores/inject-stores.interface'
 
 @observer
 class SnackBarHandler extends Component<Stores<'snackManager'>> {
