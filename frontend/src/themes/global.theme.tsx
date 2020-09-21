@@ -9,17 +9,14 @@ export const GlobalStyles = createGlobalStyle(
 )
 
 function body () {
-  const o = `
-  body {
-    overflow-x: hidden;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    z-index: 0;
-  }
-  `
   return css`
-    ${o}
+    body {
+      overflow-x: hidden;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      z-index: 0;
+    }
   `
 }
 

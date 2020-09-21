@@ -9,8 +9,8 @@ import { observable } from 'mobx'
 import { observer } from 'mobx-react'
 import React, { Component } from 'react'
 
-import { inject } from '@stores/inject-stores'
-import { Stores, AvailableStores } from '@stores/inject-stores.interface'
+import { inject } from '@root/stores/inject-stores'
+import { Stores, AvailableStores } from '@root/stores/inject-stores.interface'
 
 interface IProps {
   fClose: VoidFunction

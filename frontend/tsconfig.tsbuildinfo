@@ -481,9 +481,54 @@
         "signature": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
         "affectsGlobalScope": false
       },
+      "./node_modules/@fortawesome/fontawesome-common-types/index.d.ts": {
+        "version": "5b9f301739476429c0295b3301aab7e725c405ff0e0ef709da8a75ab48189240",
+        "signature": "5b9f301739476429c0295b3301aab7e725c405ff0e0ef709da8a75ab48189240",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@fortawesome/fontawesome-svg-core/index.d.ts": {
+        "version": "a822e999d9c1814859735e919c2bd2a11f7d3c8633ab6656215dc386684e07bc",
+        "signature": "a822e999d9c1814859735e919c2bd2a11f7d3c8633ab6656215dc386684e07bc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/hoist-non-react-statics/index.d.ts": {
+        "version": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
+        "signature": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/styled-components/index.d.ts": {
+        "version": "7f6371dceeb8658c9657a903b5e2c6a24eae211ab8c1465ceb8b61d8d0e4792b",
+        "signature": "7f6371dceeb8658c9657a903b5e2c6a24eae211ab8c1465ceb8b61d8d0e4792b",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/deepmerge/index.d.ts": {
+        "version": "f163b1edf76fbde01836f8522fbe646fe2f55e313bb7fdd363891748f9b57c60",
+        "signature": "f163b1edf76fbde01836f8522fbe646fe2f55e313bb7fdd363891748f9b57c60",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/custom.utils.ts": {
+        "version": "4fcd9641d85f5fbb3b4188e10540ac0acca6c275ca754956c7416da951730075",
+        "signature": "ca46cd9c693d9b669cbba7aee180e73ddc5f70ea0409ec299526cd963941943c",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/state.utils.ts": {
+        "version": "01a72faf30a665ad79d5e44a2bfcf868234c7c0473d2fe94435c16a98dfebe2e",
+        "signature": "dc1c9c1acb89e6f3d5f0bd7c7f7090640ea7d2c302e54a485d50a83725ca501e",
+        "affectsGlobalScope": false
+      },
+      "./src/layout/index.interface.tsx": {
+        "version": "0e630d61b4a6d4ef0672c3a85681dc35b74b80a64cbddcb0754d7d341dd9d8a1",
+        "signature": "8f01845a8e82a5cfcfb3ee3ae8304e5bef936beeb7b017f3fad4e5caa8fed640",
+        "affectsGlobalScope": false
+      },
       "./src/service-worker.ts": {
         "version": "25b2921287c4250b08c17b177c78d5a344bd0b161dfc29984d64e4e8e7abe4fc",
         "signature": "616ece755776571a817a2a350c1d43e94f40c69161bf33741e1da9bde35434c3",
+        "affectsGlobalScope": false
+      },
+      "./src/interfaces/event.interface.ts": {
+        "version": "47856eb54da7b1e652109df8ca6f85955ae8fdb99e4f3db495b65ea4900f2ac9",
+        "signature": "13202b490bc9b470d69a3e0c4cda7808fa963e08febb4fca5960c0a4de747923",
         "affectsGlobalScope": false
       },
       "./node_modules/@material-ui/types/index.d.ts": {
@@ -2231,6 +2276,11 @@
         "signature": "c50b2f015a8bddda1689f8228703f177614f9e10348f4a845104f04351264507",
         "affectsGlobalScope": false
       },
+      "./node_modules/clsx/clsx.d.ts": {
+        "version": "1552a249535ba9306d1ce112428864d06af27f6c50f24fb75b46fcc562927b0a",
+        "signature": "1552a249535ba9306d1ce112428864d06af27f6c50f24fb75b46fcc562927b0a",
+        "affectsGlobalScope": false
+      },
       "./node_modules/mobx/lib/utils/utils.d.ts": {
         "version": "63ddff320a89f6871034933fec3d04e68bfb428e9c78c543ea13c510b363bc42",
         "signature": "63ddff320a89f6871034933fec3d04e68bfb428e9c78c543ea13c510b363bc42",
@@ -2676,6 +2726,31 @@
         "signature": "8ba5ce66ab95da5b8d0e706bc69c7e98df574776413842593f1a534c35c01926",
         "affectsGlobalScope": false
       },
+      "./node_modules/@fortawesome/react-fontawesome/index.d.ts": {
+        "version": "73d9303d43d3d8a272ece4f3e59927a85150d2d69b139d2007257e0eb12f52d1",
+        "signature": "73d9303d43d3d8a272ece4f3e59927a85150d2d69b139d2007257e0eb12f52d1",
+        "affectsGlobalScope": false
+      },
+      "./src/layout/drawer-navigation.tsx": {
+        "version": "16129c7e14fa9714e3b77318d1fba34b8afc6669f5b1a783954e084d052033a9",
+        "signature": "19cf2e5891835b81c98fec5a514e29c89ef95a663c58ed7114020a03548b2f72",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@fortawesome/free-solid-svg-icons/index.d.ts": {
+        "version": "e8b8bee63834a880305e9084dc32bf2057754f3d8f4d6d59b84526273b282bfc",
+        "signature": "e8b8bee63834a880305e9084dc32bf2057754f3d8f4d6d59b84526273b282bfc",
+        "affectsGlobalScope": false
+      },
+      "./src/layout/tabs-navigation.tsx": {
+        "version": "13b453be6ab781bc1981a09b7a9a2ff7bdc22f52b5b3a9efb282209ab372acf9",
+        "signature": "8be6441e71d2ee0d3822c998951aef17043337c94ccfdc298c81bf21c196762f",
+        "affectsGlobalScope": false
+      },
+      "./src/layout/header.tsx": {
+        "version": "784b6677adb2ad3743432f70b049da5fdcbf0ee1e9449bdf15ab61838547a364",
+        "signature": "ad17dcb30725e3e7a0908d35f0ae86817360eadf3d4ff20dbda03c7c3ca74e8a",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@material-ui/icons/Delete.d.ts": {
         "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
         "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
@@ -2686,14 +2761,14 @@
         "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
         "affectsGlobalScope": false
       },
-      "./src/components/ConfirmDialog.tsx": {
+      "./src/components/confirm-dialog.component.tsx": {
         "version": "20aa0cc3cf56bb15acd4482b6c559b2d29a7ef24cce4c94b5f88813d752b9932",
         "signature": "9056ab39e1ba077531ad7972221d6c003debcd2b41eb1221cc3facbb9c0c8fb0",
         "affectsGlobalScope": false
       },
-      "./src/components/DefaultPage.tsx": {
-        "version": "7ec7eb0b38a52a9503eabba516494149040b2ea53e3136fa896098c5c9c32057",
-        "signature": "3bfd2070646ca937a20de704cf571770a6ce99a0fa16f7c89cf8249fc0bf73b8",
+      "./src/partials/default-page.tsx": {
+        "version": "3b8cbf89d63f4cd344f6ca6eaee014099934e414bc06f1d6aade469010bec19e",
+        "signature": "28c6b8d71b8e217faccf0670cbd1755ee8d07d351f2f18d0a4bc071ea728015c",
         "affectsGlobalScope": false
       },
       "./node_modules/@material-ui/icons/Visibility.d.ts": {
@@ -2706,7 +2781,7 @@
         "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
         "affectsGlobalScope": false
       },
-      "./src/components/ToggleVisibility.tsx": {
+      "./src/components/toggle-visibility.component.tsx": {
         "version": "af14019892d98e589a5cbf477a17a8be9d2aedb599148b8d5f9b461dbca367a8",
         "signature": "e623d68275c4b0bd412339aed20309055b2a227afe45b1487850e8702aa3073f",
         "affectsGlobalScope": false
@@ -2727,17 +2802,17 @@
         "affectsGlobalScope": false
       },
       "./src/client/Clients.tsx": {
-        "version": "88f59bba1b295965a525548fe005c7e59e008ac898f01a686c8761cfca877614",
+        "version": "6e1ee19d07d10d1dacabc7d852eb9fd5da0b7b3811651aaf342715d7516e62f2",
         "signature": "5a8b367902a65cc589ceae71da5ac94013587011cc73e9ae818dead6ae463e07",
         "affectsGlobalScope": false
       },
-      "./src/components/ConnectionErrorBanner.tsx": {
+      "./src/components/connection-error-banner.component.tsx": {
         "version": "84e878a6d81b7633d675b55413decf40340bcf07f3bb9040769b96f1bb8f1746",
         "signature": "b1ba0c853a20b95fd0244e9e265beb3027c8f62189f9b3a1c431d431ca9b42eb",
         "affectsGlobalScope": false
       },
-      "./src/components/LoadingSpinner.tsx": {
-        "version": "47e4e7a9d4648c358f4408a6804c8e9434ded84cd69b111b86d3f9fc1cbf9cd7",
+      "./src/components/loading-spinner.component.tsx": {
+        "version": "44522783ebbfd8dff3f100ad7fa5c39d86c28eacfbd554952ada53ea9d05263c",
         "signature": "730d9dd507bd3102b1515873b88a5d6e0dbc6e4d028268e26d6e9309bf962bc4",
         "affectsGlobalScope": false
       },
@@ -2746,14 +2821,14 @@
         "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
         "affectsGlobalScope": false
       },
-      "./src/components/ScrollUpButton.tsx": {
+      "./src/components/scroll-up-button.component.tsx": {
         "version": "45537de04ea3086b9563a67e403ec4343af165f8e1592d62d8e5398d0087a394",
         "signature": "14514a69be806c94e7b4dbe8719e0ebd3e5bab5e2fda9a2d1ecf1194bb3bbf9b",
         "affectsGlobalScope": false
       },
-      "./src/components/SettingsDialog.tsx": {
-        "version": "b3e3510544adaabf3fdb58eb3867366b7e08221d4ac03c6ba6e8ad9dfc4260aa",
-        "signature": "14331791250d9d3073109c95890c60437f4f6d5c22bb622c2bd6db4fffae96af",
+      "./src/components/settings-dialog.component.tsx": {
+        "version": "aeee294199ec1ee1259036df4074d7138f5281c5a16edf74fd37977463eb3f22",
+        "signature": "072c92193906ff15dd72e793c67ea52c057343cdc9fd46572e745eac21514d19",
         "affectsGlobalScope": false
       },
       "./src/interfaces/theme.constants.ts": {
@@ -2761,14 +2836,124 @@
         "signature": "2bc94bd53f91d61dc46efc5354905d93746f0ff36736106f4c03d3029f602262",
         "affectsGlobalScope": false
       },
-      "./src/interfaces/text.interface.ts": {
-        "version": "7c5007bd98cc53a65f890171f624a20e98d628f972b5018b446571f3f6fc530f",
-        "signature": "567aa20243004bb11006565070fe4b5cfacb12c3f5a56e07c2f73548c0ac4768",
-        "affectsGlobalScope": false
-      },
       "./src/interfaces/theme.interface.ts": {
         "version": "a002f6f59f1272c1b850eb372505fd75cc470812ea14d085591a31720713578b",
         "signature": "da19d8cce52586ede503c0251abe01de304d218074fceb6c4a348a30859532b1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material-ui/icons/Close.d.ts": {
+        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
+        "affectsGlobalScope": false
+      },
+      "./src/notifications/snack-bar.handler.tsx": {
+        "version": "dcf61dea5c09ae1969d65edc0dd2b04edbc57a175bd779699238dab8d8edcd3d",
+        "signature": "fd2699c0b6ef0e690b3103eba9c478851799ddc2601d7c903217ce486eaa96f0",
+        "affectsGlobalScope": false
+      },
+      "./src/components/container.component.tsx": {
+        "version": "969122a1da5207f6df15764b8f2b4b579ec5b4f995492e29f5895feb5cfee6fb",
+        "signature": "ad4e13b248f01cdfc5a31be7b53cc254f2b433bdfe9a8a38ea3ca6ab0e7c710f",
+        "affectsGlobalScope": false
+      },
+      "./src/pages/login.tsx": {
+        "version": "054b14235c9690d82b486fa8aaf6631799585eb4e9bb26e065d48c0a03f962ae",
+        "signature": "18a62568bc126a85b1e63311254426299d277f027643ed93b14db15029fac2da",
+        "affectsGlobalScope": false
+      },
+      "./src/user/add-edit-user.dialog.tsx": {
+        "version": "0c259c3f851d905505ebd205bcf0a521291f9b29060371f37aba085629951534",
+        "signature": "aae02e85ae23fe014d7a3b7a06164e1a8d4e8d79b5db97e66e5948daf4ccafba",
+        "affectsGlobalScope": false
+      },
+      "./src/user/users.tsx": {
+        "version": "3b2078d248c07847c590441d7026e8af89b12434402ad1376e70200e785d0cee",
+        "signature": "63ee0e251adb5ad68c15833335fa8e2f3d4f267e2a6fd67b8bf1cbea7fb5004f",
+        "affectsGlobalScope": false
+      },
+      "./src/themes/default.text.ts": {
+        "version": "eeee97a47b286c75b87816ea9006d2627207c7b24689a1707338a2449bf5ed43",
+        "signature": "26ed2222a412c6f1e7a22fa648368c116bb3300f5474fc92c21cdc42a491799e",
+        "affectsGlobalScope": false
+      },
+      "./src/themes/dark.theme.ts": {
+        "version": "8f7f81cde21f778d21583067a335c239fb061b5114bc58f3d5ef5ae02b667ffc",
+        "signature": "e2b625e0a5bc4c7adf7a5cb89ce705eb9ee600f70c2161b8c012721f262afda2",
+        "affectsGlobalScope": false
+      },
+      "./src/themes/global.theme.tsx": {
+        "version": "818b1838144e1bf3bd3e889c9e104db0413ff589032aa531dcecbf942fe3d277",
+        "signature": "a3ca82a794f31c04fbad4d779a4ea2c75b06e60290b6432efe62bdf647dce9c4",
+        "affectsGlobalScope": false
+      },
+      "./src/layout/index.tsx": {
+        "version": "ebc58d5078988e7eb2ea76e9bb16cbaae54eb603cacbd1b6ebb6222ba0717a05",
+        "signature": "c1b5ee15c13e902ec6539bab27c4ef4c432c85908b23e70a5330496dceba89b3",
+        "affectsGlobalScope": false
+      },
+      "./src/stores/init-stores.ts": {
+        "version": "7c7c93f0b2c718b90ab6c38391606aaae14c0aac54f1a981001022801a501001",
+        "signature": "c19ae76024a7df3cdf01574089b390b316c720407ad81a16d8a5a6e1001a4d41",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/notifyjs/index.d.ts": {
+        "version": "aaebbec1da47b078c03a3ff0c88535a867874b898df01b0c6535de3c34d07afc",
+        "signature": "aaebbec1da47b078c03a3ff0c88535a867874b898df01b0c6535de3c34d07afc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/remove-markdown/index.d.ts": {
+        "version": "707043feee34760c4b15c7114fa94f1706d614d0c331aa3acb06f6b88ba1a14a",
+        "signature": "707043feee34760c4b15c7114fa94f1706d614d0c331aa3acb06f6b88ba1a14a",
+        "affectsGlobalScope": false
+      },
+      "./src/notifications/browser-notification.handler.ts": {
+        "version": "df37ad34ee154fba6d8a6c75a0a3d7fee62fa6fee27fd8e2b20094ab96fee3cb",
+        "signature": "45929325964f1c93696e411383118463220dd24fe620d311e59f099041573cdd",
+        "affectsGlobalScope": false
+      },
+      "./src/stores/reactions.ts": {
+        "version": "0983a3459fb8f37ccf3927a2b529bbf5691fc843cf7603a998622399baa1924f",
+        "signature": "bd7ca526fe3a5f80d51944d1ddfc56c82279132844e2378421de202fd159b3a4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@tanem/react-nprogress/dist/types.d.ts": {
+        "version": "6364fd75e945011d03dd7e7270fccc61f7ee00720a2f064f229466adb8bf2809",
+        "signature": "6364fd75e945011d03dd7e7270fccc61f7ee00720a2f064f229466adb8bf2809",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts": {
+        "version": "b57090c80909b709a7bdc70f25fa27bf1db1d96c7676d91e71d2787a25214495",
+        "signature": "b57090c80909b709a7bdc70f25fa27bf1db1d96c7676d91e71d2787a25214495",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@tanem/react-nprogress/dist/NProgress.d.ts": {
+        "version": "132c02c9d09798983cf04914430f9fe0e3d7c853208145b73c3b173d5dbde63e",
+        "signature": "132c02c9d09798983cf04914430f9fe0e3d7c853208145b73c3b173d5dbde63e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@tanem/react-nprogress/dist/withNProgress.d.ts": {
+        "version": "a50e009f6674d9868fd4659f02620a6acbdd79a9fe515b5e3c5682670de9a9da",
+        "signature": "a50e009f6674d9868fd4659f02620a6acbdd79a9fe515b5e3c5682670de9a9da",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@tanem/react-nprogress/dist/index.d.ts": {
+        "version": "e67e9d24c9a71952bb62b14bc9326c3bb931e174ebaeed31622252d26b4b6939",
+        "signature": "e67e9d24c9a71952bb62b14bc9326c3bb931e174ebaeed31622252d26b4b6939",
+        "affectsGlobalScope": false
+      },
+      "./src/themes/page-loader.tsx": {
+        "version": "4d89fe500a5337a4ff42b985f41f9e9a11bc35c3246cc8d84bac918c02c734ac",
+        "signature": "326cb13d2996a951e3e2cb8f6f378c597fb7c03fb45e8f457b3d17c0ce5eed22",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/axios.ts": {
+        "version": "4ef998ab7553b82240edb739e6f46811e92715f7b0d0aeb4b2ce5b7ddc65d724",
+        "signature": "ccfe1dc12b4715c8b27ab4f5ab1ced297457d31e95a8eb9f39965f3847d4d7c6",
+        "affectsGlobalScope": false
+      },
+      "./src/index.tsx": {
+        "version": "c6efd0a50f58324d4395cbb44afe4f1f084517b3744d475393ac05ae7213554a",
+        "signature": "bb27042837ae8ce3cd7338312549eb5ea0b1501f79c325adc2aa5085cf72aaa3",
         "affectsGlobalScope": false
       },
       "./node_modules/@material-ui/icons/AccountCircle.d.ts": {
@@ -2816,139 +3001,19 @@
         "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
         "affectsGlobalScope": false
       },
-      "./src/layout/components/header.tsx": {
-        "version": "1b4ce2b49d9b20f9d4ae1436324cbefaf274840067208be59b5864e785516f2c",
-        "signature": "6dea9c1368290c7f94da36f664c865c27eb382d4184957d0b82d8fd07f0e86c4",
+      "./src/layout2/components/header.tsx": {
+        "version": "2a3f07db43e2f92570a69fdddef6b83f4410246d558dd11431ff655373b811e0",
+        "signature": "cf5f258eb720ed787e098e563162bd7c85bb8003ebcf8cc05f9f639b3720ce60",
         "affectsGlobalScope": false
       },
-      "./node_modules/@material-ui/icons/Close.d.ts": {
-        "version": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/notifyjs/index.d.ts": {
-        "version": "aaebbec1da47b078c03a3ff0c88535a867874b898df01b0c6535de3c34d07afc",
-        "signature": "aaebbec1da47b078c03a3ff0c88535a867874b898df01b0c6535de3c34d07afc",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/remove-markdown/index.d.ts": {
-        "version": "707043feee34760c4b15c7114fa94f1706d614d0c331aa3acb06f6b88ba1a14a",
-        "signature": "707043feee34760c4b15c7114fa94f1706d614d0c331aa3acb06f6b88ba1a14a",
-        "affectsGlobalScope": false
-      },
-      "./src/notifications/browser-notification.handler.ts": {
-        "version": "df37ad34ee154fba6d8a6c75a0a3d7fee62fa6fee27fd8e2b20094ab96fee3cb",
-        "signature": "45929325964f1c93696e411383118463220dd24fe620d311e59f099041573cdd",
-        "affectsGlobalScope": false
-      },
-      "./src/layout/components/navigation.tsx": {
+      "./src/layout2/components/navigation.tsx": {
         "version": "f359d4346e9300e988578ed912f73595ffa794f18b9c5a31ca1be7abd99eded7",
-        "signature": "907fa3be7eced1c594d18f92287e9e81b7c88701fef63652559c55226823e0c3",
+        "signature": "91309e8d71143f505da45bbd35f55a1b52c95965381de5c1232448c9e31838b4",
         "affectsGlobalScope": false
       },
-      "./src/notifications/snack-bar.handler.tsx": {
-        "version": "dcf61dea5c09ae1969d65edc0dd2b04edbc57a175bd779699238dab8d8edcd3d",
-        "signature": "fd2699c0b6ef0e690b3103eba9c478851799ddc2601d7c903217ce486eaa96f0",
-        "affectsGlobalScope": false
-      },
-      "./src/components/Container.tsx": {
-        "version": "969122a1da5207f6df15764b8f2b4b579ec5b4f995492e29f5895feb5cfee6fb",
-        "signature": "ad4e13b248f01cdfc5a31be7b53cc254f2b433bdfe9a8a38ea3ca6ab0e7c710f",
-        "affectsGlobalScope": false
-      },
-      "./src/pages/login.tsx": {
-        "version": "ff90762ee108acb209f0f04f54b8865db66fc8040c250bb8d6c9adb52ebccb6d",
-        "signature": "18a62568bc126a85b1e63311254426299d277f027643ed93b14db15029fac2da",
-        "affectsGlobalScope": false
-      },
-      "./src/user/add-edit-user.dialog.tsx": {
-        "version": "0c259c3f851d905505ebd205bcf0a521291f9b29060371f37aba085629951534",
-        "signature": "aae02e85ae23fe014d7a3b7a06164e1a8d4e8d79b5db97e66e5948daf4ccafba",
-        "affectsGlobalScope": false
-      },
-      "./src/user/users.tsx": {
-        "version": "158d95bb8b054d13283a212ad18e8d084b8a323952deaf5755370199b39a48e5",
-        "signature": "63ee0e251adb5ad68c15833335fa8e2f3d4f267e2a6fd67b8bf1cbea7fb5004f",
-        "affectsGlobalScope": false
-      },
-      "./src/themes/default.text.ts": {
-        "version": "eeee97a47b286c75b87816ea9006d2627207c7b24689a1707338a2449bf5ed43",
-        "signature": "26ed2222a412c6f1e7a22fa648368c116bb3300f5474fc92c21cdc42a491799e",
-        "affectsGlobalScope": false
-      },
-      "./src/themes/dark.theme.ts": {
-        "version": "c6ee2ab83b035a8976649531e294fc1e959e1df56c73093564621e3edaf7255f",
-        "signature": "e2b625e0a5bc4c7adf7a5cb89ce705eb9ee600f70c2161b8c012721f262afda2",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/hoist-non-react-statics/index.d.ts": {
-        "version": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
-        "signature": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/styled-components/index.d.ts": {
-        "version": "7f6371dceeb8658c9657a903b5e2c6a24eae211ab8c1465ceb8b61d8d0e4792b",
-        "signature": "7f6371dceeb8658c9657a903b5e2c6a24eae211ab8c1465ceb8b61d8d0e4792b",
-        "affectsGlobalScope": true
-      },
-      "./src/themes/global.theme.tsx": {
-        "version": "9d07be72da3f0a49126ba6d43c4bc77e03e8d30d32d72d41e516a47a496dfa1a",
-        "signature": "a3ca82a794f31c04fbad4d779a4ea2c75b06e60290b6432efe62bdf647dce9c4",
-        "affectsGlobalScope": false
-      },
-      "./src/layout/index.tsx": {
-        "version": "aa3f28453c8151cb086a95dc13e9b374f501abfadc208f5b3f21180c6185a76d",
+      "./src/layout2/index.tsx": {
+        "version": "347b72ce81d4f9a66d2d1b7b8e51cbd6b6b390a6065945e99af1734e903b593e",
         "signature": "e3757a11a66a80cc7386ef2ae801ca83a26576a703bb2b7fb52b5b7ecf156d34",
-        "affectsGlobalScope": false
-      },
-      "./src/stores/init-stores.ts": {
-        "version": "7c7c93f0b2c718b90ab6c38391606aaae14c0aac54f1a981001022801a501001",
-        "signature": "c19ae76024a7df3cdf01574089b390b316c720407ad81a16d8a5a6e1001a4d41",
-        "affectsGlobalScope": false
-      },
-      "./src/stores/reactions.ts": {
-        "version": "0983a3459fb8f37ccf3927a2b529bbf5691fc843cf7603a998622399baa1924f",
-        "signature": "bd7ca526fe3a5f80d51944d1ddfc56c82279132844e2378421de202fd159b3a4",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@tanem/react-nprogress/dist/types.d.ts": {
-        "version": "6364fd75e945011d03dd7e7270fccc61f7ee00720a2f064f229466adb8bf2809",
-        "signature": "6364fd75e945011d03dd7e7270fccc61f7ee00720a2f064f229466adb8bf2809",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@tanem/react-nprogress/dist/useNProgress.d.ts": {
-        "version": "b57090c80909b709a7bdc70f25fa27bf1db1d96c7676d91e71d2787a25214495",
-        "signature": "b57090c80909b709a7bdc70f25fa27bf1db1d96c7676d91e71d2787a25214495",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@tanem/react-nprogress/dist/NProgress.d.ts": {
-        "version": "132c02c9d09798983cf04914430f9fe0e3d7c853208145b73c3b173d5dbde63e",
-        "signature": "132c02c9d09798983cf04914430f9fe0e3d7c853208145b73c3b173d5dbde63e",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@tanem/react-nprogress/dist/withNProgress.d.ts": {
-        "version": "a50e009f6674d9868fd4659f02620a6acbdd79a9fe515b5e3c5682670de9a9da",
-        "signature": "a50e009f6674d9868fd4659f02620a6acbdd79a9fe515b5e3c5682670de9a9da",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@tanem/react-nprogress/dist/index.d.ts": {
-        "version": "e67e9d24c9a71952bb62b14bc9326c3bb931e174ebaeed31622252d26b4b6939",
-        "signature": "e67e9d24c9a71952bb62b14bc9326c3bb931e174ebaeed31622252d26b4b6939",
-        "affectsGlobalScope": false
-      },
-      "./src/themes/page-loader.tsx": {
-        "version": "4d89fe500a5337a4ff42b985f41f9e9a11bc35c3246cc8d84bac918c02c734ac",
-        "signature": "326cb13d2996a951e3e2cb8f6f378c597fb7c03fb45e8f457b3d17c0ce5eed22",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/axios.ts": {
-        "version": "4ef998ab7553b82240edb739e6f46811e92715f7b0d0aeb4b2ce5b7ddc65d724",
-        "signature": "ccfe1dc12b4715c8b27ab4f5ab1ced297457d31e95a8eb9f39965f3847d4d7c6",
-        "affectsGlobalScope": false
-      },
-      "./src/index.tsx": {
-        "version": "2d42d0350341b7d58ab9d8ffafe9f2b48b7e3438de0582145febb5bc6bf1bcdd",
-        "signature": "bb27042837ae8ce3cd7338312549eb5ea0b1501f79c325adc2aa5085cf72aaa3",
         "affectsGlobalScope": false
       },
       "./node_modules/react-markdown/index.d.ts": {
@@ -2962,7 +3027,7 @@
         "affectsGlobalScope": false
       },
       "./src/message/Message.tsx": {
-        "version": "e2707d722c24546b70d01e19fc76529d893ecda1411d48885160a8d91f0c0c95",
+        "version": "efad049a5eb32629333bf83f7af28fb1246d6ab0e761617b2ec562c530e793df",
         "signature": "9198eb85f8995ce589b052db3331d860498e26161aac5b4ae1bd58eccb93d9fa",
         "affectsGlobalScope": false
       },
@@ -2972,8 +3037,8 @@
         "affectsGlobalScope": false
       },
       "./src/message/Messages.tsx": {
-        "version": "6ef4308a5df20aaea2819bede682ba2b990bbc153e1b13ce3e6bb3f16e33a1e5",
-        "signature": "c9b604801831c869b525fd988169fbaaca8705db5ec10b515c448c4d0fe9bbd4",
+        "version": "31217c27b8e257daff8880b5753478e3ad16b14b71048c093ddf6f08a010d0c1",
+        "signature": "b9c5ad0ff12117b0c8cbf5a68b3dc299696bdaf4911023379cb9647332ddd8db",
         "affectsGlobalScope": false
       },
       "./node_modules/mobx-utils/lib/from-promise.d.ts": {
@@ -3334,6 +3399,42 @@
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
+      "./node_modules/@fortawesome/fontawesome-common-types/index.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@fortawesome/fontawesome-svg-core/index.d.ts": [
+        "./node_modules/@fortawesome/fontawesome-common-types/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@fortawesome/free-solid-svg-icons/index.d.ts": [
+        "./node_modules/@fortawesome/fontawesome-common-types/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@fortawesome/react-fontawesome/index.d.ts": [
+        "./node_modules/@fortawesome/fontawesome-svg-core/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./node_modules/@material-ui/core/Accordion/Accordion.d.ts": [
         "./node_modules/@material-ui/core/Paper/index.d.ts",
         "./node_modules/@material-ui/core/index.d.ts",
@@ -8243,7 +8344,23 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
+      "./node_modules/clsx/clsx.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
       "./node_modules/csstype/index.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/deepmerge/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
@@ -9486,10 +9603,10 @@
         "./node_modules/mobx/lib/mobx.d.ts",
         "./src/client/AddClientDialog.tsx",
         "./src/client/UpdateClientDialog.tsx",
-        "./src/components/ConfirmDialog.tsx",
-        "./src/components/DefaultPage.tsx",
-        "./src/components/ToggleVisibility.tsx",
+        "./src/components/confirm-dialog.component.tsx",
+        "./src/components/toggle-visibility.component.tsx",
         "./src/interfaces/interface.ts",
+        "./src/partials/default-page.tsx",
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx"
       ],
@@ -9510,7 +9627,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/ConfirmDialog.tsx": [
+      "./src/components/confirm-dialog.component.tsx": [
         "./node_modules/@material-ui/core/Button/index.d.ts",
         "./node_modules/@material-ui/core/Dialog/index.d.ts",
         "./node_modules/@material-ui/core/DialogActions/index.d.ts",
@@ -9525,7 +9642,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/ConnectionErrorBanner.tsx": [
+      "./src/components/connection-error-banner.component.tsx": [
         "./node_modules/@material-ui/core/Button/index.d.ts",
         "./node_modules/@material-ui/core/Typography/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9536,7 +9653,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/Container.tsx": [
+      "./src/components/container.component.tsx": [
         "./node_modules/@material-ui/core/Paper/index.d.ts",
         "./node_modules/@material-ui/core/styles/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9547,18 +9664,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/DefaultPage.tsx": [
-        "./node_modules/@material-ui/core/Grid/index.d.ts",
-        "./node_modules/@material-ui/core/Typography/index.d.ts",
-        "./node_modules/@types/node/ts3.1/fs.d.ts",
-        "./node_modules/@types/node/ts3.1/process.d.ts",
-        "./node_modules/@types/node/ts3.1/util.d.ts",
-        "./node_modules/@types/node/ts3.4/fs.d.ts",
-        "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/components/LoadingSpinner.tsx": [
+      "./src/components/loading-spinner.component.tsx": [
         "./node_modules/@material-ui/core/CircularProgress/index.d.ts",
         "./node_modules/@material-ui/core/Grid/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9568,9 +9674,9 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./src/components/DefaultPage.tsx"
+        "./src/partials/default-page.tsx"
       ],
-      "./src/components/ScrollUpButton.tsx": [
+      "./src/components/scroll-up-button.component.tsx": [
         "./node_modules/@material-ui/core/Fab/index.d.ts",
         "./node_modules/@material-ui/icons/KeyboardArrowUp.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9581,7 +9687,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/SettingsDialog.tsx": [
+      "./src/components/settings-dialog.component.tsx": [
         "./node_modules/@material-ui/core/Button/index.d.ts",
         "./node_modules/@material-ui/core/Dialog/index.d.ts",
         "./node_modules/@material-ui/core/DialogActions/index.d.ts",
@@ -9601,7 +9707,7 @@
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx"
       ],
-      "./src/components/ToggleVisibility.tsx": [
+      "./src/components/toggle-visibility.component.tsx": [
         "./node_modules/@material-ui/core/IconButton/index.d.ts",
         "./node_modules/@material-ui/core/Typography/index.d.ts",
         "./node_modules/@material-ui/icons/Visibility.d.ts",
@@ -9633,6 +9739,7 @@
         "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./src/configuration.ts",
+        "./src/layout/index.interface.tsx",
         "./src/layout/index.tsx",
         "./src/service-worker.ts",
         "./src/stores/init-stores.ts",
@@ -9651,7 +9758,7 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
-      "./src/interfaces/interface.ts": [
+      "./src/interfaces/event.interface.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
@@ -9659,14 +9766,13 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
-      "./src/interfaces/text.interface.ts": [
+      "./src/interfaces/interface.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
-        "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/csstype/index.d.ts"
+        "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
       "./src/interfaces/theme.constants.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9684,10 +9790,104 @@
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./node_modules/csstype/index.d.ts",
-        "./src/interfaces/text.interface.ts"
+        "./node_modules/csstype/index.d.ts"
       ],
-      "./src/layout/components/header.tsx": [
+      "./src/layout/drawer-navigation.tsx": [
+        "./node_modules/@fortawesome/react-fontawesome/index.d.ts",
+        "./node_modules/@material-ui/core/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts",
+        "./node_modules/clsx/clsx.d.ts",
+        "./src/layout/index.interface.tsx",
+        "./src/layout/index.tsx"
+      ],
+      "./src/layout/header.tsx": [
+        "./node_modules/@fortawesome/free-solid-svg-icons/index.d.ts",
+        "./node_modules/@fortawesome/react-fontawesome/index.d.ts",
+        "./node_modules/@material-ui/core/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts",
+        "./node_modules/clsx/clsx.d.ts",
+        "./src/interfaces/event.interface.ts",
+        "./src/layout/index.interface.tsx",
+        "./src/layout/index.tsx",
+        "./src/layout/tabs-navigation.tsx"
+      ],
+      "./src/layout/index.interface.tsx": [
+        "./node_modules/@fortawesome/fontawesome-svg-core/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts",
+        "./src/utils/state.utils.ts"
+      ],
+      "./src/layout/index.tsx": [
+        "./node_modules/@material-ui/core/CssBaseline/index.d.ts",
+        "./node_modules/@material-ui/core/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts",
+        "./node_modules/axios/index.d.ts",
+        "./node_modules/clsx/clsx.d.ts",
+        "./node_modules/mobx-react/dist/index.d.ts",
+        "./node_modules/mobx/lib/mobx.d.ts",
+        "./src/client/Clients.tsx",
+        "./src/components/connection-error-banner.component.tsx",
+        "./src/components/loading-spinner.component.tsx",
+        "./src/components/scroll-up-button.component.tsx",
+        "./src/components/settings-dialog.component.tsx",
+        "./src/configuration.ts",
+        "./src/interfaces/event.interface.ts",
+        "./src/interfaces/interface.ts",
+        "./src/interfaces/theme.constants.ts",
+        "./src/interfaces/theme.interface.ts",
+        "./src/layout/drawer-navigation.tsx",
+        "./src/layout/header.tsx",
+        "./src/layout/index.interface.tsx",
+        "./src/notifications/snack-bar.handler.tsx",
+        "./src/pages/login.tsx",
+        "./src/stores/inject-stores.interface.ts",
+        "./src/stores/inject-stores.tsx",
+        "./src/themes/dark.theme.ts",
+        "./src/themes/global.theme.tsx",
+        "./src/user/users.tsx",
+        "./src/utils/state.utils.ts"
+      ],
+      "./src/layout/tabs-navigation.tsx": [
+        "./node_modules/@fortawesome/react-fontawesome/index.d.ts",
+        "./node_modules/@material-ui/core/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/layout/index.interface.tsx"
+      ],
+      "./src/layout2/components/header.tsx": [
         "./node_modules/@material-ui/core/AppBar/index.d.ts",
         "./node_modules/@material-ui/core/Button/index.d.ts",
         "./node_modules/@material-ui/core/IconButton/index.d.ts",
@@ -9715,7 +9915,7 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/mobx-react/dist/index.d.ts"
       ],
-      "./src/layout/components/navigation.tsx": [
+      "./src/layout2/components/navigation.tsx": [
         "./node_modules/@material-ui/core/Divider/index.d.ts",
         "./node_modules/@material-ui/core/Drawer/Drawer.d.ts",
         "./node_modules/@material-ui/core/Drawer/index.d.ts",
@@ -9737,7 +9937,7 @@
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx"
       ],
-      "./src/layout/index.tsx": [
+      "./src/layout2/index.tsx": [
         "./node_modules/@material-ui/core/CssBaseline/index.d.ts",
         "./node_modules/@material-ui/core/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -9748,20 +9948,21 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts",
         "./node_modules/axios/index.d.ts",
         "./node_modules/mobx-react/dist/index.d.ts",
         "./node_modules/mobx/lib/mobx.d.ts",
         "./src/client/Clients.tsx",
-        "./src/components/ConnectionErrorBanner.tsx",
-        "./src/components/LoadingSpinner.tsx",
-        "./src/components/ScrollUpButton.tsx",
-        "./src/components/SettingsDialog.tsx",
+        "./src/components/connection-error-banner.component.tsx",
+        "./src/components/loading-spinner.component.tsx",
+        "./src/components/scroll-up-button.component.tsx",
+        "./src/components/settings-dialog.component.tsx",
         "./src/configuration.ts",
         "./src/interfaces/interface.ts",
         "./src/interfaces/theme.constants.ts",
         "./src/interfaces/theme.interface.ts",
-        "./src/layout/components/header.tsx",
-        "./src/layout/components/navigation.tsx",
+        "./src/layout2/components/header.tsx",
+        "./src/layout2/components/navigation.tsx",
         "./src/notifications/snack-bar.handler.tsx",
         "./src/pages/login.tsx",
         "./src/stores/inject-stores.interface.ts",
@@ -9783,7 +9984,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/react-markdown/index.d.ts",
-        "./src/components/Container.tsx",
+        "./src/components/container.component.tsx",
         "./src/configuration.ts",
         "./src/interfaces/interface.ts",
         "./src/message/extras.ts",
@@ -9805,9 +10006,9 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/mobx-react/dist/index.d.ts",
         "./node_modules/mobx/lib/mobx.d.ts",
-        "./src/components/DefaultPage.tsx",
         "./src/interfaces/interface.ts",
         "./src/message/Message.tsx",
+        "./src/partials/default-page.tsx",
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx"
       ],
@@ -9889,10 +10090,22 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/mobx-react/dist/index.d.ts",
         "./node_modules/mobx/lib/mobx.d.ts",
-        "./src/components/Container.tsx",
-        "./src/components/DefaultPage.tsx",
+        "./src/components/container.component.tsx",
+        "./src/partials/default-page.tsx",
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx"
+      ],
+      "./src/partials/default-page.tsx": [
+        "./node_modules/@material-ui/core/Typography/index.d.ts",
+        "./node_modules/@material-ui/core/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts"
       ],
       "./src/service-worker.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -10135,9 +10348,9 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/mobx-react/dist/index.d.ts",
         "./node_modules/mobx/lib/mobx.d.ts",
-        "./src/components/ConfirmDialog.tsx",
-        "./src/components/DefaultPage.tsx",
+        "./src/components/confirm-dialog.component.tsx",
         "./src/interfaces/interface.ts",
+        "./src/partials/default-page.tsx",
         "./src/stores/inject-stores.interface.ts",
         "./src/stores/inject-stores.tsx",
         "./src/user/add-edit-user.dialog.tsx"
@@ -10153,6 +10366,15 @@
         "./src/interfaces/constants.ts",
         "./src/stores/auth.store.ts",
         "./src/stores/snack-manager.store.ts"
+      ],
+      "./src/utils/custom.utils.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/deepmerge/index.d.ts"
       ],
       "./src/utils/logger/index.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -10204,9 +10426,54 @@
         "./src/utils/logger/logger-transport.ts",
         "./src/utils/logger/logger.constants.ts",
         "./src/utils/logger/logger.interface.ts"
+      ],
+      "./src/utils/state.utils.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/utils/custom.utils.ts"
       ]
     },
     "exportedModulesMap": {
+      "./node_modules/@fortawesome/fontawesome-common-types/index.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@fortawesome/fontawesome-svg-core/index.d.ts": [
+        "./node_modules/@fortawesome/fontawesome-common-types/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@fortawesome/free-solid-svg-icons/index.d.ts": [
+        "./node_modules/@fortawesome/fontawesome-common-types/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/@fortawesome/react-fontawesome/index.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./node_modules/@material-ui/core/Accordion/Accordion.d.ts": [
         "./node_modules/@material-ui/core/Paper/index.d.ts",
         "./node_modules/@material-ui/core/index.d.ts",
@@ -15116,7 +15383,23 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
+      "./node_modules/clsx/clsx.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
       "./node_modules/csstype/index.d.ts": [
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/process.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/process.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./node_modules/deepmerge/index.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
@@ -16321,42 +16604,59 @@
       "./src/client/UpdateClientDialog.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/Container.tsx": [
+      "./src/components/container.component.tsx": [
         "./node_modules/@material-ui/core/styles/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/DefaultPage.tsx": [
+      "./src/components/scroll-up-button.component.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/ScrollUpButton.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/components/SettingsDialog.tsx": [
+      "./src/components/settings-dialog.component.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/stores/inject-stores.interface.ts"
       ],
-      "./src/components/ToggleVisibility.tsx": [
+      "./src/components/toggle-visibility.component.tsx": [
         "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/interfaces/text.interface.ts": [
-        "./node_modules/csstype/index.d.ts"
       ],
       "./src/interfaces/theme.interface.ts": [
         "./node_modules/@material-ui/core/styles/index.d.ts",
-        "./node_modules/csstype/index.d.ts",
-        "./src/interfaces/text.interface.ts"
+        "./node_modules/csstype/index.d.ts"
       ],
-      "./src/layout/components/header.tsx": [
+      "./src/layout/drawer-navigation.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts",
+        "./src/layout/index.interface.tsx"
+      ],
+      "./src/layout/header.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts",
+        "./src/layout/index.interface.tsx"
+      ],
+      "./src/layout/index.interface.tsx": [
+        "./node_modules/@fortawesome/fontawesome-svg-core/index.d.ts",
+        "./node_modules/@types/styled-components/index.d.ts",
+        "./src/utils/state.utils.ts"
+      ],
+      "./src/layout/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/layout/index.interface.tsx",
+        "./src/stores/inject-stores.interface.ts"
+      ],
+      "./src/layout/tabs-navigation.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/layout/index.interface.tsx"
+      ],
+      "./src/layout2/components/header.tsx": [
         "./node_modules/@material-ui/core/index.d.ts",
         "./node_modules/@material-ui/core/styles/createBreakpoints.d.ts",
         "./node_modules/@material-ui/core/styles/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/layout/components/navigation.tsx": [
+      "./src/layout2/components/navigation.tsx": [
         "./node_modules/@material-ui/core/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/layout/index.tsx": [
+      "./src/layout2/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/stores/inject-stores.interface.ts"
       ],
@@ -16394,6 +16694,9 @@
       "./src/pages/login.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/stores/inject-stores.interface.ts"
+      ],
+      "./src/partials/default-page.tsx": [
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/stores/auth.store.ts": [
         "./node_modules/axios/index.d.ts",
@@ -16509,9 +16812,16 @@
       "./src/utils/logger/logger.ts": [
         "./src/utils/logger/logger.constants.ts",
         "./src/utils/logger/logger.interface.ts"
+      ],
+      "./src/utils/state.utils.ts": [
+        "./node_modules/@types/react/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
+      "./node_modules/@fortawesome/fontawesome-common-types/index.d.ts",
+      "./node_modules/@fortawesome/fontawesome-svg-core/index.d.ts",
+      "./node_modules/@fortawesome/free-solid-svg-icons/index.d.ts",
+      "./node_modules/@fortawesome/react-fontawesome/index.d.ts",
       "./node_modules/@material-ui/core/Accordion/Accordion.d.ts",
       "./node_modules/@material-ui/core/Accordion/index.d.ts",
       "./node_modules/@material-ui/core/AccordionActions/AccordionActions.d.ts",
@@ -16983,7 +17293,9 @@
       "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts",
       "./node_modules/@types/webpack/index.d.ts",
       "./node_modules/axios/index.d.ts",
+      "./node_modules/clsx/clsx.d.ts",
       "./node_modules/csstype/index.d.ts",
+      "./node_modules/deepmerge/index.d.ts",
       "./node_modules/detect-browser/index.d.ts",
       "./node_modules/js-base64/base64.d.ts",
       "./node_modules/jss/src/index.d.ts",
@@ -17116,55 +17428,18 @@
       "./src/client/ClientStore.ts",
       "./src/client/Clients.tsx",
       "./src/client/UpdateClientDialog.tsx",
-      "./src/components/ConfirmDialog.tsx",
-      "./src/components/ConnectionErrorBanner.tsx",
-      "./src/components/Container.tsx",
-      "./src/components/DefaultPage.tsx",
-      "./src/components/LoadingSpinner.tsx",
-      "./src/components/ScrollUpButton.tsx",
-      "./src/components/SettingsDialog.tsx",
-      "./src/components/ToggleVisibility.tsx",
+      "./src/components/confirm-dialog.component.tsx",
+      "./src/components/connection-error-banner.component.tsx",
+      "./src/components/container.component.tsx",
+      "./src/components/loading-spinner.component.tsx",
+      "./src/components/scroll-up-button.component.tsx",
+      "./src/components/settings-dialog.component.tsx",
+      "./src/components/toggle-visibility.component.tsx",
       "./src/configuration.ts",
       "./src/index.tsx",
       "./src/interfaces/constants.ts",
+      "./src/interfaces/event.interface.ts",
       "./src/interfaces/interface.ts",
-      [
-        "./src/interfaces/text.interface.ts",
-        [
-          {
-            "file": "./src/interfaces/text.interface.ts",
-            "start": 9,
-            "length": 18,
-            "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'LineHeightProperty'.",
-            "category": 1,
-            "code": 2305
-          },
-          {
-            "file": "./src/interfaces/text.interface.ts",
-            "start": 29,
-            "length": 18,
-            "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'FontWeightProperty'.",
-            "category": 1,
-            "code": 2305
-          },
-          {
-            "file": "./src/interfaces/text.interface.ts",
-            "start": 49,
-            "length": 16,
-            "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'FontSizeProperty'.",
-            "category": 1,
-            "code": 2305
-          },
-          {
-            "file": "./src/interfaces/text.interface.ts",
-            "start": 67,
-            "length": 13,
-            "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'ColorProperty'.",
-            "category": 1,
-            "code": 2305
-          }
-        ]
-      ],
       "./src/interfaces/theme.constants.ts",
       [
         "./src/interfaces/theme.interface.ts",
@@ -17192,19 +17467,32 @@
             "messageText": "Module '\"../../node_modules/csstype\"' has no exported member 'WidthProperty'.",
             "category": 1,
             "code": 2305
+          },
+          {
+            "file": "./src/interfaces/theme.interface.ts",
+            "start": 151,
+            "length": 18,
+            "messageText": "Cannot find module './text.interface' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
           }
         ]
       ],
-      "./src/layout/components/header.tsx",
-      "./src/layout/components/navigation.tsx",
+      "./src/layout/drawer-navigation.tsx",
+      "./src/layout/header.tsx",
+      "./src/layout/index.interface.tsx",
       "./src/layout/index.tsx",
+      "./src/layout/tabs-navigation.tsx",
+      "./src/layout2/components/header.tsx",
+      "./src/layout2/components/navigation.tsx",
+      "./src/layout2/index.tsx",
       "./src/message/Message.tsx",
       [
         "./src/message/Messages.tsx",
         [
           {
             "file": "./src/message/Messages.tsx",
-            "start": 806,
+            "start": 808,
             "length": 28,
             "code": 2344,
             "category": 1,
@@ -17223,7 +17511,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 1242,
+            "start": 1244,
             "length": 28,
             "code": 2344,
             "category": 1,
@@ -17242,7 +17530,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 1701,
+            "start": 1703,
             "length": 3,
             "code": 2339,
             "category": 1,
@@ -17250,7 +17538,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 1746,
+            "start": 1748,
             "length": 11,
             "code": 2339,
             "category": 1,
@@ -17258,7 +17546,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 1791,
+            "start": 1793,
             "length": 7,
             "code": 2339,
             "category": 1,
@@ -17266,7 +17554,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 2071,
+            "start": 2073,
             "length": 12,
             "code": 2339,
             "category": 1,
@@ -17274,7 +17562,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 2289,
+            "start": 2291,
             "length": 11,
             "code": 2339,
             "category": 1,
@@ -17282,7 +17570,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 3133,
+            "start": 3135,
             "length": 15,
             "code": 2344,
             "category": 1,
@@ -17290,7 +17578,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 3254,
+            "start": 3256,
             "length": 6,
             "code": 2339,
             "category": 1,
@@ -17298,7 +17586,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 3297,
+            "start": 3299,
             "length": 8,
             "code": 2339,
             "category": 1,
@@ -17306,7 +17594,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 3469,
+            "start": 3471,
             "length": 12,
             "code": 2339,
             "category": 1,
@@ -17314,7 +17602,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 4086,
+            "start": 4088,
             "length": 11,
             "code": 2339,
             "category": 1,
@@ -17322,7 +17610,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 4171,
+            "start": 4173,
             "length": 8,
             "code": 2339,
             "category": 1,
@@ -17330,7 +17618,7 @@
           },
           {
             "file": "./src/message/Messages.tsx",
-            "start": 4458,
+            "start": 4460,
             "length": 15,
             "code": 2345,
             "category": 1,
@@ -17344,6 +17632,7 @@
       "./src/notifications/browser-notification.handler.ts",
       "./src/notifications/snack-bar.handler.tsx",
       "./src/pages/login.tsx",
+      "./src/partials/default-page.tsx",
       "./src/service-worker.ts",
       "./src/stores/auth.store.ts",
       "./src/stores/base.store.interface.ts",
@@ -17399,11 +17688,35 @@
       "./src/user/add-edit-user.dialog.tsx",
       "./src/user/users.tsx",
       "./src/utils/axios.ts",
+      "./src/utils/custom.utils.ts",
       "./src/utils/logger/index.ts",
       "./src/utils/logger/logger-transport.ts",
       "./src/utils/logger/logger.constants.ts",
       "./src/utils/logger/logger.interface.ts",
-      "./src/utils/logger/logger.ts"
+      "./src/utils/logger/logger.ts",
+      "./src/utils/state.utils.ts"
+    ],
+    "affectedFilesPendingEmit": [
+      [
+        "./src/index.tsx",
+        0
+      ],
+      [
+        "./src/layout/drawer-navigation.tsx",
+        0
+      ],
+      [
+        "./src/layout/header.tsx",
+        0
+      ],
+      [
+        "./src/layout/index.tsx",
+        0
+      ],
+      [
+        "./src/layout/tabs-navigation.tsx",
+        0
+      ]
     ]
   },
   "version": "4.0.2"

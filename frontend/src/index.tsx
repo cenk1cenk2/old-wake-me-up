@@ -3,8 +3,9 @@ import * as ReactDOM from 'react-dom'
 
 import 'typeface-roboto'
 import { initiateConfig } from './configuration'
+import { NavigationTypes } from './layout/index.interface'
 import registerServiceWorker from './service-worker'
-import Layout from '@root/layout'
+import Template from '@root/layout'
 import { initStores } from '@stores/init-stores'
 import { InjectProvider } from '@stores/inject-stores'
 import { AvailableStores } from '@stores/inject-stores.interface'
@@ -35,7 +36,7 @@ function bootstrap (): void {
 
   ReactDOM.render(
     <InjectProvider stores={stores}>
-      <Layout />
+      <Template navigation={{ type: NavigationTypes.menu, collapsable: true }} />
     </InjectProvider>,
     document.getElementById('root')
   )

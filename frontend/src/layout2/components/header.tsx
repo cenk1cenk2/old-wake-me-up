@@ -57,7 +57,6 @@ const styles = (theme: Theme) =>
       paddingRight: 10
     },
     link: {
-      color: 'inherit',
       textDecoration: 'none'
     }
   })
@@ -74,13 +73,12 @@ interface IProps extends Styles {
   logout: VoidFunction
   style: CSSProperties
   width: Breakpoint
-  setNavOpen: (open: boolean) => void
 }
 
 @observer
 class Header extends Component<IProps> {
   public render () {
-    const { classes, version, name, loggedIn, admin, logout, style, setNavOpen, width } = this.props
+    const { classes, version, name, loggedIn, admin, logout, style, width } = this.props
 
     const position = width === 'xs' ? 'sticky' : 'fixed'
 
@@ -89,8 +87,8 @@ class Header extends Component<IProps> {
         <Toolbar className={classes.toolbar}>
           <div className={classes.title}>
             <Link to="/" className={classes.link}>
-              <Typography variant="h5" className={classes.titleName} color="inherit">
-                Gotify
+              <Typography variant="h5" className={classes.titleName}>
+                WAKE-ME-UP
               </Typography>
             </Link>
             <a href={'https://github.com/gotify/server/releases/tag/v' + version} className={classes.link}>
@@ -99,7 +97,7 @@ class Header extends Component<IProps> {
               </Typography>
             </a>
           </div>
-          {loggedIn && this.renderButtons(name, admin, logout, width, setNavOpen)}
+          {loggedIn && this.renderButtons(name, admin, logout, width)}
           <div>
             <a href="https://github.com/gotify/server" className={classes.link} target="_blank" rel="noopener noreferrer">
               <IconButton color="inherit">
@@ -112,13 +110,10 @@ class Header extends Component<IProps> {
     )
   }
 
-  private renderButtons (name: string, admin: boolean, logout: VoidFunction, width: Breakpoint, setNavOpen: (open: boolean) => void) {
+  private renderButtons (name: string, admin: boolean, logout: VoidFunction, width: Breakpoint) {
     const { classes, showSettings } = this.props
     return (
       <div className={classes.menuButtons}>
-        <Hidden smUp implementation="css">
-          <ResponsiveButton icon={<MenuIcon />} onClick={() => setNavOpen(true)} label="menu" width={width} color="inherit" />
-        </Hidden>
         {admin && (
           <Link className={classes.link} to="/users" id="navigate-users">
             <ResponsiveButton icon={<SupervisorAccount />} label="users" width={width} color="inherit" />

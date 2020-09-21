@@ -125,11 +125,7 @@ const muiTheme = createMuiTheme({
       background: template.body[2]
     }
   },
-  overrides: {
-    MuiCssBaseline: {
-
-    }
-  },
+  overrides: {},
   shape: {
     borderRadius: 0
   },
