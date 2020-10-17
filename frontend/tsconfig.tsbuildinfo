@@ -2867,7 +2867,7 @@
         "affectsGlobalScope": false
       },
       "./src/user/users.tsx": {
-        "version": "3b2078d248c07847c590441d7026e8af89b12434402ad1376e70200e785d0cee",
+        "version": "eeb0181e17a6bc6f12d1478212c8969232fc7aea95027b62c342aba0ee2c9fc8",
         "signature": "63ee0e251adb5ad68c15833335fa8e2f3d4f267e2a6fd67b8bf1cbea7fb5004f",
         "affectsGlobalScope": false
       },
@@ -2887,7 +2887,7 @@
         "affectsGlobalScope": false
       },
       "./src/layout/index.tsx": {
-        "version": "ebc58d5078988e7eb2ea76e9bb16cbaae54eb603cacbd1b6ebb6222ba0717a05",
+        "version": "21011e9f9f38b5fbbd577da725b6a9dc0f8cb92fdc4c505aeaa05fcc4cb3c5f8",
         "signature": "c1b5ee15c13e902ec6539bab27c4ef4c432c85908b23e70a5330496dceba89b3",
         "affectsGlobalScope": false
       },
@@ -3003,7 +3003,7 @@
       },
       "./src/layout2/components/header.tsx": {
         "version": "2a3f07db43e2f92570a69fdddef6b83f4410246d558dd11431ff655373b811e0",
-        "signature": "cf5f258eb720ed787e098e563162bd7c85bb8003ebcf8cc05f9f639b3720ce60",
+        "signature": "1c7fa67360fa4786c1d2adacd56465de7b1de583306b89899a025f05e8d16bcf",
         "affectsGlobalScope": false
       },
       "./src/layout2/components/navigation.tsx": {
@@ -3028,7 +3028,7 @@
       },
       "./src/message/Message.tsx": {
         "version": "efad049a5eb32629333bf83f7af28fb1246d6ab0e761617b2ec562c530e793df",
-        "signature": "9198eb85f8995ce589b052db3331d860498e26161aac5b4ae1bd58eccb93d9fa",
+        "signature": "387fa3a50f0beec161505a149d62a850d6b9ea374391d86992ea100ab694a386",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/react-infinite/index.d.ts": {
@@ -3038,7 +3038,7 @@
       },
       "./src/message/Messages.tsx": {
         "version": "31217c27b8e257daff8880b5753478e3ad16b14b71048c093ddf6f08a010d0c1",
-        "signature": "b9c5ad0ff12117b0c8cbf5a68b3dc299696bdaf4911023379cb9647332ddd8db",
+        "signature": "11978b46d1cc91a7bfefe5f18382e7970a1b7a29062c429f0fac871fd3329762",
         "affectsGlobalScope": false
       },
       "./node_modules/mobx-utils/lib/from-promise.d.ts": {
@@ -10466,6 +10466,7 @@
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
       "./node_modules/@fortawesome/react-fontawesome/index.d.ts": [
+        "./node_modules/@fortawesome/fontawesome-svg-core/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
@@ -17695,28 +17696,6 @@
       "./src/utils/logger/logger.interface.ts",
       "./src/utils/logger/logger.ts",
       "./src/utils/state.utils.ts"
-    ],
-    "affectedFilesPendingEmit": [
-      [
-        "./src/index.tsx",
-        0
-      ],
-      [
-        "./src/layout/drawer-navigation.tsx",
-        0
-      ],
-      [
-        "./src/layout/header.tsx",
-        0
-      ],
-      [
-        "./src/layout/index.tsx",
-        0
-      ],
-      [
-        "./src/layout/tabs-navigation.tsx",
-        0
-      ]
     ]
   },
   "version": "4.0.2"

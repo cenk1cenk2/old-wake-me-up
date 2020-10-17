@@ -15,11 +15,11 @@ import { observable } from 'mobx'
 import { observer } from 'mobx-react'
 import React, { Component, FunctionComponent } from 'react'
 
-import ConfirmDialog from '@root/components/confirm-dialog.component'
-import DefaultPage from '@root/partials/default-page'
 import { inject } from '../stores/inject-stores'
 import { Stores } from '../stores/inject-stores.interface'
 import AddEditDialog from './add-edit-user.dialog'
+import ConfirmDialog from '@root/components/confirm-dialog.component'
+import DefaultPage from '@root/partials/default-page'
 
 const styles = () => ({
   wrapper: {

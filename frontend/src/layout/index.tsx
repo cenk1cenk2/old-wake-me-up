@@ -182,7 +182,6 @@ class Template extends Component<TemplateProps & Stores<AvailableStores.AUTH_STO
                 {!connectionErrorMessage ? null : <ConnectionErrorBanner height={64} retry={() => tryReconnect()} message={connectionErrorMessage} />}
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <CssBaseline />
-                  <GlobalStyles />
                   <Provider value={this.state}>
                     <Header
                       transperent={this.state.header?.transperent}
